@@ -1,5 +1,9 @@
 ---
 layout: post
+author: Rahmat Agung Julians
+image: my.png
+comments: false
+description: Merubah codec dari video kazam
 ---
 
 Merubah codec menjadi 48K, lakukan :

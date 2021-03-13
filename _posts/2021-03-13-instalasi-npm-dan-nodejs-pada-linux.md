@@ -1,5 +1,9 @@
 ---
 layout: post
+author: Rahmat Agung Julians
+image: my.png
+comments: false
+description: Cara install npm dan nodejs pada Linux
 ---
 
 ### Install Node.js dan NPM
