@@ -6,9 +6,6 @@ entries:
       - title: projek
         url: /projek
 
-  - title: RSS
-    url: feed.xml
-
   - title: POSTINGAN
     post_list:
       limit: 10
