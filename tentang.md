@@ -3,7 +3,7 @@ layout: page
 title: Tentang
 ---
 
-<img src="assets/img/my.png" width="70%"/>
+<img src="assets/images/my.png" width="70%"/>
 <h2 align="center">Hi 👋, I'm Rahmat Agung Julians</h2>
 <h4 align="center">Technology Enthusiast | Philosophy | Logic</h4>
 
