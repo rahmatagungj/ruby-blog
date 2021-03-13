@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Project
+title: Projek
 ---
 Berikut ini merupakan daftar projek yang sedang atau telah saya buat, projek ini hanya digunakan sebagai media pembelajara.
 

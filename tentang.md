@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: Tentang
 ---
 
 <img src="assets/img/my.png" width="70%"/>
