@@ -1,15 +1,17 @@
 entries:
-  - title: my pages
+  - title: PROFIL
     entries:
-      - title: about
-        url: /about
+      - title: tentang
+        url: /tentang
+      - title: projek
+        url: /projek
 
-  - title: rss
+  - title: RSS
     url: feed.xml
 
-  - title: all posts
+  - title: POSTINGAN
     post_list:
       limit: 25
       show_more: true
-      show_more_text: See archive...
+      show_more_text: lihat arsip...
       show_more_url: archive.html

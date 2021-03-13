@@ -3,7 +3,8 @@ layout: post
 author: Rahmat Agung Julians
 image: codec
 comments: false
-description: Merubah codec dari video kazam
+title: Konversi Codec Kazam Untuk Android
+subtitle: Merubah codec dari video kazam
 ---
 
 Merubah codec menjadi 48K, lakukan :
