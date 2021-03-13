@@ -1,2 +1,3 @@
-# rahmatagungj.github.io
-My Private Website
+# For Learning and Notes
+
+My Media Sites, goto https://rahmatagungj.github.io/
