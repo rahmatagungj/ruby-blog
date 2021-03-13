@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Rahmat Agung Julians
-image: my.png
+image: markdown
 comments: false
 description: Markdown CheetSheet
 ---

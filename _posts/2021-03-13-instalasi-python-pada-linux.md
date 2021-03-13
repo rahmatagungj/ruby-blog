@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Rahmat Agung Julians
-image: my.png
+image: python
 comments: false
 description: Cara install python pada Linux
 ---

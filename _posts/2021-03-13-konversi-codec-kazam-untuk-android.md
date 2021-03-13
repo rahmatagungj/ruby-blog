@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Rahmat Agung Julians
-image: my.png
+image: codec
 comments: false
 description: Merubah codec dari video kazam
 ---
