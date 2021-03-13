@@ -1,6 +1,5 @@
 ---
 layout: post
-category: javascript
 ---
 
 ### Install Node.js dan NPM

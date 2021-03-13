@@ -1,6 +1,5 @@
 ---
 layout: post
-category: python
 ---
 
 Hal ini dapat dilakukan jika pada sistem bawaan linux tidak terdapat python.
