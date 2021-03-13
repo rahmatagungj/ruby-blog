@@ -32,3 +32,8 @@ sudo apt update
 sudo apt install python3-pip
 pip3 --version
 ```
+
+---
+{: data-content=" referensi "}
+
+<a href="https://www.python.org/download/releases/3.0/">https://www.python.org/download/releases/3.0/</a>
