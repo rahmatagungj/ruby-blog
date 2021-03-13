@@ -4,7 +4,7 @@ author: Rahmat Agung Julians
 image: markdown
 comments: false
 title: Markdown Cheetsheet
-subtitle: Markdown CheetSheet
+description: Markdown CheetSheet
 ---
 
 Lorem ipsum[^1] dolor sit amet, consectetur adipiscing elit. Pellentesque vel lacinia neque. Praesent nulla quam, ullamcorper in sollicitudin ac, molestie sed justo. Cras aliquam, sapien id consectetur accumsan, augue magna faucibus ex, ut ultricies turpis tortor vel ante. In at rutrum tellus.

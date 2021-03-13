@@ -4,7 +4,7 @@ author: Rahmat Agung Julians
 image: python
 comments: false
 title: Instalasi Python Pada Linux
-subtitle: Cara install python pada Linux
+description: Cara install python pada Linux
 ---
 
 Hal ini dapat dilakukan jika pada sistem bawaan linux tidak terdapat python.
