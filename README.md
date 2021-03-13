@@ -1,3 +1,4 @@
-# For Learning and Notes
+# Rahmat Agung Julians - Notes
 
-My Media Sites, goto https://rahmatagungj.github.io/
+Halo, halaman ini dibuat untuk edukasi dan pembelajaran.
+Semua yang terdapat pada situs ini merupakan hasil dari praktik saya.
