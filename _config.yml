@@ -28,7 +28,8 @@ twitter_username: rahmatagungj
 github_username:  rahmatagungj
 
 # Build settings
-theme: no-style-please
+# theme: no-style-please
+remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
