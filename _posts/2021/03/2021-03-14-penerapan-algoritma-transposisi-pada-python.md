@@ -7,6 +7,8 @@ title: Penerapan Algoritma Transposisi pada Python
 description: Algoritma Transposisi menggunakan python
 ---
 
+### 1. Metode Enkripsi
+
 Membuat Variabel pesan untuk menyimpan pesan yang akan dimanipulasi.
 
 
@@ -46,6 +48,7 @@ print(result)
 Ini adalah hasil dari manipulasi pesan.
 >`mfqt%nsn%fifqfm%htsytm%ujxfs
 
+### 2. Metode Dekripsi
 
 ```python
 resultDecrypt = []
