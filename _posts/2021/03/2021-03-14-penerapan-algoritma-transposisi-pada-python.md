@@ -46,7 +46,7 @@ print(result)
 ```
 
 Ini adalah hasil dari manipulasi pesan.
->`mfqt%nsn%fifqfm%htsytm%ujxfs
+> mfqt%nsn%fifqfm%htsytm%ujxfs
 
 ### 2. Metode Dekripsi
 
