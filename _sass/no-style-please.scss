@@ -14,11 +14,7 @@ body[a="dark"] { @include dark-appearance; }
 @media (prefers-color-scheme: dark) {
   body[a="auto"] { @include dark-appearance; }
 }
-// -------------------------------------------- //
 
-// bg color is also needed in html in order to
-// block body's background propagation
-// see: https://stackoverflow.com/a/61265706
 html, body { background: white; }
 
 html { height: 100%; }
@@ -69,18 +65,22 @@ table, th, td {
 code {
   color: white;
   background: black;
+  padding: 1px;
+  border-radius: 5px;
 }
 
 div.highlighter-rouge code {
   display: block;
   overflow-x: auto;
   padding: 1rem;
+  border-radius: 5px;
 }
 
 blockquote {
   font-style: italic;
   border: thin solid black;
   padding: 1rem;
+  border-radius: 5px;
 
   p { margin: 0; }
 }
@@ -89,4 +89,24 @@ img {
   max-width: 100%;
   display: block;
   margin: 0 auto;
+  border-radius: 5px;
+}
+
+input[type="submit"] {
+  border-radius: 5px;
+  color: white;
+  background: black;
+  box-shadow: none;
+  min-width: 60px;
+  padding: 5px;
+}
+
+
+input#search-box {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+a {
+  text-decoration: none;
 }
