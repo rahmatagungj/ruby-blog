@@ -11,6 +11,7 @@ remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-pwa-workbox
   
 permalink: /:slug
 
