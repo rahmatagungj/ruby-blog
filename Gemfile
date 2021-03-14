@@ -4,10 +4,10 @@ gem "jekyll", "~> 4.2.0"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 gem "no-style-please"
 
+gem "jekyll-pwa-workbox"
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
-  gem "jekyll-pwa-workbox"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem
