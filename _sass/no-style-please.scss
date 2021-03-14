@@ -30,7 +30,7 @@ body {
 
 .post-meta { text-align: right; }
 
-h2, h3, h4, h5, h6 { margin-top: 3rem; }
+h2, h3, h4, h5, h6 { margin-top: 3rem; text-transform: capitalize;}
 
 hr { margin: 2rem 0; }
 
@@ -42,7 +42,7 @@ li { margin: 0.4rem 0; }
 
 .w {
   width: fit-content;
-  max-width: 740px;
+  max-width: 840px;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
@@ -109,4 +109,5 @@ input#search-box {
 
 a {
   text-decoration: none;
+  text-transform: capitalize;
 }
