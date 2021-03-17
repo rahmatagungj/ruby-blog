@@ -1,12 +1,14 @@
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("/sw.js").then(
-    function (registration) {
-      console.log("service worker registration succeeded:", registration);
-    },
-    function (error) {
-      console.log("service worker registration failed:", error);
-    }
-  );
-} else {
-  console.log("service workers are not supported.");
+  if (navigator.serviceWorker.controller) {
+    console.log("An active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("./sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("Service worker has been registered for scope: " + reg.scope);
+      });
+  }
 }

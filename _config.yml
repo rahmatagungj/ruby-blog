@@ -11,8 +11,7 @@ remote_theme: riggraz/no-style-please
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-workbox-plugin
-
+  
 permalink: /:slug
 
 exclude:
@@ -29,14 +28,3 @@ exclude:
 
 
 timezone: Asia/Jakarta
-
-workbox:
-  sw_src_filepath: sw.js # Optional
-  sw_dest_filename: sw.js # Optional
-  precache_recent_posts_num: 20 # Optional
-  precache_glob_directory: ./ # Optional
-  precache_glob_patterns: # Optional
-    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
-    - index.html
-  precache_glob_ignores: # Optional
-    - "fonts/**/*"
