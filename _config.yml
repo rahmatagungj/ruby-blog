@@ -12,7 +12,6 @@ plugins:
   - jekyll-seo-tag
 
 permalink: /:slug
-
 exclude:
   - .sass-cache/
   - .jekyll-cache/
