@@ -36,6 +36,7 @@ workbox:
   precache_recent_posts_num: 20 # Optional
   precache_glob_directory: ./ # Optional
   precache_glob_patterns: # Optional
-    - "{css,fonts}/**/*.{css,eot,svg,ttf,woff}"
+    - "{js,css,fonts}/**/*.{js,css,eot,svg,ttf,woff}"
+    - index.html
   precache_glob_ignores: # Optional
     - "fonts/**/*"

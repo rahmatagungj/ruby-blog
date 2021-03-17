@@ -1,7 +1,12 @@
-if ('serviceWorker' in navigator) {
-  window.addEventListener('load', function() {
-      navigator.serviceWorker.register('/sw.js');
-  });
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("/sw.js").then(
+    function (registration) {
+      console.log("service worker registration succeeded:", registration);
+    },
+    function (error) {
+      console.log("service worker registration failed:", error);
+    }
+  );
 } else {
-  console.log("Service Worker not Supported")
+  console.log("service workers are not supported.");
 }
