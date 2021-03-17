@@ -62,5 +62,5 @@ sudo systemctl start fail2ban
 
 ---
 {: data-content=" referensi "}
-<a href="https://christitus.com/secure-linux/">https://christitus.com/secure-linux/</a>
+<a href="https://christitus.com/secure-linux/">https://christitus.com/secure-linux/</a> <br/>
 <a href="https://wiki.archlinux.org/index.php/Unified_Extensible_Firmware_Interface/Secure_Boot">https://wiki.archlinux.org/index.php/Unified_Extensible_Firmware_Interface/Secure_Boot</a>

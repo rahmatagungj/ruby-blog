@@ -82,5 +82,5 @@ Logo of *no style, please!* theme[^4]
 ---
 {: data-content=" referensi "}
 
-<a href="https://riggraz.dev/no-style-please/overview-post.html"> https://riggraz.dev/no-style-please/overview-post.html</a>
+<a href="https://riggraz.dev/no-style-please/overview-post.html"> https://riggraz.dev/no-style-please/overview-post.html</a><br/>
 <a href="https://www.lipsum.com/">https://www.lipsum.com/</a>
