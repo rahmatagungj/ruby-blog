@@ -1,6 +1,6 @@
 if ("serviceWorker" in navigator) {
   if (navigator.serviceWorker.controller) {
-    console.log("An active service worker found, no need to register");
+    // console.log("An active service worker found, no need to register");
   } else {
     // Register the service worker
     navigator.serviceWorker
@@ -8,7 +8,7 @@ if ("serviceWorker" in navigator) {
         scope: "./"
       })
       .then(function (reg) {
-        console.log("Service worker has been registered for scope: " + reg.scope);
+        // console.log("Service worker has been registered for scope: " + reg.scope);
       });
   }
 }
@@ -27,7 +27,7 @@ function changeView(location) {
     location = '/index';
   }
   location = '/raw' + location + '.json';
-  console.log(location);
+  // console.log(location);
   xhttp.open('GET', location, true);
   xhttp.send();
 }
