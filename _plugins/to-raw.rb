@@ -2,7 +2,7 @@ Jekyll::Hooks.register :site, :post_write do |site|
   
     Dir.glob(File.join(site.dest, '**/*.html')) do |original_file_path|
       
-      raw_file_path = original_file_path.sub(site.dest, File.join(site.dest, 'raw')).sub('.html', '.json')
+      raw_file_path = original_file_path.sub(site.dest, File.join(site.dest, 'api')).sub('.html', '.json')
       raw_file_dir = File.dirname(raw_file_path)
       FileUtils.mkdir_p(raw_file_dir) unless File.exist?(raw_file_dir)
       original_content = File.read(original_file_path)
