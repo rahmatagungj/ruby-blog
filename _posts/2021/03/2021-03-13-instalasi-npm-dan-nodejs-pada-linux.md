@@ -34,7 +34,3 @@ nvm install 10.15.1
 ``` 
 node -v 
 ```
----
-{: data-content=" referensi "}
-
-<a href="https://nodejs.org/en/download/">https://nodejs.org/en/download/</a>

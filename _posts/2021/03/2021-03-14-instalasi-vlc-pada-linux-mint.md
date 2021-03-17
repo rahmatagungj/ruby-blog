@@ -30,9 +30,3 @@ vlc
 ```
 sudo apt-get remove vlc
 ```
-
-
----
-{: data-content=" referensi "}
-
-<a href="https://www.videolan.org/vlc/#download">https://www.videolan.org/vlc/#download</a>

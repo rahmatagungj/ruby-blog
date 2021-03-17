@@ -27,8 +27,3 @@ Untuk membuka aplikasi dapat melalui app atau ketik `virtualbox` pada terminal d
 ```
 sudo apt remove virtualbox
 ```
-
----
-{: data-content=" referensi "}
-
-<a href="https://www.virtualbox.org/wiki/Downloads">https://www.virtualbox.org/wiki/Downloads</a>

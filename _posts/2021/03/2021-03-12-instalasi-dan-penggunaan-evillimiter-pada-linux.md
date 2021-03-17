@@ -47,8 +47,3 @@ free 4
 
 ketik `exit` untuk mengakhiri program.
 
-
----
-{: data-content=" referensi "}
-
-<a href="https://github.com/bitbrute/evillimiter"> https://github.com/bitbrute/evillimiter</a>

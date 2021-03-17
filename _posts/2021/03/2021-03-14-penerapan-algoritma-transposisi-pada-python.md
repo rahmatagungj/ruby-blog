@@ -72,9 +72,3 @@ print(resultDecrypt)
 ```
 Ini adalah hasil penerjemahan dari pesan yang diamankan.
 > halo ini adalah contoh pesan
-
----
-{: data-content=" referensi "}
-
-<a href="https://en.wikipedia.org/wiki/Transposition_cipher">https://en.wikipedia.org/wiki/Transposition_cipher</a><br/>
-<a href="http://www.asciitable.com/">http://www.asciitable.com/</a>

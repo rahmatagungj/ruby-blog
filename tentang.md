@@ -3,11 +3,14 @@ layout: page
 title: Tentang
 ---
 
-<img src="assets/images/my.png" width="70%"/>
+<center> <img src="assets/images/my.png" style="max-width: 70%; border-radius: 105%;"/> </center>
 <h2 align="center">Hi 👋, I'm Rahmat Agung Julians</h2>
 <h4 align="center">Technology Enthusiast | Philosophy | Logic</h4>
 
+
 ## 🔎 Current Research
+<center>
+
 <table>
   <tbody>
     <tr valign="top">
@@ -30,7 +33,7 @@ title: Tentang
     </tr>
   </tbody>
 </table>
-
+</center>
 
 
 ## ☎ Contact Me

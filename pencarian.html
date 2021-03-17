@@ -6,15 +6,9 @@ comments: false
 title: Pencarian
 description: Temukan berbagai informasi disini
 ---
-{%-include back_link.html -%}
 {%-include header_text.html -%}
 <br/>
-
-<form action="/pencarian.html" method="get">
-  <a href="/feed.xml"> RSS</a> | <label for="search-box">Pencarian</label>
-  <input type="text" id="search-box" name="query" placeholder="cari disini">
-  <input type="submit" value="cari">
-</form>
+{%-include search.html -%}
 
 <ul id="search-results"></ul>
 

@@ -1,14 +1,7 @@
 entries:
-  - title: PROFIL
-    entries:
-      - title: tentang
-        url: /tentang
-      - title: projek
-        url: /projek
-
   - title: POSTINGAN
     post_list:
-      limit: 10
+      limit: 12
       show_more: true
-      show_more_text: lihat arsip ...
+      show_more_text: Lihat Arsip ...
       show_more_url: arsip.html

@@ -1,8 +1,16 @@
-<form action="/pencarian.html" method="get">
-  <a href="/feed.xml"> RSS</a> | <label for="search-box">Pencarian</label>
-  <input type="text" id="search-box" name="query" placeholder="cari disini">
-  <input type="submit" value="cari">
-</form>
+<div class="row mb-2">
+  <div class="col-sm-6">
+    {%-include back_link.html-%} | <a href="/feed.xml" class="">RSS</a> | <a href="/projek">PROJEK</a> | <a href="/tentang">TENTANG</a> 
+</div>
+<div class="col-sm-6 text-muted text-right small">
+  <form action="/pencarian.html" method="get">
+    <label for="search-box">Pencarian</label>
+    <input type="text" id="search-box" name="query" placeholder="cari disini">
+    <input type="submit" value="cari">
+  </form>
+  </div>
+</div>
+<hr class="lined"/>
 
 <ul id="search-results"></ul>
 

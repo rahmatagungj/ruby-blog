@@ -28,7 +28,3 @@ proot-distro install ubuntu-20.04
 ```
 proot-distro login ubuntu-20.04
 ```
-
----
-{: data-content=" referensi "}
-<a href="https://wiki.termux.com/wiki/PRoot">https://wiki.termux.com/wiki/PRoot</a>

@@ -1,14 +1,18 @@
 ---
 layout: default
 ---
-
-{%-include back_link.html-%}
-
+{%-include header_text.html -%}
+<br/>
+{%-include search.html -%}
 <article>
-
-  <p class="post-meta">{{ page.date | date: "%m-%d-%Y" }} |  Rahmat Agung Julians</p>
   <h1>{{ page.title }}</h1>
-  
-    
+  <p>{{ page.date | date: "%m-%d-%Y" }} |  Rahmat Agung Julians</p>
+  <hr/>
   {{ content }}
 </article>
+
+<hr class="lined"/>
+<div class="row">
+  <div class="col-sm-3 text-muted text-right small"></div>
+  <p class="post-meta">2021 |  Rahmat Agung Julians</p>
+</div>
