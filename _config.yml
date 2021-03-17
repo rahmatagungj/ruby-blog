@@ -6,7 +6,6 @@ baseurl: ""
 url: "" 
 twitter_username: rahmatagungj
 github_username:  rahmatagungj
-
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
