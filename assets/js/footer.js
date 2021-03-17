@@ -26,7 +26,7 @@ function changeView(location) {
   if (location === '/') {
     location = '/index';
   }
-  location = '/raw' + location + '.json';
+  location = '/api' + location + '.json';
   // console.log(location);
   xhttp.open('GET', location, true);
   xhttp.send();
