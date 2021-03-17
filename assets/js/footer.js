@@ -1,15 +1,5 @@
----
-layout: null
----
-window.onload = function () {
-    if ('serviceWorker' in navigator) {
-        var script = document.createElement('script');
-        var firstScript = document.getElementsByTagName('script')[0];
-        script.async = true;
-        script.src = '{{'sw-register.js'|relative_url}}?v=' + Date.now();
-        firstScript.parentNode.insertBefore(script, firstScript);
-    }
-    else{
-        console.log('Service Workers not supported');
-    }
-};
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+      navigator.serviceWorker.register('/sw.js');
+  });
+}
