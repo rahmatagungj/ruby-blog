@@ -9,7 +9,7 @@
           var item = store[results[i].ref];
           appendString += '<li><a href="' + item.url + '"><h3 class="searched">' + item.title + '</h3></a>';
           appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
-        }
+        } 
   
         searchResults.innerHTML = appendString;
       } else {
