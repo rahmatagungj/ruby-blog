@@ -32,6 +32,10 @@ function changeView(location) {
   xhttp.send();
 }
 
+window.addEventListener('popstate', function (e) {
+  changeView(window.location.pathname);
+});
+
 document.addEventListener('click', function (e) {
   if (e.target.classList.contains('local-link')) {
     e.preventDefault();
@@ -40,8 +44,4 @@ document.addEventListener('click', function (e) {
       changeView(e.target.pathname);
     }
   }
-});
-
-window.addEventListener('popstate', function (e) {
-  changeView(window.location.pathname);
 });
