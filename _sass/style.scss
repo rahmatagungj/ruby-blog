@@ -15,7 +15,7 @@ body[a="dark"] { @include dark-appearance; }
   body[a="auto"] { @include dark-appearance; }
 }
 
-html, body { background: white; }
+html, body { background: ghostwhite; }
 
 html { height: 100%; }
 
@@ -87,4 +87,19 @@ article {
 
 .blacked {
   color: black;
+}
+
+
+pre {
+  display: block;
+  padding: 9.5px;
+  margin: 0 0 10px;
+  font-size: 13px;
+  line-height: 1.42857143;
+  color: #333;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
 }
