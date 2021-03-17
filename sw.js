@@ -10,7 +10,7 @@ self.addEventListener("install", function (event) {
     caches.open(CACHE).then(function (cache) {
       // console.log("Cached offline page during install");
 
-      if (offlineFallbackPage === "index.html") {
+      if (offlineFallbackPage === "to-do.html") {
         return cache.add(new Response("Update the value of the offlineFallbackPage constant in the serviceworker."));
       }
 
