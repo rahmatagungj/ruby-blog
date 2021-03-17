@@ -6,8 +6,8 @@ layout: none
   "theme_color": "#252525",
   "background_color": "#ffffff",
   "display": "standalone",
-  "scope": "{{ site.baseurl }}",
-  "start_url": "{{ site.baseurl }}",
+  "scope": "{{ site.baseurl }}/",
+  "start_url": "{{ site.baseurl }}/",
   "name": "Rahmat Agung Julians",
   "short_name": "RAJS",
   "description": "Learning First",
@@ -34,9 +34,9 @@ layout: none
       "type": "image/png"
     }
   ],
-  "url": "{{ site.baseurl }}",
+  "url": "{{ site.baseurl }}/",
   "manifestUrl": "{{ site.baseurl }}/manifest.json",
-  "lang": "",
+  "lang": "id",
   "screenshots": [],
   "orientation": "any"
 }
