@@ -4,4 +4,4 @@ entries:
       limit: 12
       show_more: true
       show_more_text: Lihat Arsip ...
-      show_more_url: arsip.html
+      show_more_url: arsip
