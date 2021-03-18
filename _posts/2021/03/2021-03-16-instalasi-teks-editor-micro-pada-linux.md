@@ -32,6 +32,11 @@ micro --version
 Untuk mendapatkan dan memasang plugin tambahan, berikut linknya :
 > PLUGIN : https://micro-editor.github.io/plugins.html
 
----
-<h4> REFERENSI</h4> <br/>
-<a href="https://micro-editor.github.io/">https://micro-editor.github.io/</a>
+
+<h4><b>Referensi</b></h4> 
+--- 
+<ol>
+    <li>
+        <a href="https://micro-editor.github.io/">https://micro-editor.github.io/</a>
+    </li>
+</ol>

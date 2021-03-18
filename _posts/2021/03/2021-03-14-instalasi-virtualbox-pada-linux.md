@@ -28,6 +28,10 @@ Untuk membuka aplikasi dapat melalui app atau ketik `virtualbox` pada terminal d
 sudo apt remove virtualbox
 ```
 
----
-<h4> REFERENSI</h4> <br/>
-<a href="https://vitux.com/how-to-install-virtualbox-on-ubuntu">https://vitux.com/how-to-install-virtualbox-on-ubuntu</a>
+<h4><b>Referensi</b></h4> 
+--- 
+<ol>
+    <li>
+        <a href="https://vitux.com/how-to-install-virtualbox-on-ubuntu">https://vitux.com/how-to-install-virtualbox-on-ubuntu</a>
+    </li>
+</ol>

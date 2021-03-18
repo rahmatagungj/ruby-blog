@@ -38,6 +38,10 @@ sudo apt install python3-pip
 pip3 --version
 ```
 
----
-<h4> REFERENSI</h4> <br/>
-<a href="https://phoenixnap.com/kb/how-to-install-python-3-ubuntu">https://phoenixnap.com/kb/how-to-install-python-3-ubuntu</a>
+<h4><b>Referensi</b></h4> 
+--- 
+<ol>
+    <li>
+        <a href="https://phoenixnap.com/kb/how-to-install-python-3-ubuntu">https://phoenixnap.com/kb/how-to-install-python-3-ubuntu</a>
+    </li>
+</ol>

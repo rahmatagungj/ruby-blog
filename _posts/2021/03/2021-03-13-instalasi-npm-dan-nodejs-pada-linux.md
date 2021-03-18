@@ -35,6 +35,10 @@ nvm install 10.15.1
 node -v 
 ```
 
----
-<h4> REFERENSI</h4> <br/>
-<a href="https://www.hostinger.co.id/tutorial/install-node-js-ubuntu">https://www.hostinger.co.id/tutorial/install-node-js-ubuntu</a>
+<h4><b>Referensi</b></h4> 
+--- 
+<ol>
+    <li>
+        <a href="https://www.hostinger.co.id/tutorial/install-node-js-ubuntu">https://www.hostinger.co.id/tutorial/install-node-js-ubuntu</a>
+    </li>
+</ol>

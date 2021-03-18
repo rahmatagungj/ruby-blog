@@ -16,7 +16,10 @@ ffmpeg -y -i input_file.mp4 -c:v libx264 -c:a aac -strict experimental -tune fas
 
 >Ubah output_file.mp4 dengan nama hasil conversi
 
-
----
-<h4> REFERENSI</h4> <br/>
-<a href="https://video.stackexchange.com/questions/20162/convert-kazam-video-file-to-a-file-playable-in-windows-media-player">video.stackexchange.com/questions/20162</a>
+<h4><b>Referensi</b></h4> 
+--- 
+<ol>
+    <li>
+        <a href="https://video.stackexchange.com/questions/20162/convert-kazam-video-file-to-a-file-playable-in-windows-media-player">video.stackexchange.com/questions/20162</a>
+    </li>
+</ol>

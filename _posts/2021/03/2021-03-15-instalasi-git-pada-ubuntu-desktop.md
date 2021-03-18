@@ -21,7 +21,10 @@ git config --global user.email "letakan_email_disini"
 git config --global credential.helper store
 ```
 
-
----
-<h4> REFERENSI</h4> <br/>
-<a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a>
+<h4><b>Referensi</b></h4> 
+--- 
+<ol>
+    <li>
+        <a href="https://git-scm.com/book/en/v2/Getting-Started-Installing-Git">https://git-scm.com/book/en/v2/Getting-Started-Installing-Git</a>
+    </li>
+</ol>

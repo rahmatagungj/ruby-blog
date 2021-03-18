@@ -74,7 +74,13 @@ print(resultDecrypt)
 Ini adalah hasil penerjemahan dari pesan yang diamankan.
 > halo ini adalah contoh pesan
 
----
-<h4> REFERENSI</h4> <br/>
-<a href="https://en.wikipedia.org/wiki/Transposition_cipher">https://en.wikipedia.org/wiki/Transposition_cipher</a><br/>
-<a href="http://www.asciitable.com/">http://www.asciitable.com/</a>
+<h4><b>Referensi</b></h4> 
+--- 
+<ol>
+    <li>
+        <a href="https://en.wikipedia.org/wiki/Transposition_cipher">https://en.wikipedia.org/wiki/Transposition_cipher</a>
+    </li>
+    <li>
+        <a href="http://www.asciitable.com/">http://www.asciitable.com/</a>
+    </li>
+</ol>
