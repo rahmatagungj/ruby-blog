@@ -1,8 +1,9 @@
-<div class="row mb-2">
+
+<div class="row mb-2 myhead">
   <div class="col-sm-6">
     {%-include back_link.html-%} | <a href="/feed.xml">RSS</a> | <a href="/projek" class="local-link">PROJEK</a> | <a href="/tentang" class="local-link">TENTANG</a> 
-</div>
-<div class="col-sm-6 text-muted text-right small">
+  </div>
+  <div class="col-sm-6 text-muted small myheadsearch">
   <form action="/pencarian.html" method="get">
     <label for="search-box">Pencarian</label>
     <input type="text" id="search-box" name="query" placeholder="cari disini">
@@ -11,7 +12,6 @@
   </div>
 </div>
 <hr class="lined"/>
-</div>
 <ul id="search-results"></ul>
 
 <script>

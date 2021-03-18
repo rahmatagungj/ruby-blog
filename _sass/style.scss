@@ -71,6 +71,17 @@ hr.lined {
   height: 1px;
 }
 
+img.head-icon {
+  max-width: 100px;
+}
+
+img.head-icon {
+  max-width: 100px;
+  border-radius: 100%;
+}
+
+// BAGIAN .highlight
+
 .ct {
   // todo 
 }
@@ -83,6 +94,22 @@ hr.lined {
   color: black;
 }
 
+.myheadsearch {
+  text-align: right;
+}
+
+@media all and (max-width: 784px) {
+  .myheadsearch {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .myhead {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
 
 /* Highlight CSS - Rouge Highlighter */
 .highlighter-rouge {
