@@ -39,6 +39,3 @@ exclude:
 
 
 timezone: Asia/Jakarta
-
-jekyll-minifier:
-  remove_intertag_spaces: true
