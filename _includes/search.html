@@ -1,17 +1,17 @@
 
-<div class="row mb-2 myhead">
+<div class="row mb-2 myhead toolbar">
   <div class="col-sm-6">
-    {%-include back_link.html-%} | <a href="/feed.xml">RSS</a> | <a href="/projek" class="local-link">PROJEK</a> | <a href="/tentang" class="local-link">TENTANG</a> 
+    {%-include back_link.html-%} | <a href="/feed.xml">Rss</a> | <a href="/projek" class="local-link">Projek</a> | <a href="/tentang" class="local-link">Tentang</a> 
   </div>
   <div class="col-sm-6 text-muted small myheadsearch">
   <form action="/pencarian.html" method="get">
-    <label for="search-box">Pencarian</label>
+    <label for="search-box" class="searchLabel">Pencarian</label>
     <input type="text" id="search-box" name="query" placeholder="cari disini">
-    <input type="submit" value="cari">
+    <input type="submit" value="cari" class="searchButton">
   </form>
   </div>
 </div>
-<hr class="lined"/>
+<!-- <hr class="lined"/> -->
 <ul id="search-results"></ul>
 
 <script>
