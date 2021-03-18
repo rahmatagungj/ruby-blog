@@ -2,8 +2,13 @@
 layout: default
 ---
 
+{%-include header_text.html -%}
+<br/>
+{%-include search.html -%}
 
-<h1>{{ page.title }}</h1>
-{%-include back_link.html-%}
-<hr class="lined"/>
 {%-include post_list.html category=page.which_category-%}
+
+<div class="row">
+    <div class="col-sm-3 text-muted text-right small"></div>
+    <p class="post-meta">2021 |  Rahmat Agung Julians</p>
+  </div>
