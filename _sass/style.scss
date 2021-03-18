@@ -171,7 +171,7 @@ input#search-box {
 }
 
 .searchLabel {
-  display: none;
+  font-size: 0px;
 }
 
 .searchButton {
@@ -229,6 +229,7 @@ article {
   padding: 10px;
   border-radius: 0px 0px 5px 5px;
   margin-top: -10px;
+  font-family: "Linux Libertine",Georgia,Times,serif;
 }
 
 .ct {
