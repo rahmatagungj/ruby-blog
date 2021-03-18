@@ -2,7 +2,7 @@
 layout: page
 title: Projek
 ---
-Berikut ini merupakan daftar projek yang sedang atau telah saya buat, projek ini hanya digunakan sebagai media pembelajara.
+Berikut ini merupakan daftar projek yang sedang atau telah saya buat, projek ini hanya digunakan sebagai media pembelajaran.
 
 ### 1. Two Original Key Encryption (TOKE)
 <img src="https://raw.githubusercontent.com/rahmatagungj/toke/main/Documentation/LOGO%20PANJANG.png" width="100%">
