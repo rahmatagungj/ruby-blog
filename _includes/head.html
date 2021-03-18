@@ -11,17 +11,37 @@
     {%- endif -%}
   </title>
 
-  {%-seo title=false-%}
-  {%-feed_meta-%}
+<meta property="og:locale" content="id">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:url" content="{{ site.url }}{{ page.url }}">
+<meta property="og:image" content="{{ site.url }}/icon-512x512.png" />
+<meta property="og:site_name" content="Rahmat Agung Julians">
+<meta property="article:publisher" content="http://www.facebook.com/rahmatagungjulians" />
+<meta property="article:author" content="https://www.facebook.com/rahmatagungjulians." />
+<meta property="article:published_time" content="{{ page.date }}" />
+<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+<meta name="twitter:site" content="@Rahmat_A_J" />
+<meta name="twitter:creator" content="@Rahmat_A_J">
+<meta name="twitter:card" content="summary">
+<link rel="apple-touch-icon-precomposed" href="{{ "/assets/images/apple-icon-precomposed.png" | prepend: site.baseurl | prepend: site.url }}" />
+<link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ "/assets/images/apple-icon-60x60.png" | prepend: site.baseurl | prepend: site.url }}" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ "/assets/images/apple-icon-114x114.png" | prepend: site.baseurl | prepend: site.url }}" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/assets/images/apple-icon-144x144.png" | prepend: site.baseurl | prepend: site.url }}" />
+<link rel="canonical" href="{{ page.url | prepend: site.url }}">
+{%-feed_meta-%}
 
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/images/apple-touch-icon.png" | relative_url }}"/>
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/images/favicon-32x32.png" | relative_url }}"/>
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/images/favicon-16x16.png" | relative_url }}"/>
+  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/images/apple-icon.png" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/images/favicon-32x32.png" | prepend: site.baseurl | prepend: site.url }}" />
+  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/images/favicon-16x16.png" | prepend: site.baseurl | prepend: site.url }}" />
   <link rel="mask-icon" href="{{ "/assets/images/safari-pinned-tab.svg" | relative_url }}" color="#5bbad5"/>
   <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico"" | relative_url }}">
   <link rel="manifest" href="{{ "/manifest.json" | prepend: site.baseurl | prepend: site.url }}" />
   <meta name="msapplication-config" content="{{ "/assets/images/browserconfig.xml" | relative_url }}">
   <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="{{ "/assets/css/bootstrap.min.css" | relative_url }}" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" href="{{ "/assets/css/boot.min.css" | relative_url }}" >
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" />
 </head>

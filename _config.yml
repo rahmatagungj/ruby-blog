@@ -4,13 +4,12 @@ description: >-
   Rahmat Agung Julians
 baseurl: ""
 url: "" 
-twitter_username: rahmatagungj
+twitter_username: Rahmat_A_J
 github_username:  rahmatagungj
 
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
-
+  - jekyll-minifier
 
 markdown: kramdown
 
@@ -42,3 +41,8 @@ exclude:
 
 timezone: Asia/Jakarta
 
+jekyll-minifier:
+  remove_intertag_spaces: true
+
+jekyll-minifier:
+  exclude: 'feed.xml'
