@@ -9,7 +9,6 @@ github_username:  rahmatagungj
 
 plugins:
   - jekyll-feed
-  - jekyll-minifier
 
 markdown: kramdown
 
@@ -43,6 +42,3 @@ timezone: Asia/Jakarta
 
 jekyll-minifier:
   remove_intertag_spaces: true
-
-jekyll-minifier:
-  exclude: 'feed.xml'
