@@ -8,14 +8,14 @@ description: Cara menggunakan KDE Connect pada linux dan android
 ---
 
 ### 1. Instalasi KDE Connect pada Linux
-```
+```bash
 sudo apt update
 sudo apt install kdeconnect
 ```
 
 ### 2. Instalasi KDE Connect pada Android
 Unduh dan pasang aplikasi menggunakan link dibawah ini:
-```
+```bash
 https://play.google.com/store/apps/details?id=org.kde.kdeconnect_tp
 ```
 
@@ -34,3 +34,7 @@ Akan ada 1 alamat perangkat yang sudah siap untuk disandingkan, tekan pada kolom
 
 #### 4. Kedua perangkat sudah terhubung
 Saat kedua perangkat sudah terhubung cobalah untuk melakukan `PING` ke android, jiga muncul maka penyandingan berhasil.
+
+---
+<h4> REFERENSI</h4> <br/>
+<a href="https://kdeconnect.kde.org/">https://kdeconnect.kde.org</a>

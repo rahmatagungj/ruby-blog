@@ -8,12 +8,12 @@ description: Cara install VLC pada Linux Mint
 ---
 
 ### 1.Update repository sistem
-```
+```bash
 sudo apt update
 ```
 
 ### 2. Install VLC via terminal
-```
+```bash
 sudo apt install vlc
 ```
 
@@ -22,11 +22,15 @@ Buka software manager lalu masukan `VLC` dalam kolom pencarian, setelah itu pili
 
 ### Memastikan Pemasangan
 Untuk memastikan bahwa program berhasil dipasang tanpa error, ketikan ini pada terminal.
-```
+```bash
 vlc
 ```
 
 ### Uninstall VLC
-```
+```bash
 sudo apt-get remove vlc
 ```
+
+---
+<h4> REFERENSI</h4> <br/>
+<a href="https://www.videolan.org/vlc/#download">https://www.videolan.org/vlc/#download</a>

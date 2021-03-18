@@ -11,19 +11,23 @@ description: Cara install VirtualBox pada Linux
 Selain menggunakan GUI untuk instalasi VirtualBox di linux, instalasi juga dapat melalui terminal.
 
 ### 1. Persiapan Repository
-```
+```bash
 sudo add-apt-repository multiverse
 sudo apt-get update
 ```
 
 ### 2. Install VirtualBox
-```
+```bash
 sudo apt install virtualbox
 ```
 
 Untuk membuka aplikasi dapat melalui app atau ketik `virtualbox` pada terminal dan `exit` untuk keluar dari aplikasi.
 
 ### 3. Uninstall VirtualBox
-```
+```bash
 sudo apt remove virtualbox
 ```
+
+---
+<h4> REFERENSI</h4> <br/>
+<a href="https://vitux.com/how-to-install-virtualbox-on-ubuntu">https://vitux.com/how-to-install-virtualbox-on-ubuntu</a>

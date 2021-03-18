@@ -8,7 +8,7 @@ description: Cara install npm dan nodejs pada Linux
 ---
 
 ### Install Node.js dan NPM
-```
+```bash
 sudo apt update
 sudo apt install nodejs
 sudo apt install npm
@@ -16,7 +16,7 @@ nodejs -v
 ```
 
 ### Install Node.js melalui NVM
-```
+```bash
 sudo apt install wget
 wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | bash
 source ~/.profile
@@ -26,11 +26,15 @@ Pilih versi sesuai yang akan dipasang dengan format:
 > nvm install (nomor versi)
 
 #### Memasang versi 10.15.1
-```
+```bash
 nvm install 10.15.1
 ```
 
 #### Memeriksa versi
-``` 
+```bash 
 node -v 
 ```
+
+---
+<h4> REFERENSI</h4> <br/>
+<a href="https://www.hostinger.co.id/tutorial/install-node-js-ubuntu">https://www.hostinger.co.id/tutorial/install-node-js-ubuntu</a>
