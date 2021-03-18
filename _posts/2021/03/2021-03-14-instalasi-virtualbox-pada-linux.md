@@ -30,7 +30,7 @@ sudo apt remove virtualbox
 
 <h4><b>Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href="https://vitux.com/how-to-install-virtualbox-on-ubuntu">https://vitux.com/how-to-install-virtualbox-on-ubuntu</a>
     </li>

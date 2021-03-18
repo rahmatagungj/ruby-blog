@@ -124,12 +124,18 @@ img.head-icon {
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
   border: 0px solid transparent;
+  font-size: 23px;
 }
 
 .add-button:hover {
   background-color: white;
   color: #31343f;
   border: 3px solid #31343f;
+  font-size: 25px;
+  text-align: center;
+  transform:scale(1.2,1.2);
+  -webkit-transform:scale(1.2,1.2);
+  -moz-transform:scale(1.2,1.2);
 }
 
 @media all and (max-width: 784px) {
@@ -139,6 +145,19 @@ img.head-icon {
   }
 }
 
+.referensi {
+  word-wrap:break-word;
+}
+
+blockquote {
+  word-wrap:break-word;
+}
+
+@media all and (max-width: 212px) {
+  input#search-box {
+    max-width: 100%;
+  }
+}
 /* Highlight CSS - Rouge Highlighter */
 
 

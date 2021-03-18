@@ -76,7 +76,7 @@ Ini adalah hasil penerjemahan dari pesan yang diamankan.
 
 <h4><b>Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href="https://en.wikipedia.org/wiki/Transposition_cipher">https://en.wikipedia.org/wiki/Transposition_cipher</a>
     </li>

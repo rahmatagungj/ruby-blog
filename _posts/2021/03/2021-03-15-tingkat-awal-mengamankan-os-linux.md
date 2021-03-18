@@ -60,7 +60,7 @@ sudo systemctl start fail2ban
 
 <h4><b>Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href="https://christitus.com/secure-linux/">https://christitus.com/secure-linux/</a>
     </li>

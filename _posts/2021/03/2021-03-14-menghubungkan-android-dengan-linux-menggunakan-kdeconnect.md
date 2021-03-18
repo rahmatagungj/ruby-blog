@@ -37,7 +37,7 @@ Saat kedua perangkat sudah terhubung cobalah untuk melakukan `PING` ke android, 
 
 <h4><b>Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href="https://kdeconnect.kde.org/">https://kdeconnect.kde.org</a>
     </li>

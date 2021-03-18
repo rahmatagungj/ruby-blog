@@ -31,7 +31,7 @@ proot-distro login ubuntu-20.04
 
 <h4><b>Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href="https://termux.com/">https://termux.com/</a><br/>
     </li>

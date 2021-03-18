@@ -35,7 +35,7 @@ Untuk mendapatkan dan memasang plugin tambahan, berikut linknya :
 
 <h4><b>Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href="https://micro-editor.github.io/">https://micro-editor.github.io/</a>
     </li>

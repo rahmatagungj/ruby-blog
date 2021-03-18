@@ -37,7 +37,7 @@ node -v
 
 <h4><b>Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href="https://www.hostinger.co.id/tutorial/install-node-js-ubuntu">https://www.hostinger.co.id/tutorial/install-node-js-ubuntu</a>
     </li>

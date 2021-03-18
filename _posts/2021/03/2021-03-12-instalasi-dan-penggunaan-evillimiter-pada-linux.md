@@ -50,8 +50,9 @@ ketik `exit` untuk mengakhiri program.
 
 <h4><b>Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href="https://github.com/bitbrute/evillimiter">https://github.com/bitbrute/evillimiter</a>
+        
     </li>
 </ol>

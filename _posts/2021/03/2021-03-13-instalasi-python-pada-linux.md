@@ -40,7 +40,7 @@ pip3 --version
 
 <h4><b>Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href="https://phoenixnap.com/kb/how-to-install-python-3-ubuntu">https://phoenixnap.com/kb/how-to-install-python-3-ubuntu</a>
     </li>
