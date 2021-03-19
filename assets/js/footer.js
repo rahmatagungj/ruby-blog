@@ -81,4 +81,3 @@ window.addEventListener('beforeinstallprompt', (e) => {
       });
   });
 });
-

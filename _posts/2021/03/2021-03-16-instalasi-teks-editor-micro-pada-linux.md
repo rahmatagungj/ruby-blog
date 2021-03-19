@@ -7,6 +7,7 @@ title: Instalasi Teks Editor Micro pada Linux
 description: cara memasang code editor micro menggunakan CLI
 ---
 
+
 ### Persiapan
 Lakukan perintah ini pada terminal.
 ```bash
