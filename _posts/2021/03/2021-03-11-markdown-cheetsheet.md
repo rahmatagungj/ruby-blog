@@ -75,7 +75,7 @@ Now a table:
 
 ## Images
 
-![theme logo](https://raw.githubusercontent.com/riggraz/no-style-please/master/logo.png){:.ioda}
+<img data-src="https://raw.githubusercontent.com/riggraz/no-style-please/master/logo.png" alt="logo theme">
 
 Logo of *no style, please!* theme[^4]
 
