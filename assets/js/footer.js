@@ -13,6 +13,8 @@ if ("serviceWorker" in navigator) {
   }
 }
 
+// SINGLE PAGE APPS
+
 function changeView(location) {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function () {
@@ -48,7 +50,6 @@ document.addEventListener('click', function (e) {
 
 
 
-
 // ADD TO HOMESCREEN
 let deferredPrompt;
 
@@ -80,3 +81,4 @@ window.addEventListener('beforeinstallprompt', (e) => {
       });
   });
 });
+
