@@ -75,7 +75,7 @@ Now a table:
 
 ## Images
 
-<img data-src="https://raw.githubusercontent.com/riggraz/no-style-please/master/logo.png" alt="logo theme">
+<img src="https://raw.githubusercontent.com/riggraz/no-style-please/master/logo.png" alt="logo">
 
 Logo of *no style, please!* theme[^4]
 
