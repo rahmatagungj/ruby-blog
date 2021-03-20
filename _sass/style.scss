@@ -542,3 +542,36 @@ pre.highlight {
   color: #a6e22e;
 }
 
+.message {
+  position: fixed;
+  left: 50%;
+  top: 0;
+  width: 100%;
+  font-size: 1.4em;
+  font-weight: bold;
+  padding: 1.5em;
+  transform: translate(-50%, -100%);
+  transition: transform .25s;
+}
+
+#slow {
+  background: #FF9800;
+  color: white;
+}
+
+#offline {
+  background: #E91E63;
+  color: white;
+}
+
+#online {
+  background: #4CAF50;
+  color: white;
+}
+
+body.slow #slow,
+body.offline #offline,
+body.online #online {
+  transform: translate(-50%, 0);
+}
+

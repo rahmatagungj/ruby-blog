@@ -82,3 +82,25 @@ window.addEventListener('beforeinstallprompt', (e) => {
   });
 });
 
+
+let slowLoad = window.setTimeout( function() {
+  document.body.classList.add("slow");
+},1000);
+
+window.addEventListener( 'load', function() {
+  window.clearTimeout( slowLoad );
+  document.body.classList.remove("slow");
+}, false );
+
+
+// We are "offline".
+// window.addEventListener("offline", () => {
+//   document.body.className = "offline";
+//   setTimeout(() => { document.body.className = ""; }, 1000);
+// });
+
+// When we back "online".
+window.addEventListener("online", () => {
+  document.body.className = "online";
+  setTimeout(() => { document.body.className = ""; }, 1000);
+});
