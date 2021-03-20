@@ -9,6 +9,7 @@ github_username:  rahmatagungj
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 markdown: kramdown
 
