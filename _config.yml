@@ -43,11 +43,11 @@ timezone: Asia/Jakarta
 
 
 compress_html:
-  clippings: []
-  comments: []
-  endings: []
+  clippings: [div, p, ul, td, h1, h2]
+  comments: ["<!-- ", " -->"]
+  endings: [p, li, td]
   ignore:
     envs: []
   blanklines: false
   profile: false
-  startings: []
+  startings: [html, head, body]
