@@ -3,7 +3,7 @@ email: rahmatagungj@gmail.com
 description: >- 
   Technology Enthusiast | Philosophy | Logic
 baseurl: ""
-url: "" 
+url: "https://rahmatagungjulians.tech" 
 twitter_username: Rahmat_A_J
 github_username:  rahmatagungj
 
@@ -51,3 +51,10 @@ compress_html:
   blanklines: false
   profile: false
   startings: [html, head, body]
+
+defaults:
+  -
+    scope:
+      path:            "assets/**"
+    values:
+      sitemap:         false
