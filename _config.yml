@@ -23,7 +23,6 @@ kramdown:
       line_numbers: false
       start_line: 1
 
-
 permalink: /:slug
 
 exclude:
