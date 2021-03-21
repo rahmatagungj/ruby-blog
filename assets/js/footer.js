@@ -108,3 +108,4 @@ window.addEventListener("online", () => {
     document.body.className = "";
   }, 2000);
 });
+

@@ -109,16 +109,16 @@ img.head-icon {
   color: #1a5285;
 }
 
-.myheadsearch {
+.headright {
   text-align: right;
+  font-size: 1em;
 }
 
 @media all and (max-width: 784px) {
-  .myheadsearch {
-    margin-left: auto;
-    margin-right: auto;
+  .headright {
     text-align: center;
-    margin-top: 10px;
+    font-size: 1em;
+    padding-top: 2px;
   }
   .myhead {
     margin-left: auto;
@@ -242,7 +242,6 @@ article {
   border-top-width: 0px;
   padding: 10px;
   border-radius: 0px 0px 5px 5px;
-  margin-top: -10px;
   font-family: "Linux Libertine",Georgia,Times,serif;
 }
 
@@ -252,7 +251,6 @@ article {
   border-top-width: 0px;
   padding: 10px;
   border-radius: 0px 0px 5px 5px;
-  margin-top: -10px;
 }
 
 hr {
@@ -594,3 +592,14 @@ h5 {
 h6 {
   font-size: 1.1em;
 }
+
+.forsearch {
+  margin-bottom: 15px;
+}
+
+.result {
+  font-size: 1.1em;
+}
+
+
+
