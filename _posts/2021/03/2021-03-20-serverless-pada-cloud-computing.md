@@ -13,8 +13,6 @@ Pada serverless ini akan mengurangi beban developer saat mendeploy aplikasi, hal
 Untuk mendukung arsitektur serverless, cloud providers umumnya menyediakan layanan serverless untuk komputasi, basis data, penyimpanan objek/file, api gateway, autentikasi, layanan email, notifikasi, logging, monitoring dan sebagainya. 
 
 ### Kemampuan Komputasi
-<br/>
-<img src="/assets/images/posts/serverless.webp" alt="serverless" style="max-width: 400px"/><br/><br/>
 Cloud provider akan banyak berperan sebagai pengeksekusi kode aplikasi saat ada kejadian tertentu (event-driven) dan yang lainnya seperti http/api gateway, basis data, penyimpan object/file, queue, dan sebagainya.
 
 Model pada komputasi :
