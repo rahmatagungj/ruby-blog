@@ -3,9 +3,10 @@ layout: page
 title: Tentang
 ---
 
-<center> <img src="assets/images/my.png" style="max-width: 70%; border-radius: 105%;" alt="Rahmat Agung Julians"/> </center>
+<center> <img src="assets/images/my.png" style="max-width: 70%; border-radius: 105%;" alt="Rahmat Agung Julians"/> 
 <h2 align="center">Hi 👋, I'm Rahmat Agung Julians</h2>
 <h4 align="center">Technology Enthusiast | Philosophy | Logic</h4>
+</center>
 
 
 ## 🔎 Current Research
