@@ -57,6 +57,7 @@ li { margin: 0.4rem 0; }
 
 a.post-list {
   text-transform: capitalize;
+  font-size: 1.1em;
 }
 
 pre.highlight {
@@ -88,9 +89,6 @@ img.head-icon {
 
 // BAGIAN .highlight
 
-.ct a {
-  color: #1d3557;
-}
 
 .blacked {
   color: black;
@@ -106,9 +104,7 @@ img.head-icon {
   font-size: 1.2em;
 }
 
-.toolbar a {
-  color: #1a5285;
-}
+
 
 .headright {
   text-align: right;
@@ -610,3 +606,36 @@ h6 {
 
 
 
+
+.toolbar a {
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #1a5285;
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  
+  display: inline-block;
+  padding: 15px 20px;
+  position: relative;
+}
+.toolbar a:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: rgb(255, 255, 255);
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.toolbar a:hover:after { 
+  text-decoration: none;
+  width: 100%; 
+  left: 0; 
+}
+
+.toolbar a:hover{
+  text-decoration: none;
+}
