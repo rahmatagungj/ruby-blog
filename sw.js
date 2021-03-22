@@ -1,4 +1,5 @@
-const CACHE = "rahmatagungj-offline";
+const VERSION = "1.0.0";
+const CACHE = "rahmatagungj-offline-" + VERSION;
 
 const offlineFallbackPage = "index.html";
 

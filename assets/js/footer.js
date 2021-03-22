@@ -17,21 +17,32 @@ if ("serviceWorker" in navigator) {
 
 function changeView(location) {
   var xhttp = new XMLHttpRequest();
+
+  if (location === "/") {
+    location = "/index";
+  }
+  location = "/raw" + location + ".json";
+  xhttp.open("GET", location, true);
+  xhttp.send();
+
+  xhttp.onerror = function () {
+    // console.log("ERROR BRO ", xhttp.responseText);
+    document.body.classList.add("not_downloaded");
+    setTimeout(() => {
+      document.body.classList.remove("not_downloaded");
+    }, 2000);
+  };
+
   xhttp.onreadystatechange = function () {
     if (this.readyState == 4 && this.status == 200) {
       var data = JSON.parse(xhttp.responseText);
       document.title = data["title"];
       document.querySelector("main").innerHTML = data["content"];
       window.scrollTo(0, 0);
+    } else if (this.status > 299 && this.readyState == 4) {
+      console.log("Server Error: " + xhttp.statusText);
     }
   };
-  if (location === "/") {
-    location = "/index";
-  }
-  location = "/raw" + location + ".json";
-  // console.log(location);
-  xhttp.open("GET", location, true);
-  xhttp.send();
 }
 
 window.addEventListener("popstate", function (e) {
@@ -97,7 +108,7 @@ window.addEventListener(
 window.addEventListener("offline", () => {
   document.body.className = "offline";
   setTimeout(() => {
-    document.body.className = "";
+    document.body.classList.remove("offline");
   }, 2000);
 });
 
@@ -105,7 +116,6 @@ window.addEventListener("offline", () => {
 window.addEventListener("online", () => {
   document.body.className = "online";
   setTimeout(() => {
-    document.body.className = "";
+    document.body.classList.remove("online");
   }, 2000);
 });
-

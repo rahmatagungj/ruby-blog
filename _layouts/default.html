@@ -2,7 +2,7 @@
 layout: compress
 ---
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: "en" }}">
+<html lang="{{ page.lang | default: "id" }}">
   {%- include head.html -%}
   <body a="{{ site.theme_config.appearance | default: "auto" }}" id="body">
     <main class="page-content" aria-label="Content">
@@ -10,10 +10,10 @@ layout: compress
         {{ content }}
       </div>
     </main>
-
     {%-include footer.html-%}
     <div id="slow" class="message">Koneksi internet lambat.</div>
     <div id="offline" class="message">Koneksi internet terputus.</div>
     <div id="online" class="message">Koneksi internet terhubung.</div>
+    <div id="not_downloaded" class="message">Halaman tidak dapat dimuat.</div>
   </body>
 </html>

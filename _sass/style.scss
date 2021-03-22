@@ -99,10 +99,11 @@ img.head-icon {
 .toolbar {
   background-color: #c6defe;
   border-radius: 8px;
-  padding: 5px;
-  padding-top: 7px;
-  color: rgba(255,255,255,70);
+  padding: 13px;
+  padding-top: 14px;
+  color: white;
   font-weight: 500;
+  font-size: 1.2em;
 }
 
 .toolbar a {
@@ -568,6 +569,11 @@ pre.highlight {
   color: white;
 }
 
+#not_downloaded {
+  background: #FF9800;
+  color: white;
+}
+
 #offline {
   background: #E91E63;
   color: white;
@@ -580,7 +586,8 @@ pre.highlight {
 
 body.slow #slow,
 body.offline #offline,
-body.online #online {
+body.online #online,
+body.not_downloaded #not_downloaded {
   transform: translate(-50%, 0);
 }
 
