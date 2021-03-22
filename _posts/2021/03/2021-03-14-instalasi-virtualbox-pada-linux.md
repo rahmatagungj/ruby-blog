@@ -28,7 +28,7 @@ Untuk membuka aplikasi dapat melalui app atau ketik `virtualbox` pada terminal d
 sudo apt remove virtualbox
 ```
 
-<h4><b>Referensi</b></h4> 
+<h4><b class="title-referensi">Referensi</b></h4> 
 --- 
 <ol class="referensi">
     <li>

@@ -19,18 +19,30 @@ html, body { background: ghostwhite; }
 
 html { height: 100%; }
 
-body {
-  color: #2c3e50;
-  // font-family: monospace;
-  font-family: 'Open Sans', sans-serif;
+// body {
+//   color: #2c3e50;
+//   // font-family: monospace;
+//   font-family: 'Open Sans', sans-serif;
+//   font-size: 1.5rem;
+//   line-height: 1.3;
+//   margin: 0;
+//   min-height: 100%;
+// }
+
+article {
+  background: #f3eee4;
+  border-bottom: 3px dashed #ac1249;
+  border-top-width: 0px;
+  padding: 10px;
+  border-radius: 0px 0px 5px 5px;
+  font-family: atkinson_hyperlegible,Georgia,Times,serif;
   font-size: 1.5rem;
-  line-height: 1.3;
-  margin: 0;
-  min-height: 100%;
+  color: #1c2334;
 }
 
 .title {
-  color: #1d3557;
+  color: #bb1450;
+  font-size: 2em;
 }
 
 h2, h3, h4, h5, h6 { margin-top: 3rem; text-transform: capitalize;}
@@ -57,7 +69,7 @@ li { margin: 0.4rem 0; }
 
 a.post-list {
   text-transform: capitalize;
-  font-size: 1.1em;
+  font-size: 1.4em;
 }
 
 pre.highlight {
@@ -71,6 +83,7 @@ h3.searched {
 
 p.post-meta {
   text-align: center;
+  font-size: 1.3em;
 }
 
 hr.lined {
@@ -80,9 +93,6 @@ hr.lined {
 
 img.head-icon {
   max-width: 100px;
-}
-
-img.head-icon {
   max-width: 100px;
   border-radius: 100%;
 }
@@ -95,7 +105,7 @@ img.head-icon {
 }
 
 .toolbar {
-  background-color: #c6defe;
+  background-color: #e5bf55;
   border-radius: 8px;
   padding: 13px;
   padding-top: 14px;
@@ -133,20 +143,20 @@ img.head-icon {
 	right:30px;
   background-image: url(/assets/images/install.svg);
   background-size: 100%;
-	background-color:#b4cded;
+	background-color:#bb1450;
 	color:#FFF;
 	border-radius:50px;
 	text-align:center;
 	box-shadow: 2px 2px 3px #999;
-  border: 1px solid #ddd;
+  border: 1px solid #bb1450;
   font-size: 23px;
 }
 
 .add-button:hover {
   background-image: url(/assets/images/install.svg);
   background-size: 100%;
-  color: #c6defe;
-  border: 3px solid #c6defe;
+  color: #bb1450;
+  border: 3px solid #bb1450;
   font-size: 25px;
   text-align: center;
   transform:scale(1.2,1.2);
@@ -166,7 +176,7 @@ input#search-box {
   padding: 5px 2.15384615em 5px 0.4em;
   -webkit-box-shadow: inset 0 0 0 1px transparent;
   box-shadow: inset 0 0 0 1px transparent;
-  font-family: inherit;
+  font-family: atkinson_hyperlegible;
   font-size: 0.8125em;
   direction: ltr;
   -webkit-transition: border-color 250ms,box-shadow 250ms;
@@ -194,7 +204,7 @@ input#search-box {
   padding: 4px 2.15384615em 5px 0.4em;
   -webkit-box-shadow: inset 0 0 0 1px transparent;
   box-shadow: inset 0 0 0 1px transparent;
-  font-family: inherit;
+  font-family: atkinson_hyperlegible;
   font-size: 0.8125em;
   direction: ltr;
   -webkit-transition: border-color 250ms,box-shadow 250ms;
@@ -218,7 +228,7 @@ input#search-box {
 
 blockquote {
   word-wrap:break-word;
-  border-left: 5px solid #c6defe;
+  border-left: 5px solid #bb1450;
 }
 
 @media all and (max-width: 212px) {
@@ -228,26 +238,26 @@ blockquote {
 }
 
 .title-head {
-  color: #1a5285;
-  font-weight: bold;
+  color: #bb1450;
+  // font-weight: bold;
+  font-size: 1.2em;
 }
 
-
-article {
-  background: white;
-  border: 1px solid #a7d7f9;
-  border-top-width: 0px;
-  padding: 10px;
-  border-radius: 0px 0px 5px 5px;
-  font-family: "Linux Libertine",Georgia,Times,serif;
+p.description_me {
+  font-size: 1.2em;
 }
 
 .ct {
-  background: white;
-  border: 1px solid #a7d7f9;
+  background: #f3eee4;
+  // border: 1px solid #a7d7f9;
   border-top-width: 0px;
   padding: 10px;
   border-radius: 0px 0px 5px 5px;
+  color: #1d3557;
+}
+
+.ct a {
+  color: #1d3557;
 }
 
 hr {
@@ -263,15 +273,20 @@ pre code {
 
 .highlighter-rouge {
   border-radius: 0px;
-  border: 0px solid #ddd;
   overflow-x: auto;
   white-space: pre-wrap;
+  // box-shadow: 0 0 1rem rgba(0,0,0,28);
+  // background: #1c2334;
+  color: #f3eee4;
+  border-radius: .5rem;
+  // padding: 1.6rem 1rem 1.25rem;
+  position: relative;
+  overflow: hidden;
 }
 
 .highlight {
   margin: 1px;
   padding: 0px;
-  border: 0px solid #ddd;
   white-space: pre-wrap;
   font-family: monospace;
 }
@@ -282,20 +297,20 @@ pre code {
 
 .highlight,
 pre.highlight {
-  background: #f6f8fa;
-  color: black;
   padding: 5px;
   border-radius: 0px;
-  border: 0px solid #ddd;
+  color: #f3eee4;
 }
 
 .highlight pre {
   margin: 0;
-  background: #f6f8fa;
-}
-
-.highlight .hll {
-  background: #f6f8fa;
+  background: #1c2334;
+  color: #f3eee4;
+  border-radius: .5rem;
+  padding: 1.6rem 1rem 1.25rem;
+  position: relative;
+  overflow: hidden;
+  border: 0px solid transparent;
 }
 
 .highlight .c {
@@ -317,15 +332,15 @@ pre.highlight {
 }
 
 .highlight .n {
-  color: black;
+  color: #f3eee4;
 }
 
 .highlight .o {
-  color: black;
+  color: #f3eee4;
 }
 
 .highlight .p {
-  color: black;
+  color: #f3eee4;
 }
 
 .highlight .cm {
@@ -610,14 +625,15 @@ h6 {
 .toolbar a {
   font-size: 0.9em;
   text-transform: uppercase;
-  color: #1a5285;
+  color: #1c2334;
   text-decoration: none;
   letter-spacing: 0.15em;
-  
+  font-weight: 700;
   display: inline-block;
   padding: 15px 20px;
   position: relative;
 }
+
 .toolbar a:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
@@ -638,4 +654,115 @@ h6 {
 
 .toolbar a:hover{
   text-decoration: none;
+}
+
+
+// MODERN style 
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background: #eaca72;
+  color: #1c2334;
+  line-height: 1.5;
+  font-size: 1.25rem;
+  font-family: atkinson_hyperlegible,Arial,sans-serif;
+}
+
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #1d3557;
+  --flow-space: 3.1rem;
+  font-variant-ligatures: none;
+  line-height: 1.2;
+  max-width: 40ch;
+  font-family: Boogaloo,Arial,sans-serif;
+}
+
+
+h3 {
+  font-size: 3rem;
+  line-height: 1.2;
+  max-width: 40ch;
+  color: #bb1450;
+}
+
+h4 {
+  font-size: 2.4rem;
+  line-height: 1.2;
+  max-width: 40ch;
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+.h4 .b {
+  color: #bb1450;
+}
+
+.title-referensi {
+  color: #bb1450;
 }

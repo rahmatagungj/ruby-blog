@@ -74,7 +74,7 @@ print(resultDecrypt)
 Ini adalah hasil penerjemahan dari pesan yang diamankan.
 > halo ini adalah contoh pesan
 
-<h4><b>Referensi</b></h4> 
+<h4><b class="title-referensi">Referensi</b></h4> 
 --- 
 <ol class="referensi">
     <li>

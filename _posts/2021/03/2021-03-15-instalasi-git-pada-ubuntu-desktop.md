@@ -21,7 +21,7 @@ git config --global user.email "letakan_email_disini"
 git config --global credential.helper store
 ```
 
-<h4><b>Referensi</b></h4> 
+<h4><b class="title-referensi">Referensi</b></h4> 
 --- 
 <ol class="referensi">
     <li>

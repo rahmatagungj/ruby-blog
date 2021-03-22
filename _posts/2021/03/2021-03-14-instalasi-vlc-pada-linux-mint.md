@@ -31,7 +31,7 @@ vlc
 sudo apt-get remove vlc
 ```
 
-<h4><b>Referensi</b></h4> 
+<h4><b class="title-referensi">Referensi</b></h4> 
 --- 
 <ol class="referensi">
     <li>

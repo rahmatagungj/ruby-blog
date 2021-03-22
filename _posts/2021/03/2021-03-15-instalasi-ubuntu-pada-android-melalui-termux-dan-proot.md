@@ -29,7 +29,7 @@ proot-distro install ubuntu-20.04
 proot-distro login ubuntu-20.04
 ```
 
-<h4><b>Referensi</b></h4> 
+<h4><b class="title-referensi">Referensi</b></h4> 
 --- 
 <ol class="referensi">
     <li>

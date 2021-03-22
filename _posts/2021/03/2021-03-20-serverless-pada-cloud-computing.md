@@ -82,7 +82,7 @@ Untuk menyimpan data seperti gambar, video dan lainnya.
 2. Resource Limit 
 3. Performa dan Latency menjadi lebih besar
 
-<h4><b>Referensi</b></h4> 
+<h4><b class="title-referensi">Referensi</b></h4> 
 --- 
 <ol>
     <li>

@@ -35,7 +35,7 @@ Akan ada 1 alamat perangkat yang sudah siap untuk disandingkan, tekan pada kolom
 #### 4. Kedua perangkat sudah terhubung
 Saat kedua perangkat sudah terhubung cobalah untuk melakukan `PING` ke android, jiga muncul maka penyandingan berhasil.
 
-<h4><b>Referensi</b></h4> 
+<h4><b class="title-referensi">Referensi</b></h4> 
 --- 
 <ol class="referensi">
     <li>
