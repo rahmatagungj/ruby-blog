@@ -7,7 +7,6 @@ title: Pencarian
 description: Temukan berbagai informasi disini
 ---
 {%-include header_text.html -%}
-<br/>
 <div id="search-container">
   <center>
   <input type="text" id="search-input" class="form-control forsearch" placeholder="cari disini ..." />
@@ -29,3 +28,7 @@ description: Temukan berbagai informasi disini
     exclude: []
   });
 </script>
+<div class="row">
+  <div class="col-sm-3 text-muted text-right small"></div>
+  <p class="post-meta">2021 |  Rahmat Agung Julians</p>
+</div>

@@ -40,6 +40,17 @@ article {
   color: #1c2334;
 }
 
+div#search-container {
+  background: #f3eee4;
+  border-bottom: 3px dashed #ac1249;
+  border-top-width: 0px;
+  padding: 10px;
+  border-radius: 0px 0px 5px 5px;
+  font-family: atkinson_hyperlegible,Georgia,Times,serif;
+  font-size: 1.5rem;
+  color: #1c2334;
+}
+
 .title {
   color: #bb1450;
   font-size: 2em;
@@ -139,6 +150,13 @@ img.head-icon {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+  }
+  .toolbar {
+
   }
 }
 
@@ -231,11 +249,17 @@ input#search-box {
 }
 
 .referensi {
-  word-wrap:break-word;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 blockquote {
-  word-wrap:break-word;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  word-break: break-word;
+  hyphens: auto;
   border-left: 5px solid #bb1450;
 }
 
@@ -264,9 +288,6 @@ p.description_me {
   color: #1d3557;
 }
 
-.ct a {
-  color: #1d3557;
-}
 
 /* Highlight CSS - Rouge Highlighter */
 
@@ -620,7 +641,7 @@ h6 {
 }
 
 .result {
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 
@@ -781,4 +802,30 @@ b, strong {
 
 .title-referensi {
   color: #bb1450;
+}
+
+a {
+  color: #1d3557;
+}
+
+a:hover {
+  color: rgb(78, 103, 134);
+  text-decoration: none;
+}
+
+
+// SCROLLBAR
+body::-webkit-scrollbar {
+  width: 1em;
+  background-color: #eaca72;
+}
+
+body::-webkit-scrollbar-track {
+  // box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #bb1450;
+  height: 10px;
+  width: 5px;
 }
