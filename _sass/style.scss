@@ -47,9 +47,17 @@ article {
 
 h2, h3, h4, h5, h6 { margin-top: 3rem; text-transform: capitalize;}
 
-hr { margin: 2rem 0; }
+hr {
+  color: rgb(229, 191, 85);
+  background-color: rgb(229, 191, 85);
+  height: 2px;
+}
 
-p { margin: 1rem 0; }
+
+p {
+  margin: 1rem 0;
+  font-size: 1.2em;
+}
 
 li { margin: 0.4rem 0; }
 
@@ -87,7 +95,7 @@ p.post-meta {
 }
 
 hr.lined {
-  background: #a7d7f9;
+  background: rgb(229, 191, 85);
   height: 1px;
 }
 
@@ -260,10 +268,6 @@ p.description_me {
   color: #1d3557;
 }
 
-hr {
-  color: #a7d7f9;
-  background-color: #a7d7f9;
-}
 /* Highlight CSS - Rouge Highlighter */
 
 pre code {
@@ -751,6 +755,18 @@ h3 {
 
 h4 {
   font-size: 2.4rem;
+  line-height: 1.2;
+  max-width: 40ch;
+}
+
+h5 {
+  font-size: 2em;
+  line-height: 1.2;
+  max-width: 40ch;
+}
+
+h6 {
+  font-size: 1.6em;
   line-height: 1.2;
   max-width: 40ch;
 }
