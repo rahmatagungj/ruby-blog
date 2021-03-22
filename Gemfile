@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.2.0"
-
+gem "liquid-c"
 gem "kramdown"
 gem "rouge"
 gem 'jekyll-sitemap'
