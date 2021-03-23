@@ -5,6 +5,7 @@ image: codec
 comments: false
 title: Konversi Codec Kazam Untuk Android
 description: Merubah codec dari video kazam
+keywords: codec, kazam, screenrecorder
 ---
 
 Merubah codec menjadi 48K, lakukan :

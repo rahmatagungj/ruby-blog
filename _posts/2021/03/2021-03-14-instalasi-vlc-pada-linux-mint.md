@@ -5,6 +5,7 @@ image: VLC Player
 comments: false
 title: Instalasi VLC Pada Linux Mint
 description: Cara install VLC pada Linux Mint
+keywords: linux mint, linux, distro linux
 ---
 
 ### 1.Update repository sistem

@@ -5,6 +5,7 @@ image:
 comments: false
 title: Instalasi Pinta Project pada Ubuntu 
 description: Aplikasi menggambar sederhana dan ringan untuk visualisasi
+keywords: visualisasi, pinta
 ---
 
 ### Persiapan

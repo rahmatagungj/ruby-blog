@@ -5,6 +5,7 @@ image: Algoritma
 comments: false
 title: Penerapan Algoritma Transposisi pada Python
 description: Algoritma Transposisi menggunakan python
+keywords: python, algoritma, transposisi
 ---
 
 ### 1. Metode Enkripsi

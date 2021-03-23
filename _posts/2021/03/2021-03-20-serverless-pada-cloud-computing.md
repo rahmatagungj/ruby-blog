@@ -5,6 +5,7 @@ image: Serverless
 comments: false
 title: Serverless pada Cloud Computing
 description: Overview tentang penggunaan Serverless
+keywords: serverless, cloud computing, server
 ---
 
 ### Arsitektur Serverless

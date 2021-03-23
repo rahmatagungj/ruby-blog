@@ -5,6 +5,7 @@ image: Linux
 comments: false
 title: Tingkat Awal Mengamankan OS Linux
 description: Mengatur parameter untuk pengamanan linux
+keywords: linux, secure, mengamankan linux
 ---
 
 ### Persiapan 

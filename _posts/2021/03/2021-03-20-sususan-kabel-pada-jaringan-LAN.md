@@ -5,6 +5,7 @@ image: Local Area Network
 comments: false
 title: Susunan Kabel pada Jaringan LAN
 description: To remember, rangkaian kabel pada jaringan LAN
+keywords: lan, local area network, jaringan, router
 ---
 
 ### Kabel Straight

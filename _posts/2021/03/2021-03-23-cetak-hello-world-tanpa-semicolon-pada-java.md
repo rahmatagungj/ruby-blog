@@ -5,6 +5,7 @@ image: java
 comments: false
 title: Cetak Hello World tanpa Semicolon pada Java
 description: Soal interview mengenai java dan semicolon
+keywords: interview, jawaban, java, programming, semicolon
 ---
 
 ## Permasalahan

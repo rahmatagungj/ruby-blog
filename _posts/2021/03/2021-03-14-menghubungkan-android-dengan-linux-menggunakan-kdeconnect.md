@@ -5,6 +5,7 @@ image: KDE Connect
 comments: false
 title: Menghubungkan Android dengan Linux menggunakan KDE Connect
 description: Cara menggunakan KDE Connect pada linux dan android
+keywords: kde connect, gnome connect, linux
 ---
 
 ### 1. Instalasi KDE Connect pada Linux

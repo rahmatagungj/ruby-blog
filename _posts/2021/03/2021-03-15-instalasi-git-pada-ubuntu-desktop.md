@@ -5,6 +5,7 @@ image: Ubuntu
 comments: false
 title: Instalasi Git pada Ubuntu Desktop
 description: Cara pemasangan Git pada linux via terminal
+keywords: git, ubuntu
 ---
 
 ### Install GIT 

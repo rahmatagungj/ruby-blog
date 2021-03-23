@@ -5,6 +5,7 @@ image: nodejs
 comments: false
 title: Instalasi Npm Dan Nodejs Pada Linux
 description: Cara install npm dan nodejs pada Linux
+keywords: nodejs, linux, npm
 ---
 
 ### Install Node.js dan NPM

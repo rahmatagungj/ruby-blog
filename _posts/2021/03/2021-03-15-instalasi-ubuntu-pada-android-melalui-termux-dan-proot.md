@@ -5,6 +5,7 @@ image: Linux
 comments: false
 title: Instalasi Ubuntu pada Android melalui Termux dan Proot
 description: Cara memasang ubuntu pada android melalui CLI
+keywords: ubuntu, cli, termux, proot
 ---
 
 ### Persiapan

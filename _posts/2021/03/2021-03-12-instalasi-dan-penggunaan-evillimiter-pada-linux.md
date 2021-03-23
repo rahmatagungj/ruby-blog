@@ -5,6 +5,7 @@ image: evillimiter
 comments: false
 title: Instalasi dan Penggunaan Evillimiter pada Linux
 description: Membatas penggunaan jaringan pada wifi dari bandwidth baik unggah ataupun unduh.
+keywords: evillimiter, linux
 ---
 
 ### Ulasan Singkat

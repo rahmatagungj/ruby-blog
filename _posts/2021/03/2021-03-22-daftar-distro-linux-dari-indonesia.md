@@ -5,6 +5,7 @@ image: linux
 comments: false
 title: Daftar Distro Linux dari Indonesia
 description: Beberapa distro linux yang dibuat di indonesia
+keywords: distro, linux, indonesia
 ---
 
 Berikut ini merupakan Distro linux yang resmi dibuat dari Indonesia.

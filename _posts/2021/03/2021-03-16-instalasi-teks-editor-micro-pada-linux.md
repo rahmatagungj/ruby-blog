@@ -5,6 +5,7 @@ image:
 comments: false
 title: Instalasi Teks Editor Micro pada Linux
 description: cara memasang code editor micro menggunakan CLI
+keywords: micro editor, text editor, compiler
 ---
 
 

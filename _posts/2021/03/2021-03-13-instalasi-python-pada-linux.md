@@ -5,6 +5,7 @@ image: python
 comments: false
 title: Instalasi Python Pada Linux
 description: Cara install python pada Linux
+keywords: python, linux
 ---
 
 Hal ini dapat dilakukan jika pada sistem bawaan linux tidak terdapat python.
