@@ -11,29 +11,28 @@
     {%- endif -%}
   </title>
 
-<meta property="og:locale" content="id">
-<meta property="og:type" content="article">
-<meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta property="og:url" content="{{ site.url }}{{ page.url }}">
-<meta property="og:image" content="{{ site.url }}/icon-512x512.png" />
-<meta property="og:site_name" content="Rahmat Agung Julians">
-<meta property="article:publisher" content="http://www.facebook.com/rahmatagungjulians" />
-<meta property="article:author" content="https://www.facebook.com/rahmatagungjulians." />
-<meta property="article:published_time" content="{{ page.date }}" />
-<meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-<meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-<meta name="twitter:site" content="@Rahmat_A_J" />
-<meta name="twitter:creator" content="@Rahmat_A_J">
-<meta name="twitter:card" content="summary">
-<link rel="apple-touch-icon-precomposed" href="{{ "/assets/images/apple-icon-precomposed.png" | relative_url }}" />
-<link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ "/assets/images/apple-icon-60x60.png" | relative_url }}" />
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ "/assets/images/apple-icon-114x114.png" | relative_url }}" />
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/assets/images/apple-icon-144x144.png" | relative_url }}" />
-<link rel="canonical" href="{{ page.url | prepend: site.url }}">
-{%-feed_meta-%}
-
+  <meta property="og:locale" content="id">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ site.url }}/icon-512x512.png" />
+  <meta property="og:site_name" content="Rahmat Agung Julians">
+  <meta property="article:publisher" content="http://www.facebook.com/rahmatagungjulians" />
+  <meta property="article:author" content="https://www.facebook.com/rahmatagungjulians." />
+  <meta property="article:published_time" content="{{ page.date }}" />
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:site" content="@Rahmat_A_J" />
+  <meta name="twitter:creator" content="@Rahmat_A_J">
+  <meta name="twitter:card" content="summary">
+  <link rel="apple-touch-icon-precomposed" href="{{ "/assets/images/apple-icon-precomposed.png" | relative_url }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ "/assets/images/apple-icon-60x60.png" | relative_url }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ "/assets/images/apple-icon-114x114.png" | relative_url }}" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/assets/images/apple-icon-144x144.png" | relative_url }}" />
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
+  {%-feed_meta-%}
   <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/images/apple-icon.png" | relative_url }}" />
   <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/images/favicon-32x32.png" | relative_url }}" />
   <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/images/favicon-16x16.png" | relative_url }}" />
@@ -45,4 +44,6 @@
   <link rel="stylesheet" href="{{ "/assets/css/boot.min.css" | relative_url }}" defer media="all"/>
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}" defer media="all"/>
   <meta name="theme-color" content="#f8f8ff">
+  <meta name="turbolinks-cache-control" content="no-cache">
+  <script type="text/javascript" src="{{ "/assets/js/vendor/turbolinks.min.js"  | relative_url }}"></script>
 </head>

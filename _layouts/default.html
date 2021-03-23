@@ -10,12 +10,13 @@ layout: compress
         {{ content }}
       </div>
     </main>
-    <div id="slow" class="message">Koneksi internet lambat.</div>
     <div id="offline" class="message">Koneksi internet terputus.</div>
     <div id="online" class="message">Koneksi internet terhubung.</div>
-    <div id="not_downloaded" class="message">Halaman tidak dapat dimuat.</div>
     <button class="add-button" id="addButton" aria-label="Center Align"></button>
-<script type="text/javascript" src="{{ "/assets/js/footer.js"  | relative_url }}"></script>
+    <div id="footer__script">
+    <script type="text/javascript" src="{{ "/assets/js/footer.js"  | relative_url }}" data-turbolinks-track="reload"></script>
+    <script type="text/javascript" src="{{ "/assets/js/turbos.js"  | relative_url }}" data-turbolinks-track="reload"></script>
+  </div>
   </body>
 </html>
 
