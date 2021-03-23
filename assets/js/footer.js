@@ -1,3 +1,17 @@
+// SPA
+if (Turbolinks.supported) {
+  Turbolinks.start();
+} else {
+  // Show notification if browser not support
+  document.body.className = "not_support";
+  setTimeout(() => {
+    document.body.classList.remove("not_support");
+  }, 2000);
+}
+
+Turbolinks.setProgressBarDelay(2750);
+
+// PWA
 if ("serviceWorker" in navigator) {
   if (navigator.serviceWorker.controller) {
     // console.log("An active service worker found, no need to register");
@@ -13,44 +27,33 @@ if ("serviceWorker" in navigator) {
   }
 }
 
-// CAALL FUNCTION
-document.addEventListener("turbolinks:load", function() {
-  a2hs()
-  networkNotification()
-})
-
+// CALL FUNCTION
+document.addEventListener("turbolinks:load", function () {
+  a2hs();
+  networkNotification();
+});
 
 function a2hs() {
-  let deferredPrompt;
-
-  const addBtn = document.getElementById("addButton");
-
-  addBtn.style.display = "none";
-
   window.addEventListener("beforeinstallprompt", (e) => {
-    // Prevent Chrome 67 and earlier from automatically showing the prompt
     e.preventDefault();
-    // Stash the event so it can be triggered later.
     deferredPrompt = e;
-    // Update UI to notify the user they can add to home screen
-    addBtn.style.display = "block";
+  });
 
-    addBtn.addEventListener("click", (e) => {
-      // hide our user interface that shows our A2HS button
-      addBtn.style.display = "none";
-      // Show the prompt
+  const btnInstallApp = document.getElementById("addButton");
+
+  if (btnInstallApp) {
+    btnInstallApp.addEventListener("click", (e) => {
       deferredPrompt.prompt();
-      // Wait for the user to respond to the prompt
       deferredPrompt.userChoice.then((choiceResult) => {
         if (choiceResult.outcome === "accepted") {
-          console.log("User accepted the A2HS prompt");
+          console.log("user accepted A2HS prompt");
         } else {
-          console.log("User dismissed the A2HS prompt");
+          console.log("user dismissed A2HS prompt");
         }
         deferredPrompt = null;
       });
     });
-  });
+  }
 }
 
 function networkNotification() {
@@ -61,7 +64,7 @@ function networkNotification() {
       document.body.classList.remove("offline");
     }, 2000);
   });
-  
+
   // When we back "online".
   window.addEventListener("online", () => {
     document.body.className = "online";
@@ -70,4 +73,3 @@ function networkNotification() {
     }, 2000);
   });
 }
-

@@ -15,8 +15,6 @@ keywords: cari tentang teknologi
   <ul id="results-container"></ul>
 </div>
 
-
-<script src="{{ "/assets/js/search.min.js"  | relative_url }}" type="text/javascript"></script>
 <script>
   SimpleJekyllSearch({
     searchInput: document.getElementById('search-input'),
