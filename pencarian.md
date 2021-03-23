@@ -5,6 +5,7 @@ image: search
 comments: false
 title: Pencarian
 description: Temukan berbagai informasi disini
+keywords: cari tentang teknologi
 ---
 {%-include header_text.html -%}
 <div id="search-container">

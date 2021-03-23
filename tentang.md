@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Tentang
+description: tentang Rahmat Agung Julians
+keywords: Rahmat Agung Julians
 ---
 
 <center> <img src="assets/images/my.png" style="max-width: 70%; border-radius: 105%;" alt="Rahmat Agung Julians"/> 

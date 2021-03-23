@@ -5,17 +5,19 @@ layout: compress
 <html lang="{{ page.lang | default: "id" }}">
   {%- include head.html -%}
   <body a="{{ site.theme_config.appearance | default: "auto" }}" id="body">
+    <div class="turbolinks-progress-bar"></div>
     <main class="page-content" aria-label="Content">
       <div class="w">
         {{ content }}
       </div>
     </main>
+    <div id="not_support" class="message">Browser tidak mendukung.</div>
     <div id="offline" class="message">Koneksi internet terputus.</div>
     <div id="online" class="message">Koneksi internet terhubung.</div>
     <button class="add-button" id="addButton" aria-label="Center Align"></button>
     <div id="footer__script">
-    <script type="text/javascript" src="{{ "/assets/js/footer.js"  | relative_url }}" data-turbolinks-track="reload"></script>
-    <script type="text/javascript" src="{{ "/assets/js/turbos.js"  | relative_url }}" data-turbolinks-track="reload"></script>
+    <script defer type="text/javascript" src="{{ "/assets/js/footer.js"  | relative_url }}" data-turbolinks-track="reload"></script>
+    <script defer type="text/javascript" src="{{ "/assets/js/turbos.js"  | relative_url }}" data-turbolinks-track="reload"></script>
   </div>
   </body>
 </html>

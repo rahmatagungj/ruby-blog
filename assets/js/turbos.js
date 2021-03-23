@@ -1,6 +1,9 @@
 if(Turbolinks.supported) {
   Turbolinks.start()
-  console.log("start")
 } else {
-  console.warn("browser kamu tidak mendukung `Turbolinks`")
+  // Show notification if browser not support
+  document.body.className = "not_support";
+  setTimeout(() => {
+    document.body.classList.remove("not_support");
+  }, 2000);
 }

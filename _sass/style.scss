@@ -602,12 +602,7 @@ pre.highlight {
   transition: transform .25s;
 }
 
-#slow {
-  background: #FF9800;
-  color: white;
-}
-
-#not_downloaded {
+#not_support {
   background: #FF9800;
   color: white;
 }
@@ -622,7 +617,7 @@ pre.highlight {
   color: white;
 }
 
-body.slow #slow,
+body.not_support #not_support,
 body.offline #offline,
 body.online #online,
 body.not_downloaded #not_downloaded {
