@@ -19,6 +19,7 @@ document.addEventListener("turbolinks:load", function() {
   networkNotification()
 })
 
+
 function a2hs() {
   let deferredPrompt;
 

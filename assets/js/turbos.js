@@ -8,3 +8,4 @@ if(Turbolinks.supported) {
   }, 2000);
 }
 
+Turbolinks.setProgressBarDelay(1000)
