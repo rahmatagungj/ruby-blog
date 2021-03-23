@@ -22,7 +22,7 @@ keywords: cari tentang teknologi
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: '{{ site.baseurl }}/postingan.json',
-    searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}" class="local-link result">{title}</a></li>',
+    searchResultTemplate: '<li><a href="{url}?query={query}" title="{desc}" class="result">{title}</a></li>',
     noResultsText: 'Hasil tidak ditemukan',
     limit: 10,
     fuzzy: false,

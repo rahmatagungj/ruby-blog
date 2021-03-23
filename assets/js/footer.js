@@ -69,3 +69,4 @@ function networkNotification() {
     }, 2000);
   });
 }
+

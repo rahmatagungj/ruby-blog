@@ -7,3 +7,4 @@ if(Turbolinks.supported) {
     document.body.classList.remove("not_support");
   }, 2000);
 }
+
