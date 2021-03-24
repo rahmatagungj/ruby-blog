@@ -731,7 +731,7 @@ a.label:hover {
     U+FEFF, U+FFFD;
 }
 
-// -------------- THEME SWITCHER -------------- //
+/* -------------- THEME SWITCHER --------------  */
 @mixin dark-appearance {
   filter: invert(1);
   img {
@@ -818,7 +818,6 @@ li {
 }
 
 .w {
-  // width: fit-content;
   max-width: 1200px;
   margin: 0 auto;
   padding: 4rem 2rem;
@@ -859,7 +858,7 @@ img.head-icon {
   border-radius: 100%;
 }
 
-// BAGIAN .highlight
+/* BAGIAN .highlight */
 
 .blacked {
   color: black;
@@ -1011,7 +1010,6 @@ blockquote {
 
 .title-head {
   color: #bb1450;
-  // font-weight: bold;
   font-size: 1.2em;
 }
 
@@ -1021,7 +1019,6 @@ p.description_me {
 
 .ct {
   background: #f3eee4;
-  // border: 1px solid #a7d7f9;
   border-top-width: 0px;
   padding: 10px;
   border-radius: 0px 0px 5px 5px;
@@ -1039,11 +1036,8 @@ pre code {
   border-radius: 0px;
   overflow-x: auto;
   white-space: pre-wrap;
-  // box-shadow: 0 0 1rem rgba(0,0,0,28);
-  // background: #1c2334;
   color: #f3eee4;
   border-radius: 0.5rem;
-  // padding: 1.6rem 1rem 1.25rem;
   position: relative;
   overflow: hidden;
   background: #1c2334;
@@ -1413,7 +1407,7 @@ h6 {
   text-decoration: none;
 }
 
-// MODERN style
+/* MODERN style */
 /* Box sizing rules */
 *,
 *::before,
@@ -1545,14 +1539,10 @@ a:hover {
   text-decoration: none;
 }
 
-// SCROLLBAR
+/* SCROLLBAR */
 body::-webkit-scrollbar {
   width: 1em;
   background-color: #eaca72;
-}
-
-body::-webkit-scrollbar-track {
-  // box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
 }
 
 body::-webkit-scrollbar-thumb {
