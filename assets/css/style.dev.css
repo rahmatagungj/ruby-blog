@@ -95,7 +95,7 @@ table {
 td,
 th {
   padding: 0;
-} 
+}
 @media print {
   *,
   :after,
@@ -679,36 +679,41 @@ a.label:hover {
 }
 
 @font-face {
-  font-family: 'atkinson_hyperlegible';
-  src: url('/assets/fonts/Atkinson-Hyperlegible-Bold-102a.woff2') format('woff2'),
-      url('/assets/fonts/Atkinson-Hyperlegible-Bold-102.woff') format('woff');
+  font-family: "atkinson_hyperlegible";
+  src: url("/assets/fonts/Atkinson-Hyperlegible-Bold-102a.woff2")
+      format("woff2"),
+    url("/assets/fonts/Atkinson-Hyperlegible-Bold-102.woff") format("woff");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'atkinson_hyperlegible';
-  src: url('/assets/fonts/Atkinson-Hyperlegible-BoldItalic-102a.woff2') format('woff2'),
-      url('/assets/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff') format('woff');
+  font-family: "atkinson_hyperlegible";
+  src: url("/assets/fonts/Atkinson-Hyperlegible-BoldItalic-102a.woff2")
+      format("woff2"),
+    url("/assets/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff")
+      format("woff");
   font-weight: bold;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'atkinson_hyperlegible';
-  src: url('/assets/fonts/Atkinson-Hyperlegible-Italic-102a.woff2') format('woff2'),
-      url('/assets/fonts/Atkinson-Hyperlegible-Italic-102.woff') format('woff');
+  font-family: "atkinson_hyperlegible";
+  src: url("/assets/fonts/Atkinson-Hyperlegible-Italic-102a.woff2")
+      format("woff2"),
+    url("/assets/fonts/Atkinson-Hyperlegible-Italic-102.woff") format("woff");
   font-weight: normal;
   font-style: italic;
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'atkinson_hyperlegible';
-  src: url('/assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2') format('woff2'),
-      url('/assets/fonts/Atkinson-Hyperlegible-Regular-102.woff') format('woff');
+  font-family: "atkinson_hyperlegible";
+  src: url("/assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2")
+      format("woff2"),
+    url("/assets/fonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -716,12 +721,14 @@ a.label:hover {
 
 /* latin */
 @font-face {
-  font-family: 'Boogaloo';
+  font-family: "Boogaloo";
   font-style: normal;
   font-weight: 400;
   font-display: swap;
-  src: url(/assets/fonts/boogalo-400.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  src: url(/assets/fonts/boogalo-400.woff2) format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
 // -------------- THEME SWITCHER -------------- //
@@ -730,21 +737,30 @@ a.label:hover {
   img {
     filter: invert(1);
 
-    &.ioda { filter: invert(0); }
+    &.ioda {
+      filter: invert(0);
+    }
   }
 }
 
-body[a="dark"] { @include dark-appearance; }
-
-
-@media (prefers-color-scheme: dark) {
-  body[a="auto"] { @include dark-appearance; }
+body[a="dark"] {
+  @include dark-appearance;
 }
 
-html, body { background: ghostwhite; }
+@media (prefers-color-scheme: dark) {
+  body[a="auto"] {
+    @include dark-appearance;
+  }
+}
 
-html { height: 100%; }
+html,
+body {
+  background: ghostwhite;
+}
 
+html {
+  height: 100%;
+}
 
 article {
   background: #f3eee4;
@@ -752,7 +768,7 @@ article {
   border-top-width: 0px;
   padding: 10px;
   border-radius: 0px 0px 5px 5px;
-  font-family: atkinson_hyperlegible,Georgia,Times,serif;
+  font-family: atkinson_hyperlegible, Georgia, Times, serif;
   font-size: 1.5rem;
   color: #1c2334;
 }
@@ -763,7 +779,7 @@ div#search-container {
   border-top-width: 0px;
   padding: 10px;
   border-radius: 0px 0px 5px 5px;
-  font-family: atkinson_hyperlegible,Georgia,Times,serif;
+  font-family: atkinson_hyperlegible, Georgia, Times, serif;
   font-size: 1.5rem;
   color: #1c2334;
 }
@@ -773,7 +789,14 @@ div#search-container {
   font-size: 2em;
 }
 
-h2, h3, h4, h5, h6 { margin-top: 3rem; text-transform: capitalize;}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 3rem;
+  text-transform: capitalize;
+}
 
 hr {
   color: rgb(229, 191, 85);
@@ -781,15 +804,18 @@ hr {
   height: 2px;
 }
 
-
 p {
   margin: 1rem 0;
   font-size: 1.2em;
 }
 
-li { margin: 0.4rem 0; }
+li {
+  margin: 0.4rem 0;
+}
 
-*:target { background: yellow; }
+*:target {
+  background: yellow;
+}
 
 .w {
   // width: fit-content;
@@ -798,8 +824,8 @@ li { margin: 0.4rem 0; }
   padding: 4rem 2rem;
 }
 
-
-.h1, h1 {
+.h1,
+h1 {
   font-size: 26px;
 }
 
@@ -835,7 +861,6 @@ img.head-icon {
 
 // BAGIAN .highlight
 
-
 .blacked {
   color: black;
 }
@@ -849,8 +874,6 @@ img.head-icon {
   font-weight: 500;
   font-size: 1.2em;
 }
-
-
 
 .headright {
   text-align: right;
@@ -873,26 +896,26 @@ img.head-icon {
     hyphens: auto;
   }
   .toolbar {
-
   }
 }
 
 .add-button {
-  position:fixed;
-	width:40px;
+  position: fixed;
+  width: 40px;
   opacity: 100%;
-	height:40px;
-	bottom:30px;
-	right:30px;
+  height: 40px;
+  bottom: 30px;
+  right: 30px;
   background-image: url(/assets/images/install.svg);
   background-size: 100%;
-	background-color:#bb1450;
-	color:#FFF;
-	border-radius:50px;
-	text-align:center;
-	box-shadow: 2px 2px 3px #999;
+  background-color: #bb1450;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  box-shadow: 2px 2px 3px #999;
   border: 1px solid #bb1450;
   font-size: 23px;
+  transform: rotateZ(180deg);
 }
 
 .add-button:hover {
@@ -902,13 +925,14 @@ img.head-icon {
   border: 3px solid #bb1450;
   font-size: 25px;
   text-align: center;
-  transform:scale(1.2,1.2);
-  -webkit-transform:scale(1.2,1.2);
-  -moz-transform:scale(1.2,1.2);
+  transform: scale(1.2, 1.2);
+  -webkit-transform: scale(1.2, 1.2);
+  -moz-transform: scale(1.2, 1.2);
+  transform: rotateZ(180deg);
 }
 
 input#search-box {
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255, 255, 255, 0.5);
   color: #000000;
   height: 2.15384615em;
   -webkit-box-sizing: border-box;
@@ -922,9 +946,9 @@ input#search-box {
   font-family: atkinson_hyperlegible;
   font-size: 0.8125em;
   direction: ltr;
-  -webkit-transition: border-color 250ms,box-shadow 250ms;
-  -moz-transition: border-color 250ms,box-shadow 250ms;
-  transition: border-color 250ms,box-shadow 250ms;
+  -webkit-transition: border-color 250ms, box-shadow 250ms;
+  -moz-transition: border-color 250ms, box-shadow 250ms;
+  transition: border-color 250ms, box-shadow 250ms;
   -webkit-appearance: none;
   -moz-appearance: textfield;
 }
@@ -950,18 +974,17 @@ input#search-box {
   font-family: atkinson_hyperlegible;
   font-size: 0.8125em;
   direction: ltr;
-  -webkit-transition: border-color 250ms,box-shadow 250ms;
-  -moz-transition: border-color 250ms,box-shadow 250ms;
-  transition: border-color 250ms,box-shadow 250ms;
+  -webkit-transition: border-color 250ms, box-shadow 250ms;
+  -moz-transition: border-color 250ms, box-shadow 250ms;
+  transition: border-color 250ms, box-shadow 250ms;
   -webkit-appearance: none;
   -moz-appearance: textfield;
 }
 
-
 @media all and (max-width: 784px) {
   .add-button {
-    bottom:10px;
-    right:10px;
+    bottom: 10px;
+    right: 10px;
   }
 }
 
@@ -1005,7 +1028,6 @@ p.description_me {
   color: #1d3557;
 }
 
-
 /* Highlight CSS - Rouge Highlighter */
 
 pre code {
@@ -1020,7 +1042,7 @@ pre code {
   // box-shadow: 0 0 1rem rgba(0,0,0,28);
   // background: #1c2334;
   color: #f3eee4;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   // padding: 1.6rem 1rem 1.25rem;
   position: relative;
   overflow: hidden;
@@ -1050,7 +1072,7 @@ pre.highlight {
   margin: 0;
   background: #1c2334;
   color: #f3eee4;
-  border-radius: .5rem;
+  border-radius: 0.5rem;
   padding: 1.6rem 1rem 1.25rem;
   position: relative;
   overflow: hidden;
@@ -1316,7 +1338,7 @@ pre.highlight {
   font-weight: bold;
   padding: 1.5em;
   transform: translate(-50%, -100%);
-  transition: transform .25s;
+  transition: transform 0.25s;
 }
 
 #not_support {
@@ -1341,7 +1363,6 @@ body.not_downloaded #not_downloaded {
   transform: translate(-50%, 0);
 }
 
-
 h5 {
   font-size: 1.3em;
 }
@@ -1358,9 +1379,6 @@ h6 {
   font-size: 1.3em;
 }
 
-
-
-
 .toolbar a {
   font-size: 0.9em;
   text-transform: uppercase;
@@ -1373,7 +1391,7 @@ h6 {
   position: relative;
 }
 
-.toolbar a:after {    
+.toolbar a:after {
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
@@ -1385,18 +1403,17 @@ h6 {
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
-.toolbar a:hover:after { 
+.toolbar a:hover:after {
   text-decoration: none;
-  width: 100%; 
-  left: 0; 
+  width: 100%;
+  left: 0;
 }
 
-.toolbar a:hover{
+.toolbar a:hover {
   text-decoration: none;
 }
 
-
-// MODERN style 
+// MODERN style
 /* Box sizing rules */
 *,
 *::before,
@@ -1404,15 +1421,15 @@ h6 {
   box-sizing: border-box;
 }
 
-
-
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+}
 
 /* Set core root defaults */
 html:focus-within {
@@ -1428,9 +1445,8 @@ body {
   color: #1c2334;
   line-height: 1.5;
   font-size: 1.25rem;
-  font-family: atkinson_hyperlegible,Arial,sans-serif;
+  font-family: atkinson_hyperlegible, Arial, sans-serif;
 }
-
 
 /* A elements that don't have a class get default styles */
 a:not([class]) {
@@ -1455,9 +1471,9 @@ select {
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
@@ -1479,9 +1495,8 @@ h6 {
   font-variant-ligatures: none;
   line-height: 1.2;
   max-width: 40ch;
-  font-family: Boogaloo,Arial,sans-serif;
+  font-family: Boogaloo, Arial, sans-serif;
 }
-
 
 h3 {
   font-size: 3rem;
@@ -1508,7 +1523,8 @@ h6 {
   max-width: 40ch;
 }
 
-b, strong {
+b,
+strong {
   font-weight: 600;
 }
 
@@ -1528,7 +1544,6 @@ a:hover {
   color: rgb(78, 103, 134);
   text-decoration: none;
 }
-
 
 // SCROLLBAR
 body::-webkit-scrollbar {
@@ -1555,7 +1570,7 @@ input#search-input {
   border: 0;
   height: 40px;
   line-height: 40px;
-  box-shadow: 0 1px 1px 0 rgb(187,187,187);
+  box-shadow: 0 1px 1px 0 rgb(187, 187, 187);
   border-radius: 5px;
   padding: 10px;
   width: 100%;
