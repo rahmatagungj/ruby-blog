@@ -23,7 +23,7 @@ bundle install
 cd build && python3 run_dev.py
 ```
 or
-```
+```bash
 cd build && python3 run.py
 ```
 ### Just for manify resource
