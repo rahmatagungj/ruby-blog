@@ -95,7 +95,7 @@ table {
 td,
 th {
   padding: 0;
-} /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+} 
 @media print {
   *,
   :after,
@@ -153,17 +153,7 @@ th {
     background-color: #fff !important;
   }
 }
-@font-face {
-  font-family: "Glyphicons Halflings";
-  src: url(../fonts/glyphicons-halflings-regular.eot);
-  src: url(../fonts/glyphicons-halflings-regular.eot?#iefix)
-      format("embedded-opentype"),
-    url(../fonts/glyphicons-halflings-regular.woff2) format("woff2"),
-    url(../fonts/glyphicons-halflings-regular.woff) format("woff"),
-    url(../fonts/glyphicons-halflings-regular.ttf) format("truetype"),
-    url(../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular)
-      format("svg");
-}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -348,7 +338,7 @@ small {
   text-align: center;
 }
 .text-muted {
-  color: #777;
+  color: rgb(22, 22, 22);
 }
 .page-header {
   padding-bottom: 9px;
@@ -1330,17 +1320,17 @@ pre.highlight {
 }
 
 #not_support {
-  background: #FF9800;
+  background: #8f5731;
   color: white;
 }
 
 #offline {
-  background: #E91E63;
+  background: #b1174a;
   color: white;
 }
 
 #online {
-  background: #4CAF50;
+  background: #29662b;
   color: white;
 }
 
