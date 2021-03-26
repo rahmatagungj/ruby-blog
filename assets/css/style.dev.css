@@ -915,6 +915,7 @@ img.head-icon {
   border: 1px solid #bb1450;
   font-size: 23px;
   transform: rotateZ(180deg);
+  display:none;
 }
 
 .add-button:hover {
