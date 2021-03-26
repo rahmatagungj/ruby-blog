@@ -28,11 +28,17 @@
   <meta name="twitter:creator" content="@Rahmat_A_J">
   <meta name="twitter:card" content="summary">
   <meta name="theme-color" content="#eaca72">
+  <meta content='#eaca72' name='msapplication-navbutton-color'/> 
+  <meta content='yes' name='apple-mobile-web-app-capable'/> 
+  <meta content='#eaca72' name='apple-mobile-web-app-status-bar-style'/>
   <meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="keywords" content="{%if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
   <meta name="author" content="Rahmat Agung Julians">
   <meta name="publisher" content="Rahmat Agung Julians">
-  <meta property="og:locale" content="id">
+  <meta content='index,follow' name='robots'/>
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:locale:alternate" content="en_GB">
+  <meta property="og:locale:alternate" content="en_GB">
   {% if page.layout == "post" %}
   <meta property="og:type" content="article">
   {% else %}
@@ -51,7 +57,7 @@
   <link rel="shortcut icon" href="{{ "/favicon.ico" | relative_url }}">
   <link rel="manifest" href="{{ "/manifest.json" | relative_url }}" />
   <meta name="msapplication-config" content="{{ "/assets/images/browserconfig.xml" | relative_url }}">
-  <link rel="preload" as="style" href="{{ "/assets/css/style.min.css" | relative_url }}" onload="this.onload=null;this.rel='stylesheet'"/>
+  <link rel="preload" as="style" href="{{ "/assets/css/style.dev.css" | relative_url }}" onload="this.onload=null;this.rel='stylesheet'"/>
   <noscript><link rel="stylesheet" href="{{ "/assets/css/style.min.css" | relative_url }}"></noscript>
   <link rel="preload" href="/assets/fonts/boogalo-400.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="/assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2" as="font" type="font/woff2" crossorigin>

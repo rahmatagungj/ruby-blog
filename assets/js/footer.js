@@ -42,3 +42,10 @@ window.addEventListener("online", () => {
     document.body.classList.remove("online");
   }, 2000);
 });
+
+// BACK TO TOP
+window.onscroll = () => {
+  document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 
+    ? document.getElementById("addButton").style.display = "block"
+    : document.getElementById("addButton").style.display = "none"
+};
