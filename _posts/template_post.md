@@ -1,20 +1,16 @@
 ---
 layout: post
 author: Rahmat Agung Julians
-image: 
+image:
 comments: false
-title: 
-description: 
-keywords: 
+title:
+description:
+keywords:
 ---
-
-
-
-
 
 <h4><b class="title-referensi">Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href=""></a>
     </li>

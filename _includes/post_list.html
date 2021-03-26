@@ -3,19 +3,22 @@ include.limit-%} {%-assign limit_exceeded = true-%} {%-else-%} {%-assign
 limit_exceeded = false-%} {%-endif-%}
 <div class="ct">
   {%- if posts.size > 0 -%} {%- for post in posts limit: include.limit -%}
-  <div class="row mb-2">
+  <div class="row mb-2 post__list">
     <div class="col-sm-9">
       <a href="{{ post.url | relative_url }}" class="post-list"
         >{{ post.title | downcase }}</a
       >
     </div>
-    <div class="col-sm-3 text-muted text-right small">
+    <div class="col-sm-3 text-muted text-right small post__date">
       <span>{{ post.date | | date: "%m-%d-%Y" }}</span>
     </div>
   </div>
   {%- endfor -%} {%- if include.show_more and limit_exceeded -%}
-  <a href="{{ include.show_more_url }}"
-    >{{ include.show_more_text | default: "Show more..." }}</a
-  >
+  <center class="centered">
+    <br />
+    <a class="arsip__button" href="{{ include.show_more_url }}"
+      >{{ include.show_more_text | default: "Show more..." }}</a
+    >
+  </center>
   {%- endif -%} {%- endif -%}
 </div>

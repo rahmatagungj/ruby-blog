@@ -9,6 +9,7 @@ keywords: lan, local area network, jaringan, router
 ---
 
 ### Kabel Straight
+
 ```lua
 Putih Orange
 Orange
@@ -23,6 +24,7 @@ Coklat
 ### Kabel Cross
 
 #### Warna kabel cross ujung 1
+
 ```lua
 Putih orange
 Orange
@@ -35,6 +37,7 @@ coklat
 ```
 
 #### Warna kabel cross ujung 2
+
 ```lua
 putih hijau
 hijau
@@ -48,7 +51,7 @@ coklat
 
 <h4><b class="title-referensi">Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href="https://qwords.com/blog/susunan-kabel-straight-dan-kabel-cross/">https://qwords.com/blog/susunan-kabel-straight-dan-kabel-cross/</a>
     </li>

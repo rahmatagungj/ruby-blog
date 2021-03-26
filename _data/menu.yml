@@ -1,7 +1,7 @@
 entries:
   - title: POSTINGAN
     post_list:
-      limit: 20
+      limit: 12
       show_more: true
-      show_more_text: Lihat Arsip ...
+      show_more_text: Lihat Semua
       show_more_url: arsip

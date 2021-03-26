@@ -9,6 +9,7 @@ keywords: distro, linux, indonesia
 ---
 
 Berikut ini merupakan Distro linux yang resmi dibuat dari Indonesia.
+
 1. Garuda OS
 2. BlankOn Linux
 3. IGOS Nusantara (IGN)
@@ -23,12 +24,9 @@ Berikut ini merupakan Distro linux yang resmi dibuat dari Indonesia.
 12. Dracos Linux
 13. Zencafe
 
-
-
-
 <h4><b class="title-referensi">Referensi</b></h4> 
 --- 
-<ol>
+<ol class="referensi">
     <li>
         <a href="http://blankonlinux.or.id">http://blankonlinux.or.id</a>
     </li>
