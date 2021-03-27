@@ -3,8 +3,8 @@ layout: none
 
 ---
 {
-  "theme_color": "#eaca72",
-  "background_color": "#eaca72",
+  "theme_color": "#d43f3f",
+  "background_color": "#d43f3f",
   "display": "standalone",
   "scope": "{{ site.baseurl }}/",
   "start_url": "{{ site.baseurl }}/",
