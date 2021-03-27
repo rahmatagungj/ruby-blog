@@ -387,6 +387,7 @@ dt {
 dd {
   margin-left: 0;
 }
+
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
@@ -695,59 +696,6 @@ a.label:hover {
   display: block !important;
 }
 
-@font-face {
-  font-family: "atkinson_hyperlegible";
-  src: url("/assets/fonts/Atkinson-Hyperlegible-Bold-102a.woff2")
-      format("woff2"),
-    url("/assets/fonts/Atkinson-Hyperlegible-Bold-102.woff") format("woff");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "atkinson_hyperlegible";
-  src: url("/assets/fonts/Atkinson-Hyperlegible-BoldItalic-102a.woff2")
-      format("woff2"),
-    url("/assets/fonts/Atkinson-Hyperlegible-BoldItalic-102.woff")
-      format("woff");
-  font-weight: bold;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "atkinson_hyperlegible";
-  src: url("/assets/fonts/Atkinson-Hyperlegible-Italic-102a.woff2")
-      format("woff2"),
-    url("/assets/fonts/Atkinson-Hyperlegible-Italic-102.woff") format("woff");
-  font-weight: normal;
-  font-style: italic;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "atkinson_hyperlegible";
-  src: url("/assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2")
-      format("woff2"),
-    url("/assets/fonts/Atkinson-Hyperlegible-Regular-102.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-/* latin */
-@font-face {
-  font-family: "Boogaloo";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(/assets/fonts/boogalo-400.woff2) format("woff2");
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
-    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
-    U+FEFF, U+FFFD;
-}
-
 html {
   height: 100%;
 }
@@ -757,7 +705,7 @@ article {
   border-bottom: 3px dashed #ac1249;
   padding: 10px;
   border-radius: 0px 0px 5px 5px;
-  font-family: atkinson_hyperlegible, Georgia, Times, serif;
+  font-family: sans-serif, Georgia, Times, serif;
   font-size: 1.5rem;
   color: var(--color-primary-100);
   margin-top: 4.6em;
@@ -769,7 +717,7 @@ div#search-container {
   border-top-width: 0px;
   padding: 10px;
   border-radius: 0px 0px 5px 5px;
-  font-family: atkinson_hyperlegible, Georgia, Times, serif;
+  font-family: Georgia, Times, serif;
   font-size: 1.5rem;
   color: var(--color-primary-100);
 }
@@ -999,7 +947,6 @@ input#search-box {
   padding: 5px 2.15384615em 5px 0.4em;
   -webkit-box-shadow: inset 0 0 0 1px transparent;
   box-shadow: inset 0 0 0 1px transparent;
-  font-family: atkinson_hyperlegible;
   font-size: 0.8125em;
   direction: ltr;
   -webkit-transition: border-color 250ms, box-shadow 250ms;
@@ -1027,7 +974,6 @@ input#search-box {
   padding: 4px 2.15384615em 5px 0.4em;
   -webkit-box-shadow: inset 0 0 0 1px transparent;
   box-shadow: inset 0 0 0 1px transparent;
-  font-family: atkinson_hyperlegible;
   font-size: 0.8125em;
   direction: ltr;
   -webkit-transition: border-color 250ms, box-shadow 250ms;
@@ -1496,7 +1442,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   font-size: 1.25rem;
-  font-family: atkinson_hyperlegible, Arial, sans-serif;
+  font-family: sans-serif, Arial, sans-serif;
   overflow-x: hidden;
   max-width: 100%;
 }
@@ -1548,11 +1494,26 @@ h6 {
   font-variant-ligatures: none;
   line-height: 1.2;
   max-width: 40ch;
-  font-family: Boogaloo, Arial, sans-serif;
+  font-weight: 600;
+  font-family: sans-serif, Arial;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  max-width: 40ch;
+  color: var(--color-primary-100);
+}
+
+h2 {
+  font-size: 2.8rem;
+  line-height: 1.2;
+  max-width: 40ch;
+  color: var(--color-primary-100);
 }
 
 h3 {
-  font-size: 3.1rem;
+  font-size: 2.6rem;
   line-height: 1.2;
   max-width: 40ch;
   color: var(--color-primary-100);
@@ -1565,7 +1526,7 @@ h4 {
 }
 
 h5 {
-  font-size: 2em;
+  font-size: 1.9em;
   line-height: 1.2;
   max-width: 40ch;
 }
@@ -1781,4 +1742,76 @@ a.result-list:hover {
 
 .results__container {
   padding: 10px;
+}
+
+.project__list {
+  background-color: var(--color-primary-700);
+  margin: 10px;
+  border-radius: 0.5em;
+  padding: 19px;
+  font-size: 1.3em;
+}
+
+.project__list a {
+  color: var(--color-primary-200);
+}
+
+.project__list a:hover h1 {
+  color: var(--color-primary-300);
+}
+
+.project__list h1 {
+  padding-top: 1px;
+  margin-top: 4px;
+  font-size: 1.3em;
+}
+
+.project__toke {
+  border-radius: 0.5em;
+}
+
+.project {
+  border-radius: 0.5rem;
+  padding: 15px 0px;
+  margin-left: -9.8px;
+  margin-right: -9.8px;
+}
+
+a.button__todos {
+  background-color: transparent;
+  border: 2px solid var(--color-primary-200);
+  font-size: 0.9em;
+  margin-top: 3px;
+  text-transform: uppercase;
+  color: var(--color-button-text);
+  text-decoration: none;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 40px;
+  padding-left: 40px;
+  border-radius: 0.5em;
+  position: relative;
+  width: 100%;
+  text-align: center;
+}
+
+a.button__todos:hover {
+  text-decoration: none;
+  color: var(--color-button-text);
+  background-color: var(--color-accent-hover);
+}
+
+.about {
+  background-color: var(--color-primary-800);
+  border-bottom: 3px dashed #ac1249;
+  padding: 10px;
+  border-radius: 0px 0px 5px 5px;
+  font-family: atkinson_hyperlegible, Georgia, Times, serif;
+  font-size: 1.5rem;
+  color: var(--color-primary-100);
+  margin-top: 4.6em;
+  border-radius: 0.5rem;
 }

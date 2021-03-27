@@ -9,7 +9,7 @@ if (Turbolinks.supported) {
   }, 2000);
 }
 
-Turbolinks.setProgressBarDelay(2750);
+Turbolinks.setProgressBarDelay(2000);
 
 // PWA
 if ("serviceWorker" in navigator) {
@@ -42,10 +42,3 @@ window.addEventListener("online", () => {
     document.body.classList.remove("online");
   }, 2000);
 });
-
-// BACK TO TOP
-window.onscroll = () => {
-  document.body.scrollTop > 50 || document.documentElement.scrollTop > 50 
-    ? document.getElementById("addButton").style.display = "block"
-    : document.getElementById("addButton").style.display = "none"
-};
