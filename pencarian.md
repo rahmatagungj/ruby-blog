@@ -10,12 +10,17 @@ keywords: cari tentang teknologi
 
 {%-include header_text.html -%}
 
-<center>
-<input type="text" id="search-input" class="form-control forsearch" placeholder="cari disini ..." />
-</center>
-<div class="ct">
-  <div id="results-container">
+<div class="row mb-2">
+  <div class="col-sm-9 text-muted small">
+    <center>
+      <input type="text" id="search-input" class="form-control forsearch" placeholder="cari disini ..." />
+    </center>
+    <div class="ct">
+      <div id="results-container">
+    </div>
+    </div>
   </div>
+  {% include sidebar.html %}
 </div>
 
 <script>
@@ -30,7 +35,3 @@ keywords: cari tentang teknologi
     exclude: []
   });
 </script>
-<div class="row">
-  <div class="col-sm-3 text-muted text-right small"></div>
-  <p class="post-meta">2021 |  Rahmat Agung Julians</p>
-</div>

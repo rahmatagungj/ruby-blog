@@ -1,0 +1,29 @@
+{%-assign posts = site.posts-%}
+<div class="col-sm-3 sidebar sticky-top">
+  <div class="sidebar__content accent sidebar__one">
+    <img src="/assets/images/my.webp" alt="" />
+    <h2 class="centered name">Rahmat Agung Julians</h2>
+    <p class="description_me">
+      <center>Technology Enthusiast | Philosophy | Logic</center>
+    </p>
+    <a href="https://github.com/rahmatagungj" class="sosmed">Github</a>
+  </div>
+
+  <div class="sidebar__content">
+    <h4>Catatan Terbaru</h4>
+    {%- for post in posts limit: 5 -%}
+    <div class="row mb-2">
+      <div class="col-sm-12 sidebar__post">
+        <a href="{{ post.url | relative_url }}" class="post-list"
+          >{{ post.title | downcase }}</a
+        >
+      </div>
+    </div>
+    {%- endfor -%}
+  </div>
+
+  <div class="row">
+    <div class="col-sm-3 text-muted text-right small"></div>
+    <p class="post-meta">2021 | Rahmat Agung Julians</p>
+  </div>
+</div>

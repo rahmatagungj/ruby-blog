@@ -3,6 +3,7 @@ layout: post
 author: Rahmat Agung Julians
 image:
 comments: false
+featured: true
 title:
 description:
 keywords:

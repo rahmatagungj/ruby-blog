@@ -3,6 +3,7 @@ layout: post
 author: Rahmat Agung Julians
 image: Serverless
 comments: false
+featured: true
 title: Serverless pada Cloud Computing
 description: Overview tentang penggunaan Serverless
 keywords: serverless, cloud computing, server
