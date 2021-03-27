@@ -11,35 +11,40 @@ keywords: python, linux
 Hal ini dapat dilakukan jika pada sistem bawaan linux tidak terdapat python.
 
 ### 1. Update List Repository
+
 ```bash
 sudo apt update
 ```
 
 ### 2. Install Software Pendukung
+
 ```bash
 sudo apt install software-properties-common
 ```
 
 ### 3. Menambahkan Deadsnakes PPA
+
 ```bash
 sudo add-apt-repository ppa:deadsnakes/ppa
 sudo apt update
 ```
 
 ### 4. Install Python 3
+
 ```bash
 sudo apt install python3
 python3 -V
 ```
 
 ### 5. Memasang PIP3 Pada Python 3
+
 ```bash
 sudo apt update
 sudo apt install python3-pip
 pip3 --version
 ```
 
-<h4><b class="title-referensi">Referensi</b></h4> 
+<h3 class="title-referensi"><b>Referensi</b></h3> 
 --- 
 <ol class="referensi">
     <li>

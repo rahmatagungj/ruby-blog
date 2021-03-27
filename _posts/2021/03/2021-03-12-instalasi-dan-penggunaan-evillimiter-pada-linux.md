@@ -9,10 +9,13 @@ keywords: evillimiter, linux
 ---
 
 ### Ulasan Singkat
+
 Evillimiter merupakan salah satu alat untuk membatas penggunaan jaringan pada wifi dari bandwidth baik unggah ataupun unduh.
 
 ### Instalasi
+
 Lakukan perintah ini pada terminal :
+
 ```bash
 git clone https://github.com/bitbrute/evillimiter.git
 cd evillimiter
@@ -20,36 +23,45 @@ sudo python3 setup.py install
 ```
 
 ### Penggunaan
+
 Lakukan perintah ini pada terminal :
+
 1. Memanggil Evillimiter
+
 ```bash
 sudo evillimiter
 ```
-> Pastikan memanggil evillimiter sebagai root
-2. Mencari seluruh pengguna dalam jaringan
+
+> Pastikan memanggil evillimiter sebagai root 2. Mencari seluruh pengguna dalam jaringan
+
 ```bash
 scan
 ```
-3. Melihat daftar pengguna 
+
+3. Melihat daftar pengguna
+
 ```bash
 hosts
 ```
+
 Setelah menjalankan perintah diatas maka akan ada beberapa pengguna aktif, pilihlah alamat IP yang akan ditutup berdasarkan ID.
 Disini saya memilih ID 4. maka :
 
 4. Menutup akses wifi pengguna
+
 ```bash
 block 4
 ```
+
 5. Membuka akses wifi pengguna
+
 ```bash
 free 4
 ```
 
 ketik `exit` untuk mengakhiri program.
 
-
-<h4><b class="title-referensi">Referensi</b></h4> 
+<h3 class="title-referensi"><b>Referensi</b></h3> 
 --- 
 <ol class="referensi">
     <li>

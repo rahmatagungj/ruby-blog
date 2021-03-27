@@ -15,7 +15,7 @@ keywords: cari tentang teknologi
     <center>
       <input type="text" id="search-input" class="form-control forsearch" placeholder="cari disini ..." />
     </center>
-    <div class="ct">
+    <div class="results__container">
       <div id="results-container">
     </div>
     </div>
@@ -28,7 +28,7 @@ keywords: cari tentang teknologi
     searchInput: document.getElementById('search-input'),
     resultsContainer: document.getElementById('results-container'),
     json: '{{ site.baseurl }}/postingan.json',
-    searchResultTemplate: '<div class="row mb-2 post__list"><div class="col-sm-9"><a href="{url}?query={query}" title="{desc}" class="post-list">{title}</a></div></div>',
+    searchResultTemplate: '<div class="row mb-2 post__list"><div class="col-sm-9"><a href="{url}?query={query}" title="{desc}" class="result-list">{title}</a></div></div>',
     noResultsText: 'Hasil tidak ditemukan',
     limit: 10,
     fuzzy: false,
