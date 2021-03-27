@@ -27,7 +27,7 @@ kramdown:
       line_numbers: false
       start_line: 1
 
-permalink: /:slug
+permalink: /blog/:slug
 
 exclude:
   - .sass-cache/
