@@ -1,11 +1,13 @@
 errors = 0
 
+
 def css_minifier():
     global errors
     try:
         import scripts.css_minifier
     except:
         errors += 1
+
 
 def js_minifier():
     global errors
@@ -14,13 +16,16 @@ def js_minifier():
     except:
         errors += 1
 
+
 def start():
-    print(f'''==================================
+    print(
+        f"""==================================
 
         RESOURCE MINIFIER  
      rahmatagungjulians.tech
 
-==================================''')
+=================================="""
+    )
     css_minifier()
     js_minifier()
     print("\n==================================")
