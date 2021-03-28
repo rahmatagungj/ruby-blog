@@ -16,7 +16,7 @@ module.exports = {
       },
     ],
   },
-  mode: "development", // ganti ke production kalo mau build
+  mode: "production", // ganti ke production kalo mau build
   resolve: {
     extensions: [".js", ".es6", ".jsx"],
   },

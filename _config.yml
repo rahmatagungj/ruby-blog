@@ -37,6 +37,7 @@ exclude:
   - Gemfile.lock
   - package.json
   - package-lock.json
+  - README.md
   - webpack.config.js
   - node_modules/
   - vendor/bundle/

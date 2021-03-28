@@ -6,4 +6,4 @@ except:
     print("Skipping minifier ... ")
 
 print("\n== RUNNING SERVER ")
-os.system("cd .. && webpack build && sudo bundle exec jekyll serve --livereload")
+os.system("cd .. && webpack build && sudo bundle exec jekyll serve --livereload -w")

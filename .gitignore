@@ -5,4 +5,6 @@ _site
 vendor
 .vscode
 build/__pycache__
+build/.jekyll-cache
+build/_site
 node_modules
