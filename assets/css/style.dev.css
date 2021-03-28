@@ -1819,6 +1819,8 @@ a.button__standard {
   padding-left: 20px;
   border-radius: 0.5em;
   position: relative;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 a:hover.button__standard {
@@ -1901,4 +1903,8 @@ a:hover.button__standard {
   100% {
     opacity: 1;
   }
+}
+
+blockquote p {
+  font-size: 1em;
 }
