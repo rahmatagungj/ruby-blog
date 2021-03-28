@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import ProjectListSmall from "./commons/ProjectListSmall";
 
 class Project extends Component {
   render() {
@@ -46,38 +47,18 @@ class Project extends Component {
             </div>
           </div>
           <div className="col-sm-4">
-            <div className="row mb-2">
-              <div className="project__list project__slims">
-                <a
-                  href="https://github.com/rahmatagungj/Slims9-Kuningan"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="slims kabupaten kuningan"
-                >
-                  <h1>Slims Perpustakaan Kabupaten</h1>
-                </a>
-                <span>
-                  CMS Perpustakaan ini dibuat khusus untuk perpustakaan
-                  kabupaten Kuningan di jawa barat.
-                </span>
-              </div>
-            </div>
-            <div className="row mb-2">
-              <div className="project__list">
-                <a
-                  href="https://github.com/rahmatagungj/MTASA-server-launcher"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  alt="mtasa launcher"
-                >
-                  <h1>MTA:SA Server Launcher</h1>
-                </a>
-                <span>
-                  Aplikasi desktop yang dapat digunakan sebagai launcher server
-                  di game MTA:SA.
-                </span>
-              </div>
-            </div>
+            <ProjectListSmall
+              href="https://github.com/rahmatagungj/Slims9-Kuningan"
+              title="Slims Perpustakaan Kabupaten"
+              description="CMS Perpustakaan ini dibuat khusus untuk perpustakaan
+                  kabupaten Kuningan di jawa barat."
+            />
+            <ProjectListSmall
+              href="https://github.com/rahmatagungj/MTASA-server-launcher"
+              title="MTA:SA Server Launcher"
+              description="Aplikasi desktop yang dapat digunakan sebagai launcher server
+                  di game MTA:SA."
+            />
             <div className="row mb-2">
               <div className="project__list project__todos">
                 <h1> Aplikasi My Todos</h1>

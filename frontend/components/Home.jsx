@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import HomeButton from "./commons/HomeButton";
 
 class Home extends Component {
   state = {
@@ -20,12 +21,8 @@ class Home extends Component {
                   <span>{this.state.about}</span>
                   <br />
                   <div className="homes__button">
-                    <a href="/blog" className="button__standard accent__2">
-                      Blog
-                    </a>
-                    <a href="/projek" className="button__standard accent__2">
-                      Projek
-                    </a>
+                    <HomeButton href="/blog" name="Blog" />
+                    <HomeButton href="/projek" name="Projek" />
                   </div>
                 </div>
               </div>
