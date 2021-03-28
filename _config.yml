@@ -35,12 +35,18 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - webpack.config.js
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
   - build/
+  - node_modules/
+  - webpack/
+
 
 
 timezone: Asia/Jakarta

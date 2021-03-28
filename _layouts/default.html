@@ -5,6 +5,7 @@ layout: compress
 <html lang="{{ page.lang | default: "id" }}">
   {%- include head.html -%}
   <body a="{{ site.theme_config.appearance | default: "auto" }}" id="body">
+    <div id="root"></div>
     <main class="page-content" aria-label="Content">
       <div class="w">
         {{ content }}
@@ -16,6 +17,7 @@ layout: compress
     <div id="footer__script">
       <script src="{{ "/assets/js/search.min.js"  | relative_url }}" type="text/javascript"></script>
       <script defer type="text/javascript" src="{{ "/assets/js/footer.min.js"  | relative_url }}" data-turbolinks-track="reload"></script>
+      <script type="text/javascript" src="{{ "/assets/js/bundle.js"  | relative_url }}" charset="utf-8"></script>
     </div>
   </body>
 </html>
