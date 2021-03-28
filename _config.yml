@@ -45,7 +45,7 @@ exclude:
   - vendor/ruby/
   - build/
   - node_modules/
-  - webpack/
+  - frontend/
 
 
 
