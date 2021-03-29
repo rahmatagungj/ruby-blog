@@ -1242,6 +1242,7 @@ input:-webkit-autofill:active {
 
 div#results__container {
   font-size: 1.3em;
+  color: var(--color-primary-100);
 }
 
 .border__accent {
