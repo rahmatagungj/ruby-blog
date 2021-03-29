@@ -7,7 +7,7 @@ class HomeButton extends Component {
 
   render() {
     return (
-      <a href={this.props.href} className="button__standard accent__2">
+      <a href={this.props.href} className="button__standard border__accent__2">
         {this.props.name}
       </a>
     );

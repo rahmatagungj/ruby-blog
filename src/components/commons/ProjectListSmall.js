@@ -7,7 +7,7 @@ class ProjectListSmall extends Component {
 
   render() {
     return (
-      <div className="row mb-2">
+      <div className="row mb__2">
         <div className="project__list project__slims">
           <a
             href={this.props.href}

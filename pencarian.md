@@ -10,14 +10,13 @@ keywords: cari tentang teknologi
 
 {%-include header_text.html -%}
 
-<div class="row mb-2">
-  <div class="col-sm-9 text-muted small">
+<div class="row mb__2">
+  <div class="col__sm__9 text__muted small">
     <center>
-      <input type="text" id="search-input" class="form-control forsearch" placeholder="cari disini ..." />
+      <input type="text" id="search__input" class="search__form" placeholder="cari disini ..." />
     </center>
     <div class="results__container">
-      <div id="results-container">
-    </div>
+      <div id="results__container"></div>
     </div>
   </div>
   {% include sidebar.html %}
@@ -25,10 +24,10 @@ keywords: cari tentang teknologi
 
 <script>
   SimpleJekyllSearch({
-    searchInput: document.getElementById('search-input'),
-    resultsContainer: document.getElementById('results-container'),
-    json: '{{ site.baseurl }}/postingan.json',
-    searchResultTemplate: '<div class="row mb-2 post__list"><div class="col-sm-9"><a href="{url}?query={query}" title="{desc}" class="result-list">{title}</a></div></div>',
+    searchInput: document.getElementById('search__input'),
+    resultsContainer: document.getElementById('results__container'),
+    json: '{{ site.baseurl }}/api/postingan.json',
+    searchResultTemplate: '<div class="row mb__2 post__list"><div class="col__sm__9"><a href="{url}?query={query}" title="{desc}" class="result__list">{title}</a></div></div>',
     noResultsText: 'Hasil tidak ditemukan',
     limit: 10,
     fuzzy: false,

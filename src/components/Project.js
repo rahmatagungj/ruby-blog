@@ -8,10 +8,10 @@ class Project extends Component {
 
     return (
       <React.Fragment>
-        <div className="ct project">
-          <div className="col-sm-4">
-            <div className="row mb-2">
-              <div className="project__list accent project__toke">
+        <div className="container project">
+          <div className="col__sm__4">
+            <div className="row mb__2">
+              <div className="project__list border__accent project__toke">
                 <img
                   className="project__toke"
                   src="https://raw.githubusercontent.com/rahmatagungj/toke/main/Documentation/LOGO%20PANJANG.png"
@@ -46,7 +46,7 @@ class Project extends Component {
               </div>
             </div>
           </div>
-          <div className="col-sm-4">
+          <div className="col__sm__4">
             <ProjectListSmall
               href="https://github.com/rahmatagungj/Slims9-Kuningan"
               title="Slims Perpustakaan Kabupaten"
@@ -59,12 +59,12 @@ class Project extends Component {
               description="Aplikasi desktop yang dapat digunakan sebagai launcher server
                   di game MTA:SA."
             />
-            <div className="row mb-2">
+            <div className="row mb__2">
               <div className="project__list project__todos">
                 <h1> Aplikasi My Todos</h1>
                 <span>Aplikasi untuk mengelola agenda dan perencaan.</span>
-                <div className="row mb-2">
-                  <div className="col-sm-6 ">
+                <div className="row mb__2">
+                  <div className="col__sm__6 ">
                     <center>
                       <a
                         href={vues}
@@ -76,7 +76,7 @@ class Project extends Component {
                       </a>
                     </center>
                   </div>
-                  <div className="col-sm-6">
+                  <div className="col__sm__6">
                     <center>
                       <a
                         href={vanilla}
@@ -93,8 +93,8 @@ class Project extends Component {
             </div>
           </div>
 
-          <div className="col-sm-4">
-            <div className="row mb-2">
+          <div className="col__sm__4">
+            <div className="row mb__2">
               <div className="project__list">Segera Hadir</div>
             </div>
           </div>

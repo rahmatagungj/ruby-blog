@@ -14,8 +14,8 @@ class Home extends Component {
         <div className="center__screen">
           <div className="homes__content fade__in">
             <center>
-              <div className="row mb-2" data-turbolinks-permanent>
-                <div className="col-sm-12">
+              <div className="row mb__2" data-turbolinks-permanent>
+                <div className="col__sm__12">
                   <img src="/assets/images/my.webp" alt={this.state.name} />
                   <h1>{this.state.name}</h1>
                   <span>{this.state.about}</span>

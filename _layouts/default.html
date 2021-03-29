@@ -4,14 +4,14 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: "id" }}">
   {%- include head.html -%}
-  <body a="{{ site.theme_config.appearance | default: "auto" }}" id="body">
+  <body id="body">
     <main class="page-content" aria-label="Content">
-      <div class="w">
+      <div class="container">
         {{ content }}
         <div id="root"></div>
       </div>
     </main>
-    <div id="not_support" class="message">Browser tidak mendukung.</div>
+    <div id="not__support" class="message">Browser tidak mendukung.</div>
     <div id="offline" class="message">Koneksi internet terputus.</div>
     <div id="online" class="message">Koneksi internet terhubung.</div>
     <div id="footer__script">

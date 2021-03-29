@@ -1,7 +1,7 @@
 var path = require("path");
 
 module.exports = {
-  entry: "./frontend/app.js",
+  entry: "./src/index.js",
   output: {
     path: path.resolve(__dirname, "assets/js"),
     publicPath: "/",

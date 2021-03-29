@@ -1,28 +1,28 @@
 {%-assign posts = site.posts-%} {%-if include.limit and posts.size >
 include.limit-%} {%-assign limit_exceeded = true-%} {%-else-%} {%-assign
 limit_exceeded = false-%} {%-endif-%}
-<div class="row mb-2">
-  <div class="col-sm-9 text-muted small">
-    <div class="ct scrolled">
+<div class="row">
+  <div class="col__sm__9 text__muted small">
+    <div class="content">
       {%- if posts.size > 0 -%} {%- for post in posts limit: include.limit -%}
-      <div class="row mb-2 post__list">
-        <div class="col-sm-9">
+      <div class="row post__list">
+        <div class="col__sm__9">
           <a href="{{ post.url | relative_url }}" class="post-list"
             >{{ post.title | downcase }}</a
           >
-          <p class="text-muted post__date">
+          <p class="text__muted post__date">
             {{ post.date | | date: "%m-%d-%Y" }} - Rahmat Agung Julians
           </p>
         </div>
         {%- if post.featured -%}
-        <div class="col-sm-3 text-muted text-right small verified__text yes">
+        <div class="col__sm__3 text__muted text__right small featured">
           <span
               ><svg class="pulse" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.867 3.493l4.133 3.444v5.127l-10 8.333-10-8.334v-5.126l4.133-3.444 5.867 3.911 5.867-3.911zm.133-2.493l-6 4-6-4-6 5v7l12 10 12-10v-7l-6-5z"/></svg></span>
           </div>
             {%-endif-%}
         </div>
         {%- endfor -%} {%- if include.show_more and limit_exceeded -%}
-        <center class="centered">
+        <center class="center">
           <br />
           <a class="arsip__button" href="{{ include.show_more_url }}"
             >{{ include.show_more_text | default: "Show more..." }}</a

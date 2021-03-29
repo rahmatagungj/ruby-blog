@@ -1,16 +1,16 @@
-<div class="row mb-2 myhead head__mobile" data-turbolinks-permanent>
-  <div class="col-sm-6">
-    <div class="row mb-2">
-      <div class="col-sm-3">
+<div class="row main__head head__mobile" data-turbolinks-permanent>
+  <div class="col__sm__6">
+    <div class="row">
+      <div class="col__sm__3">
         <img src="{{ "/assets/images/my.webp" | relative_url }}"
-        class="head-icon" alt="Rahmat Agung Julians" width="100px"
+        class="head__icon" alt="Rahmat Agung Julians" width="100px"
         height="100px" data-turbolinks-permanent/>
       </div>
-      <div class="col-sm-9 text__identitas">
+      <div class="col__sm__9 text__identitas">
         <header data-turbolinks-permanent>
-          <h1 class="centered">
+          <h2 class="centered">
             <a href="/" class="title-head">Rahmat Agung Julians</a>
-          </h1>
+          </h2>
           <p class="description_me">
             Technology Enthusiast | Philosophy | Logic
           </p>
@@ -19,28 +19,27 @@
       </div>
     </div>
   </div>
-  <div class="col-sm-4 text-muted small headright ads__head"></div>
+  <div class="col__sm__4 text__muted small headright ads__head"></div>
 </div>
-<div class="row mb-2 myhead toolbar sticky__top" data-turbolinks-permanent>
-  <div class="col-sm-3">
+<div class="row main__head toolbar sticky__top" data-turbolinks-permanent>
+  <div class="col__sm__3">
     {% if page.url == "/blog" or page.url == "/projek"%}
-    <a href="/" class="back__button">BERANDA</a>
+    <a href="/""><button class="btn__bg__accent bold">BERANDA</button></a>
     {% else %}
-    <a href="/blog" class="back__button">KEMBALI</a>
+    <a href="/blog"><button class="btn__bg__accent bold">KEMBALI</button></a>
     {% endif %}
   </div>
-  <div class="col-sm-9 text-muted small righted">
+  <div class="col__sm__9 text__muted small font__1em text__right main__head">
     {% if page.url == "/projek" %}
     <a
       href="https://github.com/rahmatagungj"
       rel="noopener noreferer"
       target="_blank"
-      class="accent__2"
-      >GITHUB</a
+      ><button>GITHUB</button></a
     >
     {% else %}
-    <a class="search__button" href="/pencarian">Cari</a>
-    <a href="/feed.xml">RSS</a>
+    <a href="/pencarian"><button class="bold">Cari</button></a>
+    <a href="/feed.xml"><button class="bold">RSS</button></a>
     {% endif %}
   </div>
 </div>

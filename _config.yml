@@ -46,9 +46,9 @@ exclude:
   - vendor/ruby/
   - build/
   - node_modules/
-  - frontend/
+  - src/
   - _draft/
-
+  - documentation/
 
 
 timezone: Asia/Jakarta
