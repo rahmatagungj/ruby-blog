@@ -18,6 +18,10 @@ ffmpeg -y -i input_file.mp4 -c:v libx264 -c:a aac -strict experimental -tune fas
 
 > Ubah output_file.mp4 dengan nama hasil conversi
 
+Hal in dilakukan untuk merubah format komputer pada android, perekam layar kazam hanya dapat membuat video pada 44khz.
+
+Maka langkah yang dilakukan untuk membuat video dapat diputar pada media lainnya seperti android yaitu dengan merubah formatnya.
+
 <h3 class="title-referensi"><b>Referensi</b></h3> 
 --- 
 <ol class="referensi">

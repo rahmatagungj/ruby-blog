@@ -10,8 +10,24 @@ keywords: java, netbeans, cli
 
 ## Persiapan
 
+### Update Repository
+
 ```bash
 sudo apt-get update && apt-get upgrade
+```
+
+### Install JDK
+
+```bash
+sudo apt install openjdk-10-jdk
+```
+
+Jika versi JDK 10 tidak ada, gunakan salah satu dibawah ini.
+
+```bash
+sudo apt install openjdk-6-jdk
+sudo apt install openjdk-7-jdk
+sudo apt install openjdk-8-jdk
 ```
 
 ## Install Netbeans

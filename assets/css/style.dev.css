@@ -373,6 +373,10 @@ li {
   padding: 2rem;
 }
 
+.page-content {
+  max-width: 2000px;
+  margin: 0px auto;
+}
 .h1,
 h1 {
   font-size: 26px;
@@ -397,6 +401,12 @@ h3.searched {
 p.post__meta {
   text-align: center;
   font-size: 1.3em;
+  margin-top: 30px;
+}
+
+.author__meta {
+  text-align: center;
+  font-size: 1em;
   margin-top: 30px;
 }
 
@@ -435,6 +445,7 @@ img.head__icon {
   position: fixed;
   top: 0px;
   width: 100%;
+  max-width: 2010px;
 }
 
 input#search__input {
@@ -465,11 +476,11 @@ input#search__input:focus {
 }
 
 .sidebar {
-  position: relative;
-  position: -webkit-fixed;
-  position: fixed;
+  position: -webkit-sticky;
+  position: sticky;
   top: 70px;
   right: 10px;
+  float: right;
 }
 
 .sidebar h2 {

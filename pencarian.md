@@ -11,7 +11,7 @@ keywords: cari tentang teknologi
 {%-include header_text.html -%}
 
 <div class="row mb__2">
-  <div class="col__sm__9 text__muted small">
+  <div class="col__sm__12 text__muted small">
     <center>
       <input type="text" id="search__input" class="search__form" placeholder="cari disini ..." />
     </center>
@@ -19,7 +19,6 @@ keywords: cari tentang teknologi
       <div id="results__container"></div>
     </div>
   </div>
-  {% include sidebar.html %}
 </div>
 
 <script>
