@@ -26,7 +26,7 @@ keywords: cari tentang teknologi
     searchInput: document.getElementById('search__input'),
     resultsContainer: document.getElementById('results__container'),
     json: '{{ site.baseurl }}/api/postingan.json',
-    searchResultTemplate: '<div class="row mb__2 post__list"><div class="col__sm__9"><a href="{url}?query={query}" title="{desc}" class="result__list">{title}</a></div></div>',
+    searchResultTemplate: '<a href="{url}?query={query}" title="{desc}" class="result__list"><div class="row mb__2 post__list"><div class="col__sm__9">{title}</div></div></a>',
     noResultsText: 'Hasil tidak ditemukan',
     limit: 10,
     fuzzy: false,

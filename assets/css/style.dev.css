@@ -400,6 +400,7 @@ h1 {
   box-shadow: 0 10px 42px rgb(25 17 34 / 10%);
   background-color: var(--color-primary-700);
   box-shadow: 0 3px 10px rgb(25 17 34 / 5%);
+  color: #f8f8f2;
 }
 
 pre.highlight {
