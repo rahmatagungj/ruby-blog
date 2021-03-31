@@ -42,9 +42,3 @@ window.addEventListener("online", () => {
     document.body.classList.remove("online");
   }, 2000);
 });
-
-Turbolinks.enableTransitionCache(true);
-Turbolinks.visit(location.toString());
-Turbolinks.enableTransitionCache(false);
-
-console.log("hai");

@@ -17,6 +17,10 @@
   --color-accent-disabled: #f5bfbf;
 }
 
+button {
+  transition: all 0.5s ease;
+}
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -382,11 +386,20 @@ h1 {
   font-size: 26px;
 }
 
-a.post-list {
+.post-list {
   text-transform: capitalize;
   font-size: 1.6em;
   color: var(--color-primary-100);
   font-weight: 600;
+  margin-top: 10px;
+}
+
+.post__list:hover {
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 42px rgb(25 17 34 / 10%);
+  background-color: var(--color-primary-700);
+  box-shadow: 0 3px 10px rgb(25 17 34 / 5%);
 }
 
 pre.highlight {
@@ -968,6 +981,7 @@ button:hover {
   text-decoration: none;
   color: var(--color-button-text);
   background-color: var(--color-primary-600);
+  box-shadow: 0 3px 10px rgb(25 17 34 / 5%);
 }
 
 button:focus {
@@ -1161,6 +1175,15 @@ input:-webkit-autofill:active {
   margin-top: 10px;
   margin-left: -9.8px;
   margin-right: -9.8px;
+  transition: all 0.25s ease-in;
+}
+
+.post__list h3 {
+  color: var(--color-primary-100);
+}
+
+.post__list:hover h3 {
+  color: #f8f8f2;
 }
 
 .post__date {
@@ -1217,6 +1240,7 @@ div#results__container {
 
 .btn__bg__accent {
   background-color: var(--color-accent);
+  cursor: pointer;
 }
 
 .btn__bg__accent:hover {
@@ -1228,6 +1252,10 @@ div#results__container {
   padding-right: 37px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.cursor__pointer {
+  cursor: pointer;
 }
 
 .sidebar__content img {
@@ -1268,10 +1296,15 @@ button.small {
 
 .sidebar__post {
   font-size: 0.8em;
+  color: var(--color-primary-100);
 }
 
 .sidebar__post .post-list {
   font-weight: 500;
+}
+
+.sidebar__post:hover a {
+  color: #f8f8f2;
 }
 
 a.result__list {
@@ -1378,12 +1411,17 @@ a.button__todos:hover {
   position: relative;
   margin-left: 3px;
   margin-right: 3px;
+  cursor: pointer;
 }
 
 .button__standard:hover {
   text-decoration: none;
   color: var(--color-button-text);
   background-color: var(--color-accent);
+}
+
+.bg__600 {
+  background-color: var(--color-primary-600);
 }
 
 .center__screen {
@@ -1496,11 +1534,13 @@ blockquote p {
 .sosmed {
   padding: 2px;
   fill: #ffffff;
+  transition: all 0.2s ease-in;
 }
 
 .sosmed:hover {
   transform: scale(1.2);
   fill: var(--color-accent);
+  box-shadow: 0 3px 10px rgb(25 17 34 / 5%);
 }
 
 .application {

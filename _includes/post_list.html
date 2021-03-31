@@ -5,11 +5,12 @@ limit_exceeded = false-%} {%-endif-%}
   <div class="col__sm__9 text__muted small">
     <div class="content">
       {%- if posts.size > 0 -%} {%- for post in posts limit: include.limit -%}
+      <a href="{{ post.url | relative_url }}">
       <div class="row post__list">
         <div class="col__sm__9">
-          <a href="{{ post.url | relative_url }}" class="post-list"
-            >{{ post.title | downcase }}</a
-          >
+          <h3 class="post-list"
+            >{{ post.title | downcase }}</h3>
+          
           <p class="text__muted post__date">
             {{ post.date | | date: "%m-%d-%Y" }} - Rahmat Agung Julians
           </p>
@@ -20,7 +21,7 @@ limit_exceeded = false-%} {%-endif-%}
               ><svg class="pulse" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M17.867 3.493l4.133 3.444v5.127l-10 8.333-10-8.334v-5.126l4.133-3.444 5.867 3.911 5.867-3.911zm.133-2.493l-6 4-6-4-6 5v7l12 10 12-10v-7l-6-5z"/></svg></span>
           </div>
             {%-endif-%}
-        </div>
+        </div></a>
         {%- endfor -%} {%- if include.show_more and limit_exceeded -%}
         <center class="center">
           <br />

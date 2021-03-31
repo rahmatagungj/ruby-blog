@@ -2,11 +2,6 @@ import React, { Component } from "react";
 import HomeButton from "./commons/HomeButton";
 
 class Home extends Component {
-  state = {
-    name: "Rahmat Agung Julians",
-    about: "Technology Enthusiast | Philosophy | Logic",
-  };
-
   render() {
     return (
       <React.Fragment>
@@ -15,14 +10,17 @@ class Home extends Component {
             <center>
               <div className="row mb__2" data-turbolinks-permanent>
                 <div className="col__sm__12">
-                  <img src="/assets/images/my.webp" alt={this.state.name} />
-                  <h1>{this.state.name}</h1>
-                  <span>{this.state.about}</span>
+                  <img
+                    src="/assets/images/my.webp"
+                    alt="Rahmat Agung Julians"
+                  />
+                  <h1>Rahmat Agung Julians</h1>
+                  <span>Technology Enthusiast | Philosophy | Logic</span>
                   <br />
                   <div className="homes__button">
-                    <HomeButton href="/blog" name="Blog" datas="true" />
-                    <HomeButton href="/app" name="Aplikasi" datas="true" />
-                    <HomeButton href="/projek" name="Projek" datas="true" />
+                    <HomeButton href="/blog" name="Blog" />
+                    <HomeButton href="/app" name="Aplikasi" />
+                    <HomeButton href="/projek" name="Projek" />
                   </div>
                 </div>
               </div>
