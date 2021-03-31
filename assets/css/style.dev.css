@@ -501,60 +501,6 @@ input#search__input:focus {
   }
 }
 
-@media all and (max-width: 771px) {
-  .main__head {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    hyphens: auto;
-  }
-  .main__head__nav {
-    margin-left: auto;
-    text-align: center;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
-    word-break: break-word;
-    hyphens: auto;
-  }
-  .head__icon {
-    align-items: center;
-    left: auto;
-    right: auto;
-    display: inline-flex;
-  }
-  .featured {
-    margin-top: 0px;
-  }
-  .head__mobile {
-    display: block;
-  }
-  .sidebar__one {
-    display: none;
-  }
-  .sidebar {
-    float: none;
-  }
-  .toolbar {
-    position: static;
-    padding-bottom: 0px;
-  }
-  .sidebar {
-    position: static;
-  }
-  .content {
-    margin-top: 0px;
-  }
-  article {
-    margin-top: 20px;
-  }
-  input#search__input {
-    margin-top: 20px;
-  }
-}
-
 input#search-box {
   background-color: rgba(255, 255, 255, 0.5);
   color: #000000;
@@ -1586,4 +1532,63 @@ blockquote p {
 .centered {
   align-items: center;
   text-align: center;
+}
+
+@media all and (max-width: 771px) {
+  .main__head {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+  }
+  .main__head__nav {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+  }
+  .project {
+    margin-top: 1em;
+  }
+  .head__icon {
+    align-items: center;
+    left: auto;
+    right: auto;
+    display: inline-flex;
+  }
+  .featured {
+    margin-top: 0px;
+  }
+  .head__mobile {
+    display: block;
+  }
+  .sidebar__one {
+    display: none;
+  }
+  .sidebar {
+    float: none;
+  }
+  .toolbar {
+    position: static;
+    padding-bottom: 0px;
+    padding-right: 0px;
+  }
+  .sidebar {
+    position: static;
+  }
+  .content {
+    margin-top: 0px;
+  }
+  article {
+    margin-top: 20px;
+  }
+  input#search__input {
+    margin-top: 20px;
+  }
 }
