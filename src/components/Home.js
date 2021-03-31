@@ -19,7 +19,7 @@ class Home extends Component {
                   <br />
                   <div className="homes__button">
                     <HomeButton href="/blog" name="Blog" />
-                    <HomeButton href="/app" name="Aplikasi" />
+                    <HomeButton href="https://app.rahmatagungjulians.tech" name="Aplikasi" />
                     <HomeButton href="/projek" name="Projek" />
                   </div>
                 </div>
