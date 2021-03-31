@@ -12,13 +12,49 @@ self.addEventListener("install", function (event) {
       // console.log("Cached offline page during install");
 
       if (offlineFallbackPage === "to-do.html") {
-        return cache.add(new Response("Update the value of the offlineFallbackPage constant in the serviceworker."));
+        return cache.add(
+          new Response(
+            "Update the value of the offlineFallbackPage constant in the serviceworker."
+          )
+        );
       }
 
       return cache.add(offlineFallbackPage);
     })
   );
 });
+
+function onInstall(event) {
+  self.skipWaiting();
+  event.waitUntil(
+    caches.open(CACHE).then(function prefill(cache) {
+      return cache.addAll([
+        "/",
+        "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap",
+      ]);
+    })
+  );
+}
+
+function onActivate(event) {
+  event.waitUntil(
+    caches.keys().then(function (cacheNames) {
+      return Promise.all(
+        cacheNames
+          .filter(function (cacheName) {
+            return cacheName.indexOf(VERSION) !== 0;
+          })
+          .map(function (cacheName) {
+            return caches.delete(cacheName);
+          })
+      );
+    })
+  );
+}
+
+self.addEventListener("activate", onActivate);
+
+self.addEventListener("install", onInstall);
 
 // If any fetch fails, it will look for the request in the cache and serve it from there first
 self.addEventListener("fetch", function (event) {
@@ -34,7 +70,7 @@ self.addEventListener("fetch", function (event) {
 
         return response;
       })
-      .catch(function (error) {        
+      .catch(function (error) {
         // console.log("Network request Failed. Serving content from cache: " + error);
         return fromCache(event.request);
       })

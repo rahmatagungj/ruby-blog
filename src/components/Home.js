@@ -21,8 +21,8 @@ class Home extends Component {
                   <span>{this.state.about}</span>
                   <br />
                   <div className="homes__button">
-                    <HomeButton href="/blog" name="Blog" />
-                    <HomeButton href="/projek" name="Projek" />
+                    <HomeButton href="/blog" name="Blog" datas="true" />
+                    <HomeButton href="/projek" name="Projek" datas="false" />
                   </div>
                 </div>
               </div>

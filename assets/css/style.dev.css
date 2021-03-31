@@ -526,6 +526,9 @@ input#search__input:focus {
   .sidebar__one {
     display: none;
   }
+  .sidebar {
+    float: none;
+  }
   .toolbar {
     position: static;
     padding-bottom: 0px;
@@ -952,7 +955,7 @@ pre.highlight {
   padding: 1.5em;
   transform: translate(-50%, -100%);
   transition: transform 0.25s;
-  z-index: 10;
+  z-index: 100;
 }
 
 #not__support {
@@ -1186,12 +1189,6 @@ a:hover {
 }
 ::-webkit-scrollbar-thumb {
   background: var(--color-accent);
-  display: none;
-}
-
-​.turbolinks-progress-bar {
-  height: 5px;
-  background-color: var(--color-accent);
   display: none;
 }
 
@@ -1518,4 +1515,10 @@ blockquote p {
 .sosmed:hover {
   transform: scale(1.2);
   fill: var(--color-accent);
+}
+
+​.turbolinks-progress-bar {
+  height: 5px;
+  background-color: var(--color-accent);
+  z-index: 100;
 }
