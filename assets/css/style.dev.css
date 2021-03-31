@@ -1364,8 +1364,6 @@ a.result__list:hover {
 .project {
   border-radius: 0.5rem;
   padding: 15px 0px;
-  margin-left: -9.8px;
-  margin-right: -9.8px;
   margin-top: 3em;
 }
 
@@ -1473,6 +1471,23 @@ a.button__todos:hover {
   margin-left: -300px;
 }
 
+.fixed__bottom__projek {
+  width: 600px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -300px;
+}
+
+@media screen and (max-width: 773px) {
+  .fixed__bottom__projek {
+    position: inherit;
+    margin-left: 0px;
+    left: 0;
+    width: auto;
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -1556,4 +1571,9 @@ blockquote p {
   height: 5px;
   background-color: var(--color-accent);
   z-index: 100;
+}
+
+.centered {
+  align-items: center;
+  text-align: center;
 }

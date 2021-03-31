@@ -43,6 +43,8 @@ window.addEventListener("online", () => {
   }, 2000);
 });
 
-window.addEventListener("turbolinks:visit", (e) => {
-  console.log("render", e);
-});
+Turbolinks.enableTransitionCache(true);
+Turbolinks.visit(location.toString());
+Turbolinks.enableTransitionCache(false);
+
+console.log("hai");

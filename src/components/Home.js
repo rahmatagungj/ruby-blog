@@ -10,7 +10,6 @@ class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <div id="home"></div>
         <div className="center__screen">
           <div className="homes__content fade__in">
             <center>
