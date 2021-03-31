@@ -511,6 +511,14 @@ input#search__input:focus {
     word-break: break-word;
     hyphens: auto;
   }
+  .main__head__nav {
+    margin-left: auto;
+    text-align: center;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    word-break: break-word;
+    hyphens: auto;
+  }
   .head__icon {
     align-items: center;
     left: auto;
@@ -1461,6 +1469,8 @@ a.button__todos:hover {
   -moz-animation: fadeIn ease 1.5s forwards;
   -o-animation: fadeIn ease 1.5s forwards;
   -ms-animation: fadeIn ease 1.5s forwards;
+  animation-delay: 0s;
+  -webkit-backface-visibility: hidden;
 }
 
 .fixed__bottom {
