@@ -17,25 +17,13 @@ if ("serviceWorker" in navigator) {
     // console.log("An active service worker found, no need to register");
   } else {
     // Register the service worker
-    try {
-      console.log("install 1");
-      navigator.serviceWorker
-        .register("./sw.js", {
-          scope: "./",
-        })
-        .then(function (reg) {
-          // console.log("Service worker has been registered for scope: " + reg.scope);
-        });
-    } catch (e) {
-      console.log("install 2");
-      navigator.serviceWorker
-        .register("./blog/sw.js", {
-          scope: "./",
-        })
-        .then(function (reg) {
-          // console.log("Service worker has been registered for scope: " + reg.scope);
-        });
-    }
+    navigator.serviceWorker
+      .register("./sw.js", {
+        scope: "./",
+      })
+      .then(function (reg) {
+        // console.log("Service worker has been registered for scope: " + reg.scope);
+      });
   }
 }
 
@@ -53,4 +41,8 @@ window.addEventListener("online", () => {
   setTimeout(() => {
     document.body.classList.remove("online");
   }, 2000);
+});
+
+window.addEventListener("turbolinks:visit", (e) => {
+  console.log("render", e);
 });

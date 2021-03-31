@@ -22,7 +22,8 @@ class Home extends Component {
                   <br />
                   <div className="homes__button">
                     <HomeButton href="/blog" name="Blog" datas="true" />
-                    <HomeButton href="/projek" name="Projek" datas="false" />
+                    <HomeButton href="/app" name="Aplikasi" datas="true" />
+                    <HomeButton href="/projek" name="Projek" datas="true" />
                   </div>
                 </div>
               </div>

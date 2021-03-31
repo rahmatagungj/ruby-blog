@@ -1269,6 +1269,13 @@ div#results__container {
   background-color: var(--color-accent-hover);
 }
 
+.btn__fit {
+  padding-left: 37px;
+  padding-right: 37px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
 .sidebar__content img {
   width: 8em;
   border-radius: 100%;
@@ -1458,6 +1465,14 @@ a.button__todos:hover {
   -ms-animation: fadeIn ease 1.5s forwards;
 }
 
+.fixed__bottom {
+  width: 600px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  margin-left: -300px;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -1515,6 +1530,26 @@ blockquote p {
 .sosmed:hover {
   transform: scale(1.2);
   fill: var(--color-accent);
+}
+
+.application {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-top: 20vh;
+  background-color: var(--color-primary-800);
+  max-width: 250px;
+  border-radius: 0.5rem;
+}
+
+.application__content {
+  padding-bottom: 20px;
+}
+
+.application h1 {
+  font-size: 2rem;
+  text-align: left;
 }
 
 ​.turbolinks-progress-bar {

@@ -9,3 +9,4 @@ build/.jekyll-cache
 build/_site
 build/scripts/__pycache__
 node_modules
+app/music-player
