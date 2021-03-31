@@ -31,14 +31,26 @@ cd build && python3 run.py
 cd build && python3 minifier.py
 ```
 
-### Deploy to Production
+### Build 
 ```bash
 cd build && python3 build.py
 ```
 
 ## BUILD AND DEPLOYS
-1. Push all files into main repository
-2. Run deploy actions (visit this link)
-```html
-https://github.com/rahmatagungj/rahmatagungj.tech/actions/workflows/build-jekyll.yml
+> Make sure you have this folder structure 
+
+Tree :
 ```
+  - production-rahmatagungjulians.tech
+    - app
+      - music-player
+  - development-rahmatagungjulians.tech
+  - music-player
+    - build
+```
+and run this .
+```
+cd build && python3 deploy.py
+```
+
+
