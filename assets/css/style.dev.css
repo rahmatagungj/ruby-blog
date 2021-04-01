@@ -21,6 +21,7 @@ button {
   transition: all 0.5s ease;
 }
 
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -35,6 +36,7 @@ button {
 html {
   font-size: 10px;
   -webkit-tap-highlight-color: transparent;
+  line-height: 1.7;
 }
 body {
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
@@ -51,14 +53,15 @@ button {
   line-height: inherit;
 }
 a {
-  color: #337ab7;
+  color: #0089c7;
   text-decoration: none;
 }
 a:focus,
 a:hover {
   color: #23527c;
-  text-decoration: underline;
+  text-decoration: none;
 }
+
 a:focus {
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
@@ -323,7 +326,7 @@ article {
   padding: 10px;
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica, Arial, sans-serif;
-  font-size: 1.3rem;
+  font-size: clamp(13px,calc(.7rem + .25vw),20px);
   color: var(--color-primary-100);
   margin-top: 6.2rem;
   border-radius: 0.5rem;
@@ -1021,7 +1024,6 @@ body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
-  background: var(--color-primary-900);
   color: var(--color-primary-200);
   font-weight: 400;
   line-height: 1.5;
@@ -1263,16 +1265,16 @@ div#results__container {
   width: 8em;
   border-radius: 100%;
   margin-right: auto;
+  margin-top: 2px;
   margin-left: auto;
+  box-shadow: 0 0 1.5rem rgb(17 17 17 / 70%);
 }
 
-.sidebar__one {
-  background: linear-gradient(160deg, #d4473f 0%, #151a21 59%);
-}
 
 .sidebar__one .name {
   font-size: 1.6em;
-  text-align: center;
+  color: var(--color-accent);
+  text-align: center; 
   margin-top: 0.8em;
 }
 
@@ -1633,3 +1635,4 @@ blockquote p {
     margin-top: 20px;
   }
 }
+
