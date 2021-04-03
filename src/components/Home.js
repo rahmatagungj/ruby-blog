@@ -1,11 +1,11 @@
 import React, { Component } from "react";
 import HomeButton from "./commons/HomeButton";
-
+import styled from "styled-components";
 class Home extends Component {
   render() {
     return (
       <React.Fragment>
-        <div className="center__screen">
+        <CenterMe>
           <div className="homes__content fade__in">
             <center>
               <div className="row mb__2" data-turbolinks-permanent>
@@ -14,22 +14,40 @@ class Home extends Component {
                     src="/assets/images/my.webp"
                     alt="Rahmat Agung Julians"
                   />
-                  <h1>Rahmat Agung Julians</h1>
+                  <H1>Rahmat Agung Julians</H1>
                   <span>Technology Enthusiast | Philosophy | Logic</span>
                   <br />
-                  <div className="homes__button">
+                  <HomeButtons>
                     <HomeButton href="/blog" name="Blog" />
-                    <HomeButton href="https://app.rahmatagungjulians.tech" name="Aplikasi" />
+                    <HomeButton
+                      href="https://app.rahmatagungjulians.tech"
+                      name="Aplikasi"
+                    />
                     <HomeButton href="/projek" name="Projek" />
-                  </div>
+                  </HomeButtons>
                 </div>
               </div>
             </center>
           </div>
-        </div>
+        </CenterMe>
       </React.Fragment>
     );
   }
 }
+
+const H1 = styled.h1`
+  font-size: 1.9em;
+`;
+
+const CenterMe = styled.div`
+  width: 100%;
+  display: flex;
+  height: 80vh;
+  justify-content: center;
+`;
+
+const HomeButtons = styled.div`
+  padding-top: 10px;
+`;
 
 export default Home;

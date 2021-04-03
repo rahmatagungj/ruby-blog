@@ -31,6 +31,7 @@ function onInstall(event) {
       return cache.addAll([
         "/",
         "https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap",
+        "https://cdn.jsdelivr.net/gh/rahmatagungj/turbolinks-js@master/tb.min.js",
       ]);
     })
   );

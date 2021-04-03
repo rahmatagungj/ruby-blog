@@ -5,11 +5,12 @@ layout: default
 {%-include header_text.html -%}
 
 <div class="row">
-  <div class="col__sm__9 text__muted small">
+  <div class="fix__mobile col__sm__9 text__muted small">
     <article>
       <h1 class="article__title"><b>{{ page.title }}</b></h1>
       <p class="article__meta">
-        {{ page.date | date: "%m-%d-%Y" }} | Rahmat Agung Julians
+        {{ page.date | date: "%m-%d-%Y" }} | Rahmat Agung Julians | {% include
+        reading_times.html %}
       </p>
       <hr />
       {{ content }}
