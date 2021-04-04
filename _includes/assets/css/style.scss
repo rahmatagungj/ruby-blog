@@ -1534,6 +1534,12 @@ blockquote p {
   text-align: center;
 }
 
+@media all and (min-width: 771px) and (max-width: 1060px) {
+  .sidebar {
+    margin-top: 42px;
+  }
+}
+
 @media all and (max-width: 771px) {
   .main__head {
     margin-left: auto;

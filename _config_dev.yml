@@ -31,7 +31,7 @@ kramdown:
 permalink: /blog/:slug
 
 app:
-  mode: production
+  mode: development
 
 sass:
   sass_dir: _includes/css

@@ -4,6 +4,8 @@ if ("serviceWorker" in navigator) {
       .register("./sw.js", {
         scope: "./",
       })
-      .then(function (reg) {});
+      .then(function (reg) {
+        /* service workers installed */
+      });
   }
 }
