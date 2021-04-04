@@ -26,10 +26,6 @@ or
 ```bash
 cd build && python3 run.py
 ```
-### Just for manify resource
-```bash
-cd build && python3 minifier.py
-```
 
 ### Build 
 ```bash
@@ -41,10 +37,8 @@ cd build && python3 build.py
 
 Tree :
 ```
-  - production-rahmatagungjulians.tech
-    - app
-      - music-player
-  - development-rahmatagungjulians.tech
+  - rahmatagungjulians.tech
+  - app-rahmatagungjulians.tech
   - music-player
     - build
 ```
