@@ -1,18 +1,11 @@
-import React, { Component } from "react";
-class HomeButton extends Component {
-  constructor(props) {
-    super(props);
-  }
+import React from "react";
 
-  render() {
-    return (
-      <a href={this.props.href}>
-        <button className="button__standard border__accent__2">
-          {this.props.name}
-        </button>
-      </a>
-    );
-  }
-}
+const HomeButton = ({ href, name }) => {
+  return (
+    <a href={href} alt={name}>
+      <button className="button__standard border__accent__2">{name}</button>
+    </a>
+  );
+};
 
 export default HomeButton;

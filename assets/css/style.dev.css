@@ -1,5 +1,3 @@
-@import url(https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap);
-
 :root {
   --color-button-text: rgb(247, 247, 247);
   --color-primary-100: #dee3ea;
@@ -15,6 +13,7 @@
   --color-accent: #fd4d4d;
   --color-accent-hover: #cf4d4d;
   --color-accent-disabled: #f5bfbf;
+  --color-accent-green: #a5ff82;
 }
 
 button {
@@ -44,6 +43,7 @@ body {
   line-height: 1.42857143;
   color: #333;
   background-color: var(--color-primary-900);
+  text-rendering: optimizeLegibility;
 }
 button {
   font-family: Inter, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
@@ -255,8 +255,8 @@ pre {
 .col__sm__9 {
   position: relative;
   min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 @media (min-width: 768px) {
   .col__sm__1,
@@ -380,7 +380,7 @@ li {
 }
 
 .page-content {
-  max-width: 2000px;
+  max-width: 1600px;
   margin: 0px auto;
 }
 .h1,
@@ -461,7 +461,7 @@ img.head__icon {
   position: fixed;
   top: 0px;
   width: 100%;
-  max-width: 2010px;
+  max-width: 1610px;
 }
 
 input#search__input {
@@ -1625,4 +1625,53 @@ blockquote p {
   input#search__input {
     margin-top: 20px;
   }
+}
+
+.Previous-next {
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  min-height: 50px;
+}
+
+.previous,
+.next {
+  box-sizing: border-box;
+}
+@media all and (max-width: 838px) {
+  .Previous-next {
+    align-items: center;
+  }
+  .next {
+    float: center;
+  }
+}
+
+.next {
+  float: right;
+}
+
+.avatar {
+  position: relative;
+  width: 8em;
+}
+
+.dot {
+  height: 20px;
+  width: 20px;
+  background-color: var(--color-accent-green);
+  position: absolute;
+  border-radius: 100%;
+  margin: 0px 10px;
+  right: 5px;
+  bottom: 0px;
+  border: 2px solid var(--color-primary-800);
+}
+
+.downloader {
+  display: grid;
+  place-items: center;
+  height: 90vh;
+  font-size: 2rem;
 }

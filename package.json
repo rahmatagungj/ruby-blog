@@ -8,6 +8,20 @@
             "email": "rahmatagungj@gmail.com"
         }
     ],
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "./node_modules/.bin/webpack --watch | sudo bundle exec jekyll serve --livereload --incremental",
+        "build": "./node_modules/.bin/webpack | sudo bundle exec jekyll build",
+        "deploy": "python3 ./build/deploy.py"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/rahmatagungj/development-rahmatagungjulians.tech"
+    },
+    "bugs": {
+        "url": "https://github.com/rahmatagungj/development-rahmatagungjulians.tech/issues"
+    },
+    "homepage": "https://github.com/rahmatagungj/development-rahmatagungjulians.tech#readme",
     "license": "ISC",
     "devDependencies": {
         "babel-core": "^6.26.3",
@@ -21,6 +35,10 @@
         "react-router-dom": "^5.2.0",
         "react-scripts": "^4.0.3",
         "styled-components": "^5.2.3",
-        "webpack": "^4.8.3"
+        "webpack": "^4.8.3",
+        "webpack-cli": "^4.6.0"
+    },
+    "dependencies": {
+        "@loadable/component": "^5.14.1"
     }
 }

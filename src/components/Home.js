@@ -1,42 +1,39 @@
-import React, { Component } from "react";
+import React from "react";
 import HomeButton from "./commons/HomeButton";
 import styled from "styled-components";
-class Home extends Component {
-  render() {
-    return (
-      <React.Fragment>
-        <CenterMe>
-          <div className="homes__content fade__in">
-            <center>
-              <div className="row mb__2" data-turbolinks-permanent>
-                <div className="col__sm__12">
-                  <img
-                    src="/assets/images/my.webp"
-                    alt="Rahmat Agung Julians"
+
+const Home = () => {
+  return (
+    <React.Fragment>
+      <CenterMe>
+        <div className="homes__content fade__in">
+          <center>
+            <div className="row mb__2" data-turbolinks-permanent>
+              <div className="col__sm__12">
+                <img src="/assets/images/my.webp" alt="Rahmat Agung Julians" />
+                <H1>Rahmat Agung Julians</H1>
+                <span>Technology Enthusiast | Philosophy | Logic</span>
+                <br />
+                <HomeButtons>
+                  <HomeButton href="/blog" name="Blog" />
+                  <HomeButton
+                    href="https://app.rahmatagungjulians.tech"
+                    name="Aplikasi"
                   />
-                  <H1>Rahmat Agung Julians</H1>
-                  <span>Technology Enthusiast | Philosophy | Logic</span>
-                  <br />
-                  <HomeButtons>
-                    <HomeButton href="/blog" name="Blog" />
-                    <HomeButton
-                      href="https://app.rahmatagungjulians.tech"
-                      name="Aplikasi"
-                    />
-                    <HomeButton href="/projek" name="Projek" />
-                  </HomeButtons>
-                </div>
+                  <HomeButton href="/projek" name="Projek" />
+                </HomeButtons>
               </div>
-            </center>
-          </div>
-        </CenterMe>
-      </React.Fragment>
-    );
-  }
-}
+            </div>
+          </center>
+        </div>
+      </CenterMe>
+    </React.Fragment>
+  );
+};
 
 const H1 = styled.h1`
   font-size: 1.9em;
+  color: #fd4d4d;
 `;
 
 const CenterMe = styled.div`

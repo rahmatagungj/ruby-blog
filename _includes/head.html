@@ -11,6 +11,9 @@
     {%- endif -%}
   </title>
 
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href='//fonts.googleapis.com' rel='dns-prefetch'/>
+  <link href='//cdn.jsdelivr.net' rel='dns-prefetch'/>
   <meta property="og:locale" content="id">
   <meta property="og:type" content="article">
   <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
@@ -61,6 +64,7 @@
   <script rel="preload" as="script" type="text/javascript" src="https://cdn.jsdelivr.net/gh/rahmatagungj/turbolinks-js@master/tb.min.js"></script>
   <script defer src="{{ "/assets/js/search.min.js"  | relative_url }}" type="text/javascript"></script>
   <script defer type="text/javascript" src="{{ "/assets/js/footer.min.js"  | relative_url }}"></script>
-  <meta rel="reload" src="{{ "/assets/images/my.webp" | relative_url }}">
+  <meta rel="preload" src="{{ "/assets/images/my.webp" | relative_url }}">
   <meta name="generator" content="Jekyll v4.2.0" />
+  <link defer href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
 </head>

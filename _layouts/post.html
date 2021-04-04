@@ -9,12 +9,39 @@ layout: default
     <article>
       <h1 class="article__title"><b>{{ page.title }}</b></h1>
       <p class="article__meta">
-        {{ page.date | date: "%m-%d-%Y" }} | Rahmat Agung Julians | {% include
-        reading_times.html %}
+        {{ page.date | date: "%m-%d-%Y" }} | Rahmat Agung Julians | 
+        <span class="reading__times">Estimasi waktu membaca
+          {% assign words_total = page.content | replace: '<script type="math/tex">', '' | replace: '<script type="math/tex; mode=display">', '' | replace: '</script>', '' | strip_html | number_of_words %}
+          {% assign words_without_code = page.content | replace: '<pre class="highlight">', '<!--' | replace: '</pre>', '-->' | replace: '<script type="math/tex">', '' | replace: '<script type="math/tex; mode=display">', '' | replace: '</script>', '' | strip_html | number_of_words %}
+          {% assign words_without_math = page.content | strip_html | number_of_words %}
+          {% assign words_without_either = page.content | replace: '<pre class="highlight">', '<!--' | replace: '</pre>', '-->' | strip_html | number_of_words %}
+        
+          {% assign words_code = words_total | minus: words_without_code | divided_by: 2.0 %}
+          {% assign words_math = words_total | minus: words_without_math | times: 2.0 %}
+          {% assign words = words_without_either | plus: words_code | plus: words_math | round %}
+        
+          {% assign EWM = words | divided_by:250 | at_least: 1 %}
+          {{ EWM }} menit
+        </span>
       </p>
       <hr />
       {{ content }}
     </article>
+    <div class="Previous-next">
+      {% if page.previous.url %}
+      <a class="previous" href="{{page.previous.url}}"
+        ><button class="button__standard">
+          &laquo; {{page.previous.title}}
+        </button></a
+      >
+      {% endif %} {% if page.next.url %}
+      <a class="next" href="{{page.next.url}}"
+        ><button class="button__standard">
+          {{page.next.title}} &raquo;
+        </button></a
+      >
+      {% endif %}
+    </div>
   </div>
   {% include sidebar.html %}
 </div>
