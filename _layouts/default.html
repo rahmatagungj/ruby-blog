@@ -11,10 +11,27 @@ layout: compress
         <div id="root"></div>
       </div>
     </main>
-    <div id="not__support" class="message">Browser tidak mendukung.</div>
-    <div id="offline" class="message">Koneksi internet terputus.</div>
-    <div id="online" class="message">Koneksi internet terhubung.</div>
-    <script type="text/javascript" src="{{ "/bundle.js"  | relative_url }}" charset="utf-8" ></script>
+
+
+    {% if page.url == "/pencarian" %}
+      <script type="text/javascript">
+      {% include assets/js/search.js %}
+      SimpleJekyllSearch({
+        searchInput: document.getElementById('search__input'),
+        resultsContainer: document.getElementById('results__container'),
+        json: '{{ site.baseurl }}/api/postingan.json',
+        searchResultTemplate: '<a href="{url}" title="{desc}" class="result__list"><div class="row mb__2 post__list"><div class="col__sm__9">{title}</div></div></a>',
+        noResultsText: 'Hasil tidak ditemukan',
+        limit: 10,
+        fuzzy: false,
+        exclude: []
+      });
+      </script>
+    {% endif %}
+
+    <script type="text/javascript">
+    {% include assets/js/footer.js %}
+    </script>
   </body>
 </html>
 

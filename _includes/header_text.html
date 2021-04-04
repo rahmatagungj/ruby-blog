@@ -27,7 +27,9 @@
 <div class="row main__head__nav toolbar sticky__top" data-turbolinks-permanent>
   <div class="col__sm__3">
     {% if page.url == "/blog" or page.url == "/projek" %}
-    <a href="/"><button class="btn__bg__accent bold">BERANDA</button></a>
+    <a href="/" data-turbolinks="false"
+      ><button class="btn__bg__accent bold">BERANDA</button></a
+    >
     {% else %}
     <a href="/blog"><button class="btn__bg__accent bold">KEMBALI</button></a>
     {% endif %}

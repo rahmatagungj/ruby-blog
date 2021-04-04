@@ -4,67 +4,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>
-    {%- if page.title -%}
-      {{ page.title }} - Rahmat Agung Julians
-    {%- else -%}
-      {{ site.title }}
-    {%- endif -%}
+    {%- if page.title -%} {{ page.title }} - Rahmat Agung Julians {%- else -%}
+    {{ site.title }} {%- endif -%}
   </title>
 
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href='//fonts.googleapis.com' rel='dns-prefetch'/>
-  <link href='//cdn.jsdelivr.net' rel='dns-prefetch'/>
-  <meta property="og:locale" content="id">
-  <meta property="og:type" content="article">
-  <meta property="og:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <link href="//cdn.jsdelivr.net" rel="dns-prefetch" />
+  <meta property="og:locale" content="id" />
+  <meta property="og:type" content="article" />
+  <meta
+    property="og:title"
+    content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
+  />
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
   <meta property="og:image" content="{{ site.url }}/icon-512x512.png" />
-  <meta property="og:site_name" content="Rahmat Agung Julians">
-  <meta property="article:publisher" content="http://www.facebook.com/rahmatagungjulians" />
-  <meta property="article:author" content="https://www.facebook.com/rahmatagungjulians." />
+  <meta property="og:site_name" content="Rahmat Agung Julians" />
+  <meta
+    property="article:publisher"
+    content="http://www.facebook.com/rahmatagungjulians"
+  />
+  <meta
+    property="article:author"
+    content="https://www.facebook.com/rahmatagungjulians."
+  />
   <meta property="article:published_time" content="{{ page.date }}" />
-  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="twitter:card" content="summary_large_image"/>
-  <meta name="twitter:title" content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta
+    property="og:description"
+    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+  />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta
+    name="twitter:title"
+    content="{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}"
+  />
+  <meta
+    name="twitter:description"
+    content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+  />
   <meta name="twitter:site" content="@Rahmat_A_J" />
-  <meta name="twitter:creator" content="@Rahmat_A_J">
-  <meta name="twitter:card" content="summary">
-  <meta name="theme-color" content="#0b0e11">
-  <meta content='#0b0e11' name='msapplication-navbutton-color'/> 
-  <meta content='yes' name='apple-mobile-web-app-capable'/> 
-  <meta content='#0b0e11' name='apple-mobile-web-app-status-bar-style'/>
-  <meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta name="keywords" content="{%if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}">
-  <meta name="author" content="Rahmat Agung Julians">
-  <meta name="publisher" content="Rahmat Agung Julians">
-  <meta content='index,follow' name='robots'/>
-  <meta property="og:locale" content="id_ID">
-  <meta property="og:locale:alternate" content="en_GB">
+  <meta name="twitter:creator" content="@Rahmat_A_J" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="theme-color" content="#0b0e11" />
+  <meta content="#0b0e11" name="msapplication-navbutton-color" />
+  <meta content="yes" name="apple-mobile-web-app-capable" />
+  <meta content="#0b0e11" name="apple-mobile-web-app-status-bar-style" />
+  <meta
+    name="description"
+    content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}"
+  />
+  <meta
+    name="keywords"
+    content="{%if page.keywords %}{{ page.keywords }}{% else %}{{ site.keywords }}{% endif %}"
+  />
+  <meta name="author" content="Rahmat Agung Julians" />
+  <meta name="publisher" content="Rahmat Agung Julians" />
+  <meta content="index,follow" name="robots" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:locale:alternate" content="en_GB" />
   {% if page.layout == "post" %}
-  <meta property="og:type" content="article">
+  <meta property="og:type" content="article" />
   {% else %}
-  <meta property="og:type" content="page">
-  {% endif %}
-  <link rel="apple-touch-icon-precomposed" href="{{ "/assets/images/apple-icon-precomposed.png" | relative_url }}" />
-  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="{{ "/assets/images/apple-icon-60x60.png" | relative_url }}" />
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ "/assets/images/apple-icon-114x114.png" | relative_url }}" />
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ "/assets/images/apple-icon-144x144.png" | relative_url }}" />
-  <link rel="canonical" href="{{ page.url | prepend: site.url }}">
-  {%-feed_meta-%}
-  <link rel="apple-touch-icon" sizes="180x180" href="{{ "/assets/images/apple-icon.png" | relative_url }}" />
-  <link rel="icon" type="image/png" sizes="32x32" href="{{ "/assets/images/favicon-32x32.png" | relative_url }}" />
-  <link rel="icon" type="image/png" sizes="16x16" href="{{ "/assets/images/favicon-16x16.png" | relative_url }}" />
-  <link rel="mask-icon" href="{{ "/assets/images/safari-pinned-tab.svg" | relative_url }}" color="#5bbad5"/>
-  <link rel="shortcut icon" href="{{ "/favicon.ico" | relative_url }}">
-  <link rel="manifest" href="{{ "/manifest.json" | relative_url }}" />
-  <meta name="msapplication-config" content="{{ "/assets/images/browserconfig.xml" | relative_url }}">
-  <link as="style" href="{{ "/assets/css/style.dev.css" | relative_url }}" rel="stylesheet"/>
-  <noscript><link rel="stylesheet" href="{{ "/assets/css/style.min.css" | relative_url }}"></noscript>
-  <script rel="preload" as="script" type="text/javascript" src="https://cdn.jsdelivr.net/gh/rahmatagungj/turbolinks-js@master/tb.min.js"></script>
-  <script defer src="{{ "/assets/js/search.min.js"  | relative_url }}" type="text/javascript"></script>
-  <script defer type="text/javascript" src="{{ "/assets/js/footer.min.js"  | relative_url }}"></script>
-  <meta rel="preload" src="{{ "/assets/images/my.webp" | relative_url }}">
-  <meta name="generator" content="Jekyll v4.2.0" />
-  <link defer href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <meta property="og:type" content="page" />
+  {% endif %} <link rel="apple-touch-icon-precomposed" href="{{
+  "/assets/images/apple-icon-precomposed.png" | relative_url }}" /> <link
+  rel="apple-touch-icon-precomposed" sizes="60x60" href="{{
+  "/assets/images/apple-icon-60x60.png" | relative_url }}" /> <link
+  rel="apple-touch-icon-precomposed" sizes="114x114" href="{{
+  "/assets/images/apple-icon-114x114.png" | relative_url }}" /> <link
+  rel="apple-touch-icon-precomposed" sizes="144x144" href="{{
+  "/assets/images/apple-icon-144x144.png" | relative_url }}" />
+  <link rel="canonical" href="{{ page.url | prepend: site.url }}" />
+  {%-feed_meta-%} <link rel="apple-touch-icon" sizes="180x180" href="{{
+  "/assets/images/apple-icon.png" | relative_url }}" /> <link rel="icon"
+  type="image/png" sizes="32x32" href="{{ "/assets/images/favicon-32x32.png" |
+  relative_url }}" /> <link rel="icon" type="image/png" sizes="16x16" href="{{
+  "/assets/images/favicon-16x16.png" | relative_url }}" /> <link rel="mask-icon"
+  href="{{ "/assets/images/safari-pinned-tab.svg" | relative_url }}"
+  color="#5bbad5"/> <link rel="shortcut icon" href="{{ "/favicon.ico" |
+  relative_url }}"> <link rel="manifest" href="{{ "/manifest.json" |
+  relative_url }}" /> <meta name="msapplication-config" content="{{
+  "/assets/images/browserconfig.xml" | relative_url }}"> <meta rel="preload"
+  src="{{ "/assets/images/my.webp" | relative_url }}">
+  <style>
+    {% capture include_to_scssify %}
+    {% include assets/css/style.scss %}
+    {% endcapture %}
+    {{ include_to_scssify | scssify }}
+  </style>
 </head>
