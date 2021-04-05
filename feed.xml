@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://rahmatagungjulians.tech/feed.xml" rel="self" type="application/atom+xml" /><link href="https://rahmatagungjulians.tech/" rel="alternate" type="text/html" /><updated>2021-04-05T14:49:36+07:00</updated><id>https://rahmatagungjulians.tech/feed.xml</id><title type="html">Rahmat Agung Julians</title><subtitle>Technology Enthusiast | Philosophy | Logic</subtitle><entry><title type="html">Instalasi Gitmoji CLI pada Linux</title><link href="https://rahmatagungjulians.tech/blog/instalasi-gitmoji-cli-pada-linux" rel="alternate" type="text/html" title="Instalasi Gitmoji CLI pada Linux" /><published>2021-03-28T00:00:00+07:00</published><updated>2021-03-28T00:00:00+07:00</updated><id>https://rahmatagungjulians.tech/blog/instalasi-gitmoji-cli-pada-linux</id><content type="html" xml:base="https://rahmatagungjulians.tech/blog/instalasi-gitmoji-cli-pada-linux">&lt;h2 id=&quot;persiapan&quot;&gt;Persiapan&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Pasikan NPM (Node Package Manager) sudah terinstall&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&quot;instalasi-gitmoji-cli&quot;&gt;Instalasi Gitmoji CLI&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm i &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; gitmoji-cli
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;penggunaan&quot;&gt;Penggunaan&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;gitmoji &lt;span class=&quot;nt&quot;&gt;--help&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;title-referensi&quot;&gt;&lt;b&gt;Referensi&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ol class=&quot;referensi&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://github.com/carloscuesta/gitmoji-cli&quot;&gt;https://github.com/carloscuesta/gitmoji-cli&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rahmat Agung Julians</name></author><summary type="html">Persiapan</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rahmatagungjulians.tech/gitmoji" /><media:content medium="image" url="https://rahmatagungjulians.tech/gitmoji" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instalasi React JS pada Ubuntu</title><link href="https://rahmatagungjulians.tech/blog/instalasi-react-js-pada-ubuntu" rel="alternate" type="text/html" title="Instalasi React JS pada Ubuntu" /><published>2021-03-26T00:00:00+07:00</published><updated>2021-03-26T00:00:00+07:00</updated><id>https://rahmatagungjulians.tech/blog/instalasi-react-js-pada-ubuntu</id><content type="html" xml:base="https://rahmatagungjulians.tech/blog/instalasi-react-js-pada-ubuntu">&lt;h2 id=&quot;persiapan&quot;&gt;Persiapan&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-get upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;instalasi-npm&quot;&gt;Instalasi NPM&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;npm
+npm &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;
+node &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;instalasi-create-react-app-cra&quot;&gt;Instalasi Create-React-App (CRA)&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;npm &lt;span class=&quot;nt&quot;&gt;-g&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;create-react-app
+create-react-app &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;title-referensi&quot;&gt;&lt;b&gt;Referensi&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ol class=&quot;referensi&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://www.tecmint.com/install-reactjs-on-ubuntu&quot;&gt;https://www.tecmint.com/install-reactjs-on-ubuntu&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rahmat Agung Julians</name></author><summary type="html">Persiapan</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rahmatagungjulians.tech/reactjs" /><media:content medium="image" url="https://rahmatagungjulians.tech/reactjs" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instalasi Java Netbeans pada Ubuntu</title><link href="https://rahmatagungjulians.tech/blog/instalasi-netbeans-pada-ubuntu" rel="alternate" type="text/html" title="Instalasi Java Netbeans pada Ubuntu" /><published>2021-03-24T00:00:00+07:00</published><updated>2021-03-24T00:00:00+07:00</updated><id>https://rahmatagungjulians.tech/blog/instalasi-netbeans-pada-ubuntu</id><content type="html" xml:base="https://rahmatagungjulians.tech/blog/instalasi-netbeans-pada-ubuntu">&lt;h2 id=&quot;persiapan&quot;&gt;Persiapan&lt;/h2&gt;
+
+&lt;h3 id=&quot;update-repository&quot;&gt;Update Repository&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update &lt;span class=&quot;o&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; apt-get upgrade
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;install-jdk&quot;&gt;Install JDK&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;openjdk-10-jdk
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Jika versi JDK 10 tidak ada, gunakan salah satu dibawah ini.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;openjdk-6-jdk
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;openjdk-7-jdk
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;openjdk-8-jdk
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;install-netbeans&quot;&gt;Install Netbeans&lt;/h2&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;snap &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;netbeans &lt;span class=&quot;nt&quot;&gt;--classic&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;title-referensi&quot;&gt;&lt;b&gt;Referensi&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ol class=&quot;referensi&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://snapcraft.io/install/netbeans/ubuntu&quot;&gt;https://snapcraft.io/install/netbeans/ubuntu&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rahmat Agung Julians</name></author><summary type="html">Persiapan</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rahmatagungjulians.tech/java" /><media:content medium="image" url="https://rahmatagungjulians.tech/java" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cetak Hello World tanpa Semicolon pada Java</title><link href="https://rahmatagungjulians.tech/blog/cetak-hello-world-tanpa-semicolon-pada-java" rel="alternate" type="text/html" title="Cetak Hello World tanpa Semicolon pada Java" /><published>2021-03-23T00:00:00+07:00</published><updated>2021-03-23T00:00:00+07:00</updated><id>https://rahmatagungjulians.tech/blog/cetak-hello-world-tanpa-semicolon-pada-java</id><content type="html" xml:base="https://rahmatagungjulians.tech/blog/cetak-hello-world-tanpa-semicolon-pada-java">&lt;h2 id=&quot;permasalahan&quot;&gt;Permasalahan&lt;/h2&gt;
+
+&lt;p&gt;Buatlah pernyataan untuk mencetak “Hello Word” menggunakan java, setiap pernyataan tidak diperbolehkan menggunakan semicolon atau simbol “;”.&lt;/p&gt;
+
+&lt;h2 id=&quot;diskusi-perlu-diketahui&quot;&gt;Diskusi (Perlu diketahui)&lt;/h2&gt;
+
+&lt;p&gt;Setiap pernyataan pada bahasa pemrograman java harus diakhiri oleh simbol semicolon, jika simbol tersebut tidak ada maka program akan dinyatakan error.&lt;/p&gt;
+
+&lt;h2 id=&quot;penyelesaian-masalah&quot;&gt;Penyelesaian Masalah&lt;/h2&gt;
+
+&lt;p&gt;Permasalahan dapat diselesaikan menggunakan beberapa metode yang pastinya tidak menggunakan pernyataan seperti biasanya, namun cara ini berhasil membuat program berjalan tanpa menggunakan semicolon.&lt;/p&gt;
+
+&lt;div class=&quot;language-java highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;class&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;HelloWorld&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;
+
+     &lt;span class=&quot;kd&quot;&gt;public&lt;/span&gt; &lt;span class=&quot;kd&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;kt&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;String&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[]&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;args&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;){&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// CARA YANG PERTAMA&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;printf&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World\n&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// CARA YANG KEDUA&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World\n&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;==&lt;/span&gt; &lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// CARA YANG KE TIGA&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;if&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt; &lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World\n&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;).&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;equals&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{}&lt;/span&gt;
+
+        &lt;span class=&quot;c1&quot;&gt;// CARA YANG KE EMPAT&lt;/span&gt;
+        &lt;span class=&quot;k&quot;&gt;for&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;kt&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;span class=&quot;nc&quot;&gt;System&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;out&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;na&quot;&gt;append&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;Hello World\n&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;i&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;++;}&lt;/span&gt;
+     &lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;o&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;title-referensi&quot;&gt;&lt;b&gt;Referensi&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ol class=&quot;referensi&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://www.java.com/&quot;&gt;https://www.java.com&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rahmat Agung Julians</name></author><summary type="html">Permasalahan</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rahmatagungjulians.tech/java" /><media:content medium="image" url="https://rahmatagungjulians.tech/java" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Daftar Distro Linux dari Indonesia</title><link href="https://rahmatagungjulians.tech/blog/daftar-distro-linux-dari-indonesia" rel="alternate" type="text/html" title="Daftar Distro Linux dari Indonesia" /><published>2021-03-22T00:00:00+07:00</published><updated>2021-03-22T00:00:00+07:00</updated><id>https://rahmatagungjulians.tech/blog/daftar-distro-linux-dari-indonesia</id><content type="html" xml:base="https://rahmatagungjulians.tech/blog/daftar-distro-linux-dari-indonesia">&lt;p&gt;Berikut ini merupakan Distro linux yang resmi dibuat dari Indonesia.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Garuda OS&lt;/li&gt;
+  &lt;li&gt;BlankOn Linux&lt;/li&gt;
+  &lt;li&gt;IGOS Nusantara (IGN)&lt;/li&gt;
+  &lt;li&gt;TeaLinux OS&lt;/li&gt;
+  &lt;li&gt;Xenta OS&lt;/li&gt;
+  &lt;li&gt;Desa OS&lt;/li&gt;
+  &lt;li&gt;Muslims OS&lt;/li&gt;
+  &lt;li&gt;Codernate Linux&lt;/li&gt;
+  &lt;li&gt;IbisLinux&lt;/li&gt;
+  &lt;li&gt;Grombyang OS&lt;/li&gt;
+  &lt;li&gt;Stemba OS&lt;/li&gt;
+  &lt;li&gt;Dracos Linux&lt;/li&gt;
+  &lt;li&gt;Zencafe&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 class=&quot;title-referensi&quot;&gt;&lt;b&gt;Referensi&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ol class=&quot;referensi&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;http://blankonlinux.or.id&quot;&gt;http://blankonlinux.or.id&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;http://tealinuxos.org&quot;&gt;http://tealinuxos.org&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;http://www.xentaos.com&quot;&gt;http://www.xentaos.com&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;http://www.muslims-os.com&quot;&gt;http://www.muslims-os.com&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;http://ibislinux.or.id&quot;&gt;http://ibislinux.or.id&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;http://codernate.org&quot;&gt;http://codernate.org&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;http://dracos-linux.org&quot;&gt;http://dracos-linux.org&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;http://stembaos.site&quot;&gt;http://stembaos.site&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rahmat Agung Julians</name></author><summary type="html">Berikut ini merupakan Distro linux yang resmi dibuat dari Indonesia.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rahmatagungjulians.tech/linux" /><media:content medium="image" url="https://rahmatagungjulians.tech/linux" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instalasi Pinta Project pada Ubuntu</title><link href="https://rahmatagungjulians.tech/blog/instalasi-pinta-project-pada-ubuntu" rel="alternate" type="text/html" title="Instalasi Pinta Project pada Ubuntu" /><published>2021-03-20T00:00:00+07:00</published><updated>2021-03-20T00:00:00+07:00</updated><id>https://rahmatagungjulians.tech/blog/instalasi-pinta-project-pada-ubuntu</id><content type="html" xml:base="https://rahmatagungjulians.tech/blog/instalasi-pinta-project-pada-ubuntu">&lt;h3 id=&quot;persiapan&quot;&gt;Persiapan&lt;/h3&gt;
+
+&lt;h4 id=&quot;menambahkan-mono-repository&quot;&gt;Menambahkan Mono repository&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;gnupg ca-certificates
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-key adv &lt;span class=&quot;nt&quot;&gt;--keyserver&lt;/span&gt; hkp://keyserver.ubuntu.com:80 &lt;span class=&quot;nt&quot;&gt;--recv-keys&lt;/span&gt; 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF
+&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;deb https://download.mono-project.com/repo/ubuntu stable-focal main&quot;&lt;/span&gt; | &lt;span class=&quot;nb&quot;&gt;sudo tee&lt;/span&gt; /etc/apt/sources.list.d/mono-official-stable.list
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;menambahkan-pinta-repository&quot;&gt;Menambahkan Pinta repository&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;add-apt-repository ppa:pinta-maintainers/pinta-stable
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;instalasi&quot;&gt;Instalasi&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;pinta
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;title-referensi&quot;&gt;&lt;b&gt;Referensi&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ol class=&quot;referensi&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://www.pinta-project.com/howto/installing-pinta&quot;&gt;https://www.pinta-project.com/howto/installing-pinta&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rahmat Agung Julians</name></author><summary type="html">Persiapan</summary></entry><entry><title type="html">Serverless pada Cloud Computing</title><link href="https://rahmatagungjulians.tech/blog/serverless-pada-cloud-computing" rel="alternate" type="text/html" title="Serverless pada Cloud Computing" /><published>2021-03-20T00:00:00+07:00</published><updated>2021-03-20T00:00:00+07:00</updated><id>https://rahmatagungjulians.tech/blog/serverless-pada-cloud-computing</id><content type="html" xml:base="https://rahmatagungjulians.tech/blog/serverless-pada-cloud-computing">&lt;h3 id=&quot;arsitektur-serverless&quot;&gt;Arsitektur Serverless&lt;/h3&gt;
+
+&lt;p&gt;Pada serverless ini akan mengurangi beban developer saat mendeploy aplikasi, hal ini dikarenakan beberapa aspek yang dibutuhkan oleh aplikasi akan langsung ditangani oleh penyedia server (provider).&lt;/p&gt;
+
+&lt;p&gt;Untuk mendukung arsitektur serverless, cloud providers umumnya menyediakan layanan serverless untuk komputasi, basis data, penyimpanan objek/file, api gateway, autentikasi, layanan email, notifikasi, logging, monitoring dan sebagainya.&lt;/p&gt;
+
+&lt;h3 id=&quot;kemampuan-komputasi&quot;&gt;Kemampuan Komputasi&lt;/h3&gt;
+
+&lt;p&gt;Cloud provider akan banyak berperan sebagai pengeksekusi kode aplikasi saat ada kejadian tertentu (event-driven) dan yang lainnya seperti http/api gateway, basis data, penyimpan object/file, queue, dan sebagainya.&lt;/p&gt;
+
+&lt;p&gt;Model pada komputasi :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Backend-as-a-Service(BaaS)&lt;/li&gt;
+  &lt;li&gt;Function-as-a-Service(FaaS)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h5 id=&quot;daftar-layanan&quot;&gt;Daftar Layanan&lt;/h5&gt;
+
+&lt;h6 id=&quot;1-aws-lambda&quot;&gt;1. AWS Lambda&lt;/h6&gt;
+
+&lt;p&gt;AWS merupakan provider pioner yang sudah sangat banyak digunakan, layanan ini diberikan pada publik tepat pada tahun 2014.&lt;/p&gt;
+
+&lt;p&gt;Beberapa bahasa pemrograman atau runtime yang didukung :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;NodeJS 12 dan 10&lt;/li&gt;
+  &lt;li&gt;Python 2.7, 3.6, 3.7 dan 3.8&lt;/li&gt;
+  &lt;li&gt;Ruby 2.5 dan 2.7&lt;/li&gt;
+  &lt;li&gt;Java 8 dan 11&lt;/li&gt;
+  &lt;li&gt;Go 1.x&lt;/li&gt;
+  &lt;li&gt;NET Core 2.1 dan 3.1&lt;/li&gt;
+  &lt;li&gt;Custom Runtime&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h6 id=&quot;2-google-cloud-functions&quot;&gt;2. Google Cloud Functions&lt;/h6&gt;
+
+&lt;p&gt;Layanan ini diluncurkan oleh Google Cloud Platform tepat pada tahun 2016.&lt;/p&gt;
+
+&lt;p&gt;Beberapa bahasa pemrograman atau runtime yang didukung :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;NodeJS 10&lt;/li&gt;
+  &lt;li&gt;Python 3.7&lt;/li&gt;
+  &lt;li&gt;Go 1.11 dan 1.13&lt;/li&gt;
+  &lt;li&gt;Java 11&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h6 id=&quot;3-microsoft-azure-functions&quot;&gt;3. Microsoft Azure Functions&lt;/h6&gt;
+
+&lt;p&gt;Sesuai dengan namanya, Microsoft meluncurkan ini pada tahun 2016 yang dimana menjadi penantang kuat dari AWS Lambda dan sudah cukup lama dirilis secara resmi ke publik yaitu Januari 2017.&lt;/p&gt;
+
+&lt;p&gt;Beberapa bahasa pemrograman atau runtime yang didukung :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;NodeJS 6, 8, 10 dan 12&lt;/li&gt;
+  &lt;li&gt;.NET Framework 4.7, .NET Core 2.2 dan 3.1&lt;/li&gt;
+  &lt;li&gt;Java 8&lt;/li&gt;
+  &lt;li&gt;PowerShell Core 6&lt;/li&gt;
+  &lt;li&gt;Python 3.6, 3.7 dan 3.8&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;basis-data&quot;&gt;Basis Data&lt;/h3&gt;
+
+&lt;p&gt;Tentu saja ini menjadi bagian paling penting sebagai penyedia layanan server.&lt;/p&gt;
+
+&lt;h4 id=&quot;1-sql&quot;&gt;1. SQL&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Amazon Aurora Serverless (kompatibel dengan MySQL dan PostgreSQL)&lt;/li&gt;
+  &lt;li&gt;Azure SQL Database Serverless (Microsoft SQL Server)&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;2-nosql&quot;&gt;2. NoSQL&lt;/h4&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Amazon DynamoDB&lt;/li&gt;
+  &lt;li&gt;MongoDB Atlas&lt;/li&gt;
+  &lt;li&gt;FaunaDB&lt;/li&gt;
+  &lt;li&gt;Google Cloud Firestore&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;penyimpanan&quot;&gt;Penyimpanan&lt;/h3&gt;
+
+&lt;p&gt;Untuk menyimpan data seperti gambar, video dan lainnya.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Amazon Simple Storage Service (S3)&lt;/li&gt;
+  &lt;li&gt;Google Cloud Storage&lt;/li&gt;
+  &lt;li&gt;Azure Blob Storage&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;keuntungan&quot;&gt;Keuntungan&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Proses deploy aplikasi yang mudah dan cepat&lt;/li&gt;
+  &lt;li&gt;Mengurani pengeluaran biaya&lt;/li&gt;
+  &lt;li&gt;Developer lebih fokus pada pengembangan aplikasi / program&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&quot;kekurangan&quot;&gt;Kekurangan&lt;/h3&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Monitoring dan Debugging menjadi lebih rumit&lt;/li&gt;
+  &lt;li&gt;Resource Limit&lt;/li&gt;
+  &lt;li&gt;Performa dan Latency menjadi lebih besar&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 class=&quot;title-referensi&quot;&gt;&lt;b&gt;Referensi&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ol class=&quot;referensi&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://serverless.jagoreact.com/read/mengenal-serverless&quot;&gt;https://serverless.jagoreact.com/read/mengenal-serverless&lt;/a&gt;
+    &lt;/li&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://www.simform.com/serverless-architecture-guide/&quot;&gt;https://www.simform.com/serverless-architecture-guide/&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rahmat Agung Julians</name></author><summary type="html">Arsitektur Serverless</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rahmatagungjulians.tech/Serverless" /><media:content medium="image" url="https://rahmatagungjulians.tech/Serverless" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Susunan Kabel pada Jaringan LAN</title><link href="https://rahmatagungjulians.tech/blog/sususan-kabel-pada-jaringan-lan" rel="alternate" type="text/html" title="Susunan Kabel pada Jaringan LAN" /><published>2021-03-20T00:00:00+07:00</published><updated>2021-03-20T00:00:00+07:00</updated><id>https://rahmatagungjulians.tech/blog/sususan-kabel-pada-jaringan-LAN</id><content type="html" xml:base="https://rahmatagungjulians.tech/blog/sususan-kabel-pada-jaringan-lan">&lt;h3 id=&quot;kabel-straight&quot;&gt;Kabel Straight&lt;/h3&gt;
+
+&lt;div class=&quot;language-lua highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Orange&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Orange&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Hijau&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Biru&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Biru&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hijau&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Coklat&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Coklat&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;kabel-cross&quot;&gt;Kabel Cross&lt;/h3&gt;
+
+&lt;h4 id=&quot;warna-kabel-cross-ujung-1&quot;&gt;Warna kabel cross ujung 1&lt;/h4&gt;
+
+&lt;div class=&quot;language-lua highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;Putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;orange&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Orange&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hijau&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Biru&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;biru&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Hijau&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;coklat&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;coklat&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;warna-kabel-cross-ujung-2&quot;&gt;Warna kabel cross ujung 2&lt;/h4&gt;
+
+&lt;div class=&quot;language-lua highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;n&quot;&gt;putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hijau&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;hijau&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;orange&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;biru&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;biru&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;orange&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;putih&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;coklat&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;coklat&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;title-referensi&quot;&gt;&lt;b&gt;Referensi&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ol class=&quot;referensi&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://qwords.com/blog/susunan-kabel-straight-dan-kabel-cross/&quot;&gt;https://qwords.com/blog/susunan-kabel-straight-dan-kabel-cross/&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rahmat Agung Julians</name></author><summary type="html">Kabel Straight</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rahmatagungjulians.tech/Local%20Area%20Network" /><media:content medium="image" url="https://rahmatagungjulians.tech/Local%20Area%20Network" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instalasi Teks Editor Micro pada Linux</title><link href="https://rahmatagungjulians.tech/blog/instalasi-teks-editor-micro-pada-linux" rel="alternate" type="text/html" title="Instalasi Teks Editor Micro pada Linux" /><published>2021-03-16T00:00:00+07:00</published><updated>2021-03-16T00:00:00+07:00</updated><id>https://rahmatagungjulians.tech/blog/instalasi-teks-editor-micro-pada-linux</id><content type="html" xml:base="https://rahmatagungjulians.tech/blog/instalasi-teks-editor-micro-pada-linux">&lt;h3 id=&quot;persiapan&quot;&gt;Persiapan&lt;/h3&gt;
+
+&lt;p&gt;Lakukan perintah ini pada terminal.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;instalasi-micro&quot;&gt;Instalasi Micro&lt;/h3&gt;
+
+&lt;h4 id=&quot;1-metode-1&quot;&gt;1. Metode 1&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;micro
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;2-metode-2-melalui-snap&quot;&gt;2. Metode 2 (melalui SNAP)&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;snap &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;micro &lt;span class=&quot;nt&quot;&gt;--classic&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;memeriksa-instalasi&quot;&gt;Memeriksa instalasi&lt;/h3&gt;
+
+&lt;p&gt;Untuk memastikan aplikasi berhasil dipasang, masukan perintah ini.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;micro &lt;span class=&quot;nt&quot;&gt;--version&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;
+Untuk mendapatkan dan memasang plugin tambahan, berikut linknya :&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;PLUGIN : https://micro-editor.github.io/plugins.html&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 class=&quot;title-referensi&quot;&gt;&lt;b&gt;Referensi&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ol class=&quot;referensi&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://micro-editor.github.io/&quot;&gt;https://micro-editor.github.io/&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rahmat Agung Julians</name></author><summary type="html">Persiapan</summary></entry><entry><title type="html">Instalasi Git pada Ubuntu Desktop</title><link href="https://rahmatagungjulians.tech/blog/instalasi-git-pada-ubuntu-desktop" rel="alternate" type="text/html" title="Instalasi Git pada Ubuntu Desktop" /><published>2021-03-15T00:00:00+07:00</published><updated>2021-03-15T00:00:00+07:00</updated><id>https://rahmatagungjulians.tech/blog/instalasi-git-pada-ubuntu-desktop</id><content type="html" xml:base="https://rahmatagungjulians.tech/blog/instalasi-git-pada-ubuntu-desktop">&lt;h3 id=&quot;install-git&quot;&gt;Install GIT&lt;/h3&gt;
+
+&lt;p&gt;Lakukan perintah ini pada terminal.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt update
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;git
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;konfigurasi-git&quot;&gt;Konfigurasi GIT&lt;/h3&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.name &lt;span class=&quot;s2&quot;&gt;&quot;letakan_username_disini&quot;&lt;/span&gt;
+git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; user.email &lt;span class=&quot;s2&quot;&gt;&quot;letakan_email_disini&quot;&lt;/span&gt;
+git config &lt;span class=&quot;nt&quot;&gt;--global&lt;/span&gt; credential.helper store
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 class=&quot;title-referensi&quot;&gt;&lt;b&gt;Referensi&lt;/b&gt;&lt;/h3&gt;
+&lt;hr /&gt;
+&lt;ol class=&quot;referensi&quot;&gt;
+    &lt;li&gt;
+        &lt;a href=&quot;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&quot;&gt;https://git-scm.com/book/en/v2/Getting-Started-Installing-Git&lt;/a&gt;
+    &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Rahmat Agung Julians</name></author><summary type="html">Install GIT</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://rahmatagungjulians.tech/Ubuntu" /><media:content medium="image" url="https://rahmatagungjulians.tech/Ubuntu" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
