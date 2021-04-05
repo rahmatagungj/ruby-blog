@@ -5,7 +5,6 @@ gem "liquid-c"
 gem "kramdown"
 gem "rouge"
 gem 'jekyll-sitemap'
-gem 'jekyll-coffeescript'
 
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.12"
