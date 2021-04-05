@@ -10,7 +10,13 @@
           width="auto"
           height="auto"
         />
-        <div class="dot"></div>
+        {% if site.app.mode == "development" %}
+        <div class="dot development">
+          {% else %}
+        <div class="dot">
+         {% endif %}
+        </div>
+        
       </div>
     </center>
     <center><h2 class="center name">Rahmat Agung Julians</h2></center>
